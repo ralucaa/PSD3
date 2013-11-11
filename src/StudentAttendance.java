@@ -8,10 +8,10 @@ public class StudentAttendance {
 	private static final String[] TOMASZ_PSD3_LAB_ATTENDANCE = {"2013-09-01", "2013-09-08", "2013-09-15", "2013-09-22"};	
 	
 	/*
-	 * @param	course		the name of the course we want to retrieve information about, i.e. PSD3, AP3, etc.
+	 * @param	course      the name of the course we want to retrieve information about, i.e. PSD3, AP3, etc.
 	 * @param	sessionType what kind of session is this, i.e. lab, tutorial, lecture, etc.
-	 * @param	username	the username of the student we are looking to retrieve information about
-	 * @return				an array of dates that correspond to lab sessions attended
+	 * @param	username    the username of the student we are looking to retrieve information about
+	 * @return                  an array of dates that correspond to lab sessions attended
 	 */
 	public String[] getAttendanceByCourse(String course, String sessionType, String username) {
 		
