@@ -36,17 +36,17 @@ public class MainMenu {
 	}
 	
 	public static void main(String[] args) {
-		System.out.println("Please input your credentials(Username: admin, Password:teamk).");
+		System.out.println("Please input your credentials(Username: admin, Password: teamk).");
 		BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
 		
 		//Loop until the credentials are valid.
 		while (!authenticate(reader)) {
-			System.out.println("Invalid credentials. Do you want to retry? [Y/n]");
+			System.out.println("Invalid credentials. Do you want to retry? [Y/N]");
 			try
 			{
 				String response = reader.readLine().toLowerCase();
 				
-				if (!response.equals("y")){
+				if (!response.equalsIgnoreCase("y")){
 					closeApp();
 				}
 			}
@@ -60,7 +60,7 @@ public class MainMenu {
 		
 		//Output the top-level menu.
 		String input = "";
-		do{
+		do {
 			System.out.println("What do you want to do?\n1. Export attendance to CSV\n2. Monitor attendance\nq. Quit");
 			try{
 				input = reader.readLine();
@@ -75,7 +75,7 @@ public class MainMenu {
 			} catch (Exception ex) {
 				break;
 			}
-		}while(!input.equals("q"));
+		} while (!input.equals("q"));
 		
 		closeApp();
 	}
