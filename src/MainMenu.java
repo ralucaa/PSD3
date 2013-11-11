@@ -27,7 +27,7 @@ public class MainMenu {
 			String password = reader.readLine();
 			
 			//Return authentication result.
-			return Authentication.checkCredentials(username, password);
+			return UserAuthentication.checkCredentials(username, password);
 		}
 		catch (Exception ex){
 			printInvalidInput();
