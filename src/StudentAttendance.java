@@ -13,7 +13,7 @@ public class StudentAttendance {
 	 * @param	username    the username of the student we are looking to retrieve information about
 	 * @return                   an array of dates that correspond to lab sessions attended
 	 */
-	public String[] getAttendanceByCourse(String course, String sessionType, String username) {
+	public static String[] getAttendanceByCourse(String course, String sessionType, String username) {
 		
 		if (course.equalsIgnoreCase("PSD3")) {
 			
