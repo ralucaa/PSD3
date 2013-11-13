@@ -7,7 +7,7 @@ public class Communication {
         }
         
         public static void showExitMessage() {
-                System.out.println("Thank you for using TeamKMoodle!");
+                System.out.println("\nThank you for using TeamKMoodle!");
         }
                 
         public static void printInvalidInput() {

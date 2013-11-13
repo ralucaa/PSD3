@@ -3,16 +3,18 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 
 import DatabaseInteraction.UserAuthentication;
+import Objects.Account;
 import Objects.Communication;
 
 public class MainMenu {
+	private static Account account;
 	
 	private static void closeApp() {
 		Communication.showExitMessage();
 		System.exit(0);
 	}
 	
-	private static boolean authenticate(BufferedReader reader) {
+	private static void authenticate(BufferedReader reader) {
 		try {
 			// Read credentials.
 			System.out.print("Username: ");
@@ -21,10 +23,9 @@ public class MainMenu {
 			String password = reader.readLine();
 			
 			// Return authentication result.
-			return UserAuthentication.checkCredentials(username, password);
+			account = UserAuthentication.checkCredentials(username, password);
 		} catch (Exception e) {
 			Communication.printInvalidInput();
-			return false;
 		}
 	}
 	
@@ -53,31 +54,10 @@ public class MainMenu {
 		}
 	}
 	
-	public static void main(String[] args) {
-		System.out.println("Please input your credentials (Username: admin, Password: teamk): ");
-		BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
-		
-		// Loop until the credentials are valid.
-		while (!authenticate(reader)) {
-			System.out.println("Invalid credentials. Do you want to retry? [Y/N]");
-			try {
-				String response = reader.readLine().toLowerCase();
-				
-				if (!response.equalsIgnoreCase("y")) {
-					closeApp();
-				}
-			} catch (Exception e) {
-				Communication.printInvalidInput();
-				closeApp();
-			}
-		}
-		
-		Communication.showWelcomeMessage();
-		
-		// Output the top-level menu.
+	private static void showAdminMenu(BufferedReader reader){
 		String input = "";
 		do {
-			System.out.println("\nWhat do you want to do?\n1: Export attendance to CSV\n2: Monitor attendance\nq: Quit\n");
+			System.out.println("\nWhat do you want to do?\n1: Export attendance to CSV\n2: Monitor attendance\nq: Quit");
 			try {				
 				input = reader.readLine();
 				
@@ -91,6 +71,56 @@ public class MainMenu {
 				break;
 			}
 		} while (!input.equals("q"));
+	}
+	
+	private static void showTutorMenu(BufferedReader reader){
+		String input = "";
+		do {
+			System.out.println("\nWhat do you want to do?\n1: Monitor attendance\nq: Quit");
+			try {				
+				input = reader.readLine();
+				
+				if (input.equals("1")){
+					System.out.println("Menu 1 selected!\n");
+					monitorAttendanceSingle(reader);					
+				}
+			} catch (Exception e) {
+				break;
+			}
+		} while (!input.equals("q"));
+		
+	}
+	
+	public static void main(String[] args) {
+		System.out.println("Please input your credentials (Username: admin, Password: teamk): ");
+		BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+		
+		// Loop until the credentials are valid.
+		authenticate(reader);
+		while (account == null) {
+			System.out.println("Invalid credentials. Do you want to retry? [Y/N]");
+			try {
+				String response = reader.readLine().toLowerCase();
+				
+				if (!response.equalsIgnoreCase("y")) {
+					closeApp();
+				}
+
+				authenticate(reader);
+			} catch (Exception e) {
+				Communication.printInvalidInput();
+				closeApp();
+			}
+		}
+		
+		Communication.showWelcomeMessage();
+		
+		// Output the top-level menu.
+		if (account.getType() == Account.TYPE_ADMIN) {
+			showAdminMenu(reader);
+		} else if (account.getType() == Account.TYPE_TUTOR) {
+			showTutorMenu(reader);
+		}
 		
 		closeApp();
 	}
