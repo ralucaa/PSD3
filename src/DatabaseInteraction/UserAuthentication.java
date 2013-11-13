@@ -1,3 +1,4 @@
+package DatabaseInteraction;
 public class UserAuthentication {
 
 	private static final String CORRECT_USERNAME = "admin";

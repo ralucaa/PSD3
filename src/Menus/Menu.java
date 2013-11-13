@@ -1,3 +1,4 @@
+package Menus;
 import java.util.*;
 
 /** class to make text menus easier and more consistent */

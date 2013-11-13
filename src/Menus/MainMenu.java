@@ -1,5 +1,8 @@
+package Menus;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
+
+import DatabaseInteraction.UserAuthentication;
 
 public class MainMenu {
 
