@@ -10,15 +10,10 @@ import Objects.Student;
 
 public class StudentDatabase {
 	
-
-
-
-
 	private static ArrayList<Student> students;
 	
 	
 	private static Student student;
-	
 	
 	
 	
@@ -27,14 +22,9 @@ public class StudentDatabase {
 	}
 
 	
-	
-	
-	
 	public static Student getStudent() {
 		return student;
 	}
-
-
 
 
 	public static void setStudent(Student student) {
@@ -47,7 +37,20 @@ public class StudentDatabase {
 	
 	
 	
-	public void getAllStudents() {
+	
+	/**Given a certain Student ID, return Student if he is in the database*/
+	public static void getCertainStudent(String id){
+		for(int i=0;i<students.size();i++)
+			if(students.get(i).getId().equals(id))
+				System.out.println(students.get(i));
+			else
+				System.out.println("The student is not in our records.");
+				
+	}
+	
+	
+	/**Return all students in the file*/
+	public static void getAllStudents() {
 		BufferedReader br = null;
 		 
 		try {
@@ -122,39 +125,6 @@ public class StudentDatabase {
 	}
 
 
-/*
-
-	public void readRecords() throws Exception{
-		try{
-			// Open the file
-			BufferedReader file = new BufferedReader(new FileReader("Student.csv"));
-			String name;
-			int i=1;
-			// Read records from the file
-			while((name = file.readLine()) != null)
-			{
-			System.out.println("Student Number: " +(i++));
-			System.out.println("=========================");
-			System.out.println("\nCourseName:" +name);
-			file.readLine();
-			System.out.println("Attendance Times: ");
-			for(int j=0;j<AttendanceTimes.size();j++)
-				System.out.println(AttendanceTimes.get(j).toString());
-			for(int j=0;j<AttendanceDates.size();j++)
-				System.out.println(AttendanceDates.get(j).toString());
-			System.out.println();
-			}
-			file.close();
-			showMenu();
-			}
-		catch(FileNotFoundException e){
-			System.out.println("Inexistent File.Try again.");
-			}
-		
-		}
-
-*/
-
 
 	public void clearStudentRecords() throws Exception{
 		// Create a blank file
@@ -165,35 +135,17 @@ public class StudentDatabase {
 		}
 			
 			
-			
-	public void showMenu() throws Exception{
-		System.out.print("1 : Add Student Record\n2 : Get All students\n3 :Clear Student Records\n4 : Quit\n\nChoose Option 1-4: ");
-		int choice = Integer.parseInt(reader.readLine());
-		switch(choice){
-			case 1:
-				addStudentRecord();break;
-			case 2:
-				getAllStudents();break;
-			case 3:
-				clearStudentRecords();break;
-			case 4:
-				System.exit(1);break;
-			default:
-				System.out.println("\nTry again");
-			break;
-			}
-	}
-	
-	public int countAttendance(ArrayList<Date> AttendanceDates){
-		return AttendanceDates.size();
-	}
 	
 	
-	
-	public static String getStudentnumber() {
-		return getStudentnumber();
-	}
-	
+	 /**test*/
+    public static void main(String[] args) throws FileNotFoundException {
+    	Student s1=new Student("1102353", "John", "Doe");
+    	students.add(s1);
+    	Student s2=new Student("1145453", "May", "June");
+    	students.add(s2);
+    	getAllStudents();
+    	getCertainStudent("1145453");
+    }
 	
 	
 

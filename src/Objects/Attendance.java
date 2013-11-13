@@ -1,7 +1,7 @@
 package Objects;
 
 public final class Attendance {
-	public static final String ABSENT = "absent", MOTIVATED = "mv", PRESENT = "present";
+	public static final String ABSENT = "absent", MEDICAL_VOID = "mv", PRESENT = "present";
 	private final Student student;
 	private final String status;
 	

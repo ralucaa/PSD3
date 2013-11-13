@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.GregorianCalendar;
 
 public class Session {
-	public static final String TYPE_EXAM = "Exam", TYPE_COURSEWORK = "Coursework";
+	public static final String TYPE_TUTORIAL = "Tutorial", TYPE_LAB = "Laboratory";
 	private String name, type;
 	private GregorianCalendar date;
 	private ArrayList<Attendance> attendance = new ArrayList<Attendance>();
