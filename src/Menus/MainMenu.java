@@ -3,28 +3,13 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 
 import DatabaseInteraction.UserAuthentication;
+import Objects.Communication;
 
 public class MainMenu {
-
-	private static void showWelcomeMessage() {
-		System.out.println("Welcome to TeamKMoodle!");
-	};
 	
 	private static void closeApp() {
-		System.out.println("Thank you for using TeamKMoodle!");
+		Communication.showExitMessage();
 		System.exit(0);
-	}
-	
-	private static void printInvalidInput() {
-		System.out.println("Invalid input.");
-	}
-	
-	private static void printInformationNotAvailable() {
-		System.out.println("The information you have requested is not available.");
-	}
-	
-	private static void displaySeparator() {
-		System.out.println("================================================================================================\n");
 	}
 	
 	private static boolean authenticate(BufferedReader reader) {
@@ -38,7 +23,7 @@ public class MainMenu {
 			// Return authentication result.
 			return UserAuthentication.checkCredentials(username, password);
 		} catch (Exception e) {
-			printInvalidInput();
+			Communication.printInvalidInput();
 			return false;
 		}
 	}
@@ -55,14 +40,14 @@ public class MainMenu {
 			
 			// Run the query and print out the results
 			String[] response = StudentAttendance.getAttendanceByCourse(course, sessionType, username);
-			displaySeparator();
+			Communication.displaySeparator();
 			for (String s : response) {
 				System.out.printf("Course: %s | Session type: %s | Name: %s | Session attended: %s\n", course, sessionType, username, s);
 			}
-			displaySeparator();
+			Communication.displaySeparator();
 			
 		} catch (Exception e) {
-			printInformationNotAvailable();
+			Communication.printInformationNotAvailable();
 			monitorAttendanceSingle(reader);
 		}
 	}
@@ -81,12 +66,12 @@ public class MainMenu {
 					closeApp();
 				}
 			} catch (Exception e) {
-				printInvalidInput();
+				Communication.printInvalidInput();
 				closeApp();
 			}
 		}
 		
-		showWelcomeMessage();
+		Communication.showWelcomeMessage();
 		
 		// Output the top-level menu.
 		String input = "";
