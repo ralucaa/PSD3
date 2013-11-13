@@ -39,7 +39,8 @@ public class MainMenu {
 			String username = reader.readLine();
 			
 			// Run the query and print out the results
-			String[] response = StudentAttendance.getAttendanceByCourse(course, sessionType, username);
+			StudentAttendance sa = new StudentAttendance();
+			String[] response = sa.getAttendanceByCourse(course, sessionType, username);
 			Communication.displaySeparator();
 			for (String s : response) {
 				System.out.printf("Course: %s | Session type: %s | Name: %s | Session attended: %s\n", course, sessionType, username, s);
