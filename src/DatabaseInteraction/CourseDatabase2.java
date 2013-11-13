@@ -2,98 +2,129 @@ package DatabaseInteraction;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.LinkedList;
+import java.util.Scanner;
 import java.io.*;
+
+import Objects.Course;
+import Objects.Student;
 
 public class CourseDatabase2 {
 	
+	
 
-	private static ArrayList<String> FirstName;
+	private static ArrayList<Course> courses;
      
-     private static ArrayList<String> Surname;
-     
-     private static ArrayList<String> IDnumber;
-     
-     private static LinkedList<HashMap<String, String>> Assignments;
-     
-     
-     public static void setAssignments(
-			LinkedList<HashMap<String, String>> assignments) {
-		Assignments = assignments;
-	}
-
-
-
-
-
-
-
+	private static ArrayList<Student> students;
 	
      
-     public static ArrayList<String> getFirstName() {
- 		return FirstName;
- 	}
+     
 
- 	public static void setFirstName(ArrayList<String> firstName) {
- 		FirstName = firstName;
- 	}
-
- 	public static ArrayList<String> getSurname() {
- 		return Surname;
- 	}
-
- 	public static void setSurname(ArrayList<String> surname) {
- 		Surname = surname;
- 	}
-
- 	public static ArrayList<String> getIDnumber() {
- 		return IDnumber;
- 	}
-
- 
-
- 	public static void setIDnumber(ArrayList<String> iDnumber) {
-		IDnumber = iDnumber;
+	public static ArrayList<Course> getCourses() {
+		return courses;
 	}
 
-	public static LinkedList<HashMap<String, String>> getAssignments() {
- 		return Assignments;
- 	}
 
- 	public static void setAssignments1(LinkedList<HashMap<String, String>> assignments) {
- 		Assignments = assignments;
+
+
+
+
+
+	public static void setCourses(ArrayList<Course> courses) {
+		CourseDatabase2.courses = courses;
+	}
+
+
+
+
+
+
+
+	public static ArrayList<Student> getStudents() {
+		return students;
+	}
+
+
+
+
+
+
+
+	public static void setStudents(ArrayList<Student> students) {
+		CourseDatabase2.students = students;
+	}
+
+
+
+
+
+
+
+
+
+
+
+   
+
+     public void getAllCourses() {
+ 		BufferedReader br1 = null;
+		BufferedReader br2 = null;
+ 		try {
+  
+ 			String line1,line2;
+  
+ 			br1 = new BufferedReader(new FileReader("Course.csv"));
+ 			br2 = new BufferedReader(new FileReader("AllGrades.csv"));
+ 			while ((line1 = br1.readLine()) != null && (line2=br2.readLine())!=null) {
+ 				String[] components1 = line1.split(",");
+ 				String[] components2 = line2.split(",");
+ 				Course course = new Course(components1[0], components1[1],Integer.parseInt(components2[0]), Integer.parseInt(components2[1]));
+ 				courses.add(course);
+ 			}
+  
+ 		} catch (Exception ex) {
+ 			System.out.println(ex.getMessage());
+ 		} finally {
+ 			try {
+ 				if (br1 != null && br2!=null)
+ 					{br1.close();
+ 					br2.close();
+ 					}
+ 			} catch (Exception ex) {
+ 				System.out.println(ex.getMessage());
+ 			}
+ 		}
+  
  	}
  	
- 	
- 	
- 	public int getNumberOfStudentsAtCourse(){
- 		return IDnumber.size();
- 	}
- 	
- 	
- 	
+
+
+     public void retrieveCourse() {
+    	 System.out.println("Enter course ID:");
+    	 //TODO
+    			 
+     }
+
+	
+    
  	
  	
 
 	
 	static BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
 	
-	public void addStudentToCourseSession() throws Exception {
+	public void addCourse() throws Exception {
 	// Create or Modify a file for Database
 	PrintWriter pw = new PrintWriter(new BufferedWriter(new FileWriter("Course.csv",true)));
-	String FirstName="Lavender";
-	String Surname="Brown";
-	String IDNumber="9801001";
-	String status="present";
+	String courseID="COMPSCI2010";
+	String courseName="AP3";
 	boolean moreRecords = false;
 	// Read Data
 	do
 		{
 	// Print to File
-	pw.println(FirstName);
-	pw.println(Surname);
-	pw.println(IDNumber);
-	pw.println(status);
-	System.out.print("\nStudent Record successfully added.Add more?(y/n):");
+	pw.println(courseID);
+	pw.println(courseName);
+	System.out.print("\nCourse successfully added.Add more?(y/n):");
 	String s;
 	s = reader.readLine();
 	if(s.equalsIgnoreCase("y")){
@@ -128,11 +159,7 @@ public class CourseDatabase2 {
 
 
 	public void clearCourseRecords() throws Exception{
-	
-		FirstName.clear();
- 		Surname.clear();
- 		IDnumber.clear();
- 		Assignments.clear();
+
  		//overwrite file
 		PrintWriter pw = new PrintWriter(new BufferedWriter(new FileWriter("Course.csv")));
 		
@@ -145,29 +172,20 @@ public class CourseDatabase2 {
  	
  	
  	
- 	public int getAssignmentsOfStudent(String StudentID){
- 		int countAssignments=0;
- 		for(int i=0;i<Assignments.size();i++)
- 			if(Assignments.get(i).containsValue("present"))
- 				countAssignments++;
- 		return countAssignments;
- 	}
-
- 	
  	
  	
  	public void showMenu() throws Exception{
-		System.out.print("1 : Add Student to course session\n2 : Get number of students present\n3 :Get the number of assignments to be completed\n4 : Check if the student was present during a certain laboratory\n5 : Quit\n\nChoose Option 1-5: ");
+		System.out.print("1 : Get all courses\n2 : Get number of students present\n3 : Add course to list of courses\n4 : Retrieve course\n5 : Quit\n\nChoose Option 1-5: ");
 		int choice = Integer.parseInt(reader.readLine());
 		switch(choice){
 			case 1:
-				addStudentToCourseSession();break;
+				getAllCourses();break;
 			case 2:
-				getNumberOfStudentsAtCourse();break;
+				getStudents().size();break;
 			case 3:
-				getAssignments();break;
+				addCourse();break;
 			case 4:
-				getAssignmentsOfStudent("9801002");break;
+				retrieveCourse();break;
 			case 5:
 				System.exit(1); break;
 			default:

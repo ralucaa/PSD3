@@ -11,9 +11,6 @@ public final class Student {
 		this.id = id;
 	}
 	
-	public Student(String firstName, String lastName, String id, ArrayList<Attendance> attendance){
-		this(firstName, lastName, id);
-	}
 	
 	//Accessors.
 	public String getFirstName(){
