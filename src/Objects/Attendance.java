@@ -2,17 +2,18 @@ package Objects;
 
 public final class Attendance {
 	public static final String ABSENT = "absent", MOTIVATED = "mv", PRESENT = "present";
-	private final String sessionTitle, status;
+	private final Student student;
+	private final String status;
 	
 	
-	public Attendance(String sessionTitle, String status){
-		this.sessionTitle = sessionTitle;
+	public Attendance(Student student, String status){
+		this.student = student;
 		this.status = status;
 	}
 	
 	//Accessors.
-	public String getSessionTitle(){
-		return sessionTitle;
+	public Student getStudent(){
+		return student;
 	}
 	
 	public String getStatus(){
@@ -22,8 +23,8 @@ public final class Attendance {
 	//Shouldn't be needed! Remove final attribute if changed.
 	/*
 	//Mutators.
-	public void setSessionTitle(String sessionTitle){
-		this.sessionTitle = sessionTitle;
+	public void setStudent(Student student){
+		this.student = student;
 	}
 	
 	public void setStatus(String status){

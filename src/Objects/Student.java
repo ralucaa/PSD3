@@ -4,7 +4,6 @@ import java.util.ArrayList;
 
 public final class Student {
 	private final String firstName, lastName, id;
-	private ArrayList<Attendance> attendance = new ArrayList<Attendance>();
 	
 	public Student(String firstName, String lastName, String id){
 		this.firstName = firstName;
@@ -12,13 +11,20 @@ public final class Student {
 		this.id = id;
 	}
 	
-	//Mutators.
-	public void addAttendance(Attendance at){
-		attendance.add(at);
+	public Student(String firstName, String lastName, String id, ArrayList<Attendance> attendance){
+		this(firstName, lastName, id);
 	}
 	
-	public void addAttendance(String sessionTitle, String status){
-		addAttendance(new Attendance(sessionTitle, status));
+	//Accessors.
+	public String getFirstName(){
+		return firstName;
 	}
 	
+	public String getLastName(){
+		return lastName;
+	}
+	
+	public String getId(){
+		return id;
+	}
 }
