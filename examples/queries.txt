@@ -1,0 +1,85 @@
+
+***exporting a course***
+
+SELECT id,name from Course;
+
+do something with a menu, set {java courseID}
+
+SELECT id, name from Session where courseID = {java courseID}
+(and keep this for later)
+
+output header row:
+	output "First name,Surname,ID number,", 
+	output names of sessions
+	end row
+
+SELECT DISTINCT Student.firstName, Student.lastName, Student.id
+	FROM Student, Attendance, Session
+	WHERE Student.id = Attendance.studentID
+		AND Attendance.sessionID = Session.id
+		AND Session.courseID = {java courseID}
+
+for each student:
+	output firstName
+	output lastName
+	output studentID
+	for each session (that we got earlier):
+		SELECT status from Attendance
+			WHERE Attendance.studentID = {java studentID}
+				AND Attendance.sessionID = {java sessionID}
+		output status
+	end row
+
+(be careful of the order of sessions!)
+
+
+
+***exporting a student***
+
+ouput header row "Course,ID number,Assignment,Mark\n"
+
+SELECT name,id from Student;
+
+do something with a menu, set {java studentID}
+
+SELECT Course.name, Course.id, Session.name, Attendance.status
+	FROM Course, Session, Attendance
+		WHERE Course.id = Session.courseID
+			AND Session.id = Attendance.sessionID
+			AND Attendance.studentID = {java studentID}
+
+for each query row: output row
+
+
+
+***get session data for editing***
+
+SELECT id, name from Course
+
+do something with a menu, set {java courseID}
+
+SELECT id,name from Session
+
+do something with a menu, set {java sessionID}
+
+SELECT Student.id, Student.name, Attendance.status
+	FROM Student,Attendance
+		WHERE Student.id = Attendance.studentID
+		AND Attendance.sessionID = {java sessionID}
+
+for each query row: display menu row (with index number for editing)
+(and keep results of this query in java)
+
+
+
+***edit attendance row***
+
+get menu number and new status (present/absent/mv) from user
+lookup studentID in Java for this menu number
+
+UPDATE Attendance SET status={java status}
+	WHERE studentID = {java studentID}
+		AND sessionID = {java sessionID}
+
+
+
