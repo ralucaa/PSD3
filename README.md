@@ -10,6 +10,12 @@ Project
 - Task assignment: github issue tracking system -> label: Sprint1Task
 
 
+Database
+========
+
+- Login at: http://serengeti.uk.to/phpmyadmin/
+- Username: psd3 Password: teamk
+
 Details
 =======
 We will use CSV files to mock the database in our prototypes.
