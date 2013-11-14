@@ -1,7 +1,5 @@
 package Objects;
 
-import java.util.ArrayList;
-
 public final class Student {
 	private final String firstName, lastName, id;
 	
