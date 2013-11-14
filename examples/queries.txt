@@ -83,3 +83,27 @@ UPDATE Attendance SET status={java status}
 
 
 
+***import barcodes***
+
+set {java sessionID} same as for "get session data for editing"
+
+SELECT startTime, endTime
+	FROM Session
+		WHERE id={java sessionID}
+
+for each row in barcode file:
+	if timeScanned is between startTime and endTime:
+		SELECT id,name
+			FROM Student
+				WHERE barcode={java barcodeNumber}
+		(keep for later)
+
+show results, ask if it's OK
+
+for each (java) studentID:
+	UPDATE Attendance
+		SET status="present"
+		WHERE studentID = {java studentID}
+			AND sessionID = {java sessionID}
+
+
