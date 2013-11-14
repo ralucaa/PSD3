@@ -1,18 +1,19 @@
 package DatabaseInteraction;
-
 import java.io.FileWriter;
 import java.sql.ResultSet;
-import java.sql.ResultSetMetaData;
 import java.util.ArrayList;
 
-public class CsvExporting extends DatabaseAdapter{
 
+
+//6 hours of work, learnt about the databases and refreshed a lot of java knowledge from last year. Not too bad ;)
+public class CsvExporting extends DatabaseAdapter{
+	//That method is pretty straightforward. Next one is commented
 	public void exportSingleStudentAttendance(String studentID,String csvFileName){
-		String query = "SELECT Course.name, Course.id, Session.name, Attendance.status "
+		String query = "SELECT Course.Name, Course.ID, Session.Name, Attendance.Status "
 				+"FROM Course, Session, Attendance "
-				+"WHERE Course.id = Session.courseID "
-				+"AND Session.id = Attendance.sessionID "
-				+"AND Attendance.\""+studentID+"\"";
+				+"WHERE Course.ID = Session.CourseID "
+				+"AND Session.ID = Attendance.sessionID "
+				+"AND Attendance.StudentID =\""+studentID+"\"";
 		try {
 			ResultSet rs = executeSQLQuery(query);
 
@@ -24,35 +25,39 @@ public class CsvExporting extends DatabaseAdapter{
 					writer.append(rs.getString(2)+",");
 					writer.append(rs.getString(3)+",");
 					writer.append(rs.getString(4)+"\n");
-
-					writer.flush();
-					writer.close();
 				}
+				writer.close();
 			}
 			catch (Exception ex) {
+				ex.printStackTrace(System.out);
 				System.out.println("Cry Cry " + ex.getMessage());
 			}
 		}catch (Exception ex) {
+			ex.printStackTrace(System.out);
 			System.out.println("Could not connect.");
 
 		}
 }
 	public void exportStudenntDataForCourse(String courseID,String csvFileName){
-		String sessionsQuery="SELECT id, name from Session where courseID = \""+courseID+"\"";
-		String studentsQuery = "SELECT DISTINCT Student.firstName, Student.lastName, Student.id"
-								+"FROM Student, Attendance, Session"
-								+"WHERE Student.id = Attendance.studentID"
-								+"AND Attendance.sessionID = Session.id"
-								+"AND Session.courseID =\""+courseID+"\"";
+		//Queries for retrieving the sessions data and students data needed for the later Query
+		String sessionsQuery="SELECT ID, Name FROM Session WHERE courseID = \""+courseID+"\" ";
+		String studentsQuery = "SELECT DISTINCT Student.FirstName, Student.LastName, Student.ID "
+								+"FROM Student, Attendance, Session "
+								+"WHERE Student.ID = Attendance.StudentID "
+								+"AND Attendance.SessionID = Session.ID "
+								+"AND Session.CourseID =\""+courseID+"\"";
+		
+		//Store the session IDs and info about the student
+		ArrayList<String> sessionIds = new ArrayList<String>();
+		ArrayList<String[]> studentInfo = new ArrayList<String[]>();
+		String sessions = "";
 
 		try {
 			ResultSet studentsSet = executeSQLQuery(studentsQuery);
 			ResultSet sessionSet = executeSQLQuery(sessionsQuery);
-			ResultSetMetaData sessionSetMD = sessionSet.getMetaData();
-			String sessions = "";
-			ArrayList<String> sessionIds = new ArrayList<String>();
-			ArrayList<String[]> studentInfo = new ArrayList<String[]>();
 			
+			//Collect the header part with the sessions
+			//And session IDs
 			//iterate over the sessions.
 			while ( sessionSet.next() ) {
 				if(!sessionSet.next()){ //if the last session, break
@@ -73,41 +78,51 @@ public class CsvExporting extends DatabaseAdapter{
 			String info[];
 			while( studentsSet.next() ){
 				info = new String[3];
-				info[0] += studentsSet.getString(1);
-				info[1] += studentsSet.getString(2);
-				info[2] += studentsSet.getString(3);
+				info[0] = studentsSet.getString(1);
+				info[1] = studentsSet.getString(2);
+				info[2] = studentsSet.getString(3);
 				studentInfo.add(info);
 			}
+			for(String[] stuid: studentInfo){
+				System.out.println(stuid[0]);	
+			}
+			
 			
 			    
 			try {
 				FileWriter writer = new FileWriter(csvFileName);
+				//Write the header
 				writer.append("First name,Surname,ID number,"+sessions);
 				
+				//For each student retrieve his/her First name,Surname,ID number
 				for(String[] stuid: studentInfo){
 					writer.append(stuid[0]+",");
 					writer.append(stuid[1]+",");
 					writer.append(stuid[2]);
+					//then get the sessions of that selected student 
 					for(String sesid: sessionIds){
-						String statusQuery = "SELECT status from Attendance"
-											+"WHERE Attendance.studentID =\""+stuid[2]+"\""
-											+"AND Attendance.sessionID =\""+sesid+"\"";
-						ResultSet statusSet = executeSQLQuery(sessionsQuery);
+						//Query to get the status of the sessions for the selected student
+						String statusQuery = "SELECT Status from Attendance "
+											+"WHERE Attendance.StudentID =\""+stuid[2]+"\" "
+											+"AND Attendance.SessionID =\""+sesid+"\"";
+						ResultSet statusSet = executeSQLQuery(statusQuery);
 						statusSet.next();
 						writer.append(","+statusSet.getString(1));
 					}
-					writer.append("\n");
+					writer.append("\n");//end of row
 					
 					
 				}
 				writer.flush();
 				writer.close();
-				
+				//DONE!!
 			}
 			catch (Exception ex) {
+				ex.printStackTrace(System.out);
 				System.out.println("Cry Cry " + ex.getMessage());
 			}
 		}catch (Exception ex) {
+			ex.printStackTrace(System.out);
 			System.out.println("Could not connect.");
 
 		}
