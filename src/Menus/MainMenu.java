@@ -6,16 +6,18 @@ import DatabaseInteraction.DatabaseAdapter;
 import DatabaseInteraction.UserAuthentication;
 import Objects.Account;
 import Objects.Communication;
+import Objects.Menu;
+import Menus.StudentAttendance;
 
 public class MainMenu {
 	private static Account account;
-	
+
 	private static void closeApp() {
 		DatabaseAdapter.closeConnection();
 		Communication.showExitMessage();
 		System.exit(0);
 	}
-	
+
 	private static void authenticate(BufferedReader reader) {
 		try {
 			// Read credentials.
@@ -23,14 +25,14 @@ public class MainMenu {
 			String username = reader.readLine();
 			System.out.print("Password: ");
 			String password = reader.readLine();
-			
+
 			// Return authentication result.
 			account = UserAuthentication.checkCredentials(username, password);
 		} catch (Exception e) {
 			Communication.printInvalidInput();
 		}
 	}
-	
+
 	private static void monitorAttendanceSingle(BufferedReader reader) {
 		try {
 			// Find out who we want to get information about
@@ -40,7 +42,7 @@ public class MainMenu {
 			String sessionType = reader.readLine();
 			System.out.println("Please input the the name of the student (i.e. Raluca): ");
 			String username = reader.readLine();
-			
+
 			// Run the query and print out the results
 			StudentAttendance sa = new StudentAttendance();
 			String[] response = sa.getAttendanceByCourse(course, sessionType, username);
@@ -49,61 +51,58 @@ public class MainMenu {
 				System.out.printf("Course: %s | Session type: %s | Name: %s | Session attended: %s\n", course, sessionType, username, s);
 			}
 			Communication.displaySeparator();
-			
+
 		} catch (Exception e) {
 			Communication.printInformationNotAvailable();
 			monitorAttendanceSingle(reader);
 		}
 	}
-	
+
 	private static void showAdminMenu(BufferedReader reader){
-		String input = "";
-		do {
-			System.out.println("\nWhat do you want to do?\n1: Export attendance to CSV\n2: Monitor attendance\nq: Quit");
-			try {				
-				input = reader.readLine();
-				
-				if (input.equals("1")) {					
-					System.out.println("Menu 1 selected!");
-				} else if (input.equals("2")){
-					System.out.println("Menu 2 selected!\n");
-					monitorAttendanceSingle(reader);					
-				}
-			} catch (Exception e) {
-				break;
-			}
-		} while (!input.equals("q"));
-	}
-	
-	private static void showTutorMenu(BufferedReader reader){
-		String input = "";
-		do {
-			System.out.println("\nWhat do you want to do?\n1: Monitor attendance\nq: Quit");
-			try {				
-				input = reader.readLine();
-				
-				if (input.equals("1")){
-					System.out.println("Menu 1 selected!\n");
-					monitorAttendanceSingle(reader);					
-				}
-			} catch (Exception e) {
-				break;
-			}
-		} while (!input.equals("q"));
+		//Create the menu.
+		Menu menu = new Menu("Administration menu\nWhat do you want to do?");
+		menu.add("1", "Export attendance to CSV");
+		menu.add("2", "Monitor attendance");
+		menu.add("q", "Quit");
+
+		//Show the menu.
+		String input = menu.show();
 		
+		//Process the input.
+		if (input.equals("1")) {		
+			//TODO Remove this when adding menu!
+			System.out.println("Export attendance selected!");
+		} else if (input.equals("2")){
+			monitorAttendanceSingle(reader);
+		}
 	}
-	
+
+	private static void showTutorMenu(BufferedReader reader){
+		//Create the menu.
+		Menu menu = new Menu("Administration menu\nWhat do you want to do?");
+		menu.add("1", "Monitor attendance");
+		menu.add("q", "Quit");
+
+		//Show the menu.
+		String input = menu.show();
+		
+		//Process the input.
+		if (input.equals("1")) {
+			monitorAttendanceSingle(reader);
+		}
+	}
+
 	public static void main(String[] args) {
 		System.out.println("Please input your credentials (Username: admin, Password: teamk): ");
 		BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
-		
+
 		// Loop until the credentials are valid.
 		authenticate(reader);
 		while (account == null) {
 			System.out.println("Invalid credentials. Do you want to retry? [Y/N]");
 			try {
 				String response = reader.readLine().toLowerCase();
-				
+
 				if (!response.equalsIgnoreCase("y")) {
 					closeApp();
 				}
@@ -114,16 +113,16 @@ public class MainMenu {
 				closeApp();
 			}
 		}
-		
+
 		Communication.showWelcomeMessage();
-		
+
 		// Output the top-level menu.
 		if (account.getType() == Account.TYPE_ADMIN) {
 			showAdminMenu(reader);
 		} else if (account.getType() == Account.TYPE_TUTOR) {
 			showTutorMenu(reader);
 		}
-		
+
 		closeApp();
 	}
 

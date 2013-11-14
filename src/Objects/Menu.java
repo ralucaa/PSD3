@@ -1,23 +1,37 @@
-package Menus;
-import java.util.*;
+package Objects;
+
+import java.util.LinkedHashMap;
+import java.util.Scanner;
+import java.util.Set;
 
 /** class to make text menus easier and more consistent */
-public class Menu {
+public final class Menu {
 	private LinkedHashMap<String,String> options = new LinkedHashMap<String,String>();
 	private Scanner input = new Scanner(System.in);
 	private String description;
 	
+	/**
+	 * Constructor for the menu.
+	 * @param description - the menu header.
+	 */
 	public Menu(String description) {
 		this.description = description;
 	}
 	
-	/** add an option. key is what the user types; text is the option description */
+	/**
+	 * Adds a menu option.
+	 * @param key - the selection key.
+	 * @param text - the option description.
+	 */
 	public void add(String key, String text) {
 		options.put(key, text);
 	}
 	
-	/** print menu description and options, then loop until we get a valid answer */
-	public String go() {
+	/** 
+	 * Prints the menu and loops until the input valid.
+	 * @return the selection key.
+	 */
+	public String show() {
 		System.out.println("\n" + description);
 		Set<String> keys = options.keySet();
 		for (String key : keys) {

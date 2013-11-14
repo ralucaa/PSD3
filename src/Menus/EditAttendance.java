@@ -1,5 +1,6 @@
 package Menus;
-import java.io.*;
+
+import Objects.Menu;
 
 public class EditAttendance {
 	private StudentAttendance db;
@@ -16,7 +17,7 @@ public class EditAttendance {
 		menu.add("2", "Helen\tA");
 		menu.add("b", "back");
 		do {
-			choice = menu.go();
+			choice = menu.show();
 			if (!choice.equals("b"))
 				System.out.println("Not implemented yet");
 		} while (!choice.equalsIgnoreCase("b"));
@@ -28,7 +29,7 @@ public class EditAttendance {
 		menu.add("1", "Lab 1");
 		menu.add("b", "back");
 		do {
-			choice = menu.go();
+			choice = menu.show();
 			if (choice.equals("1"))
 				session();
 		} while (!choice.equalsIgnoreCase("b"));
@@ -43,7 +44,7 @@ public class EditAttendance {
 		menu.add("3", "AP3");
 		menu.add("b", "back");
 		do {
-			choice = menu.go();
+			choice = menu.show();
 			if (choice.equals("1"))
 				course();
 			else if (choice.equals("2") || choice.equals("3"))
