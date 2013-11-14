@@ -63,10 +63,10 @@ SELECT id,name from Session
 
 do something with a menu, set {java sessionID}
 
-SELECT Student.id, Student.name, Attendance.status
+SELECT Student.ID, Student.FirstName, Student.LastName, Attendance.Status
 	FROM Student,Attendance
-		WHERE Student.id = Attendance.studentID
-		AND Attendance.sessionID = {java sessionID}
+		WHERE Student.ID = Attendance.StudentID
+		AND Attendance.SessionID = {java sessionID}
 
 for each query row: display menu row (with index number for editing)
 (and keep results of this query in java)

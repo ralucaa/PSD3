@@ -10,7 +10,6 @@ public class SharedDBMenus {
 
 	private static class CourseOption {
 		String id, name;
-
 		public String toString() {
 			return id + " : " + name;
 		}
@@ -30,7 +29,7 @@ public class SharedDBMenus {
 				i ++;
 			}
 		} catch (SQLException e) {
-			//nothing for now
+			System.out.println("SQL exception!");
 		}
 		menu.add("b", "back");
 		
