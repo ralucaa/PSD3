@@ -61,8 +61,9 @@ public class MainMenu {
 	private static void showAdminMenu(BufferedReader reader){
 		//Create the menu.
 		Menu menu = new Menu("Administration menu\nWhat do you want to do?");
-		menu.add("1", "Export attendance to CSV");
-		menu.add("2", "Monitor attendance");
+		menu.add("1", "Monitor attendance");
+		menu.add("2", "Export course attendance to CSV");
+		menu.add("3", "Export student's attendance to CSV");
 		menu.add("q", "Quit");
 
 		//Show the menu.
@@ -70,11 +71,12 @@ public class MainMenu {
 		
 		//Process the input.
 		if (input.equals("1")) {		
-			//TODO Remove this when adding menu!
-			System.out.println("Export attendance selected!");
-		} else if (input.equals("2")){
 			EditAttendance ea = new EditAttendance();
 			ea.go();
+		} else if (input.equals("2")){
+			CsvExportMenu.exportCourseAttendance();
+		} else if (input.equals("3")) {
+			CsvExportMenu.exportSingleStudentAttendance();
 		}
 	}
 
@@ -89,7 +91,8 @@ public class MainMenu {
 		
 		//Process the input.
 		if (input.equals("1")) {
-			monitorAttendanceSingle(reader);
+			EditAttendance ea = new EditAttendance();
+			ea.go();
 		}
 	}
 
