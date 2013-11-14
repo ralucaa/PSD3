@@ -31,6 +31,7 @@ public abstract class DatabaseAdapter {
 		try {
 			if (con != null) {
 				con.close();
+				con = null;
 			}
 		} catch (Exception ex) {
 			System.out.println("Could not close connection!");
