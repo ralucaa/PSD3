@@ -7,7 +7,7 @@ import DatabaseInteraction.UserAuthentication;
 import Objects.Account;
 import Objects.Communication;
 import Objects.Menu;
-import Menus.StudentAttendance;
+import Menus.EditAttendance;
 
 public class MainMenu {
 	private static Account account;
@@ -73,7 +73,8 @@ public class MainMenu {
 			//TODO Remove this when adding menu!
 			System.out.println("Export attendance selected!");
 		} else if (input.equals("2")){
-			monitorAttendanceSingle(reader);
+			EditAttendance ea = new EditAttendance();
+			ea.go();
 		}
 	}
 
@@ -93,7 +94,7 @@ public class MainMenu {
 	}
 
 	public static void main(String[] args) {
-		System.out.println("Please input your credentials (Username: admin, Password: teamk): ");
+		System.out.println("Please input your credentials (admin/admin or tutor/tutor): ");
 		BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
 
 		// Loop until the credentials are valid.

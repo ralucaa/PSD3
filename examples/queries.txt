@@ -59,6 +59,7 @@ SELECT id, name from Course
 do something with a menu, set {java courseID}
 
 SELECT id,name from Session
+	WHERE courseID={java courseID}
 
 do something with a menu, set {java sessionID}
 

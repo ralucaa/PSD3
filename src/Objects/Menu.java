@@ -5,8 +5,8 @@ import java.util.Scanner;
 import java.util.Set;
 
 /** class to make text menus easier and more consistent */
-public final class Menu {
-	private LinkedHashMap<String,String> options = new LinkedHashMap<String,String>();
+public final class Menu<T> {
+	private LinkedHashMap<String,T> options = new LinkedHashMap<String,T>();
 	private Scanner input = new Scanner(System.in);
 	private String description;
 	
@@ -21,10 +21,14 @@ public final class Menu {
 	/**
 	 * Adds a menu option.
 	 * @param key - the selection key.
-	 * @param text - the option description.
+	 * @param item - item to store - toString should give the option description
 	 */
-	public void add(String key, String text) {
-		options.put(key, text);
+	public void add(String key, T item) {
+		options.put(key, item);
+	}
+	
+	public T get(String key) {
+		return options.get(key);
 	}
 	
 	/** 
