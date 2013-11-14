@@ -2,6 +2,7 @@ package Menus;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 
+import DatabaseInteraction.DatabaseAdapter;
 import DatabaseInteraction.UserAuthentication;
 import Objects.Account;
 import Objects.Communication;
@@ -10,6 +11,7 @@ public class MainMenu {
 	private static Account account;
 	
 	private static void closeApp() {
+		DatabaseAdapter.closeConnection();
 		Communication.showExitMessage();
 		System.exit(0);
 	}
@@ -19,7 +21,7 @@ public class MainMenu {
 			// Read credentials.
 			System.out.print("Username: ");
 			String username = reader.readLine();
-			System.out.print("Password:");
+			System.out.print("Password: ");
 			String password = reader.readLine();
 			
 			// Return authentication result.
