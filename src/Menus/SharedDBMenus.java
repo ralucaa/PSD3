@@ -15,7 +15,7 @@ public class SharedDBMenus {
 			return id + " : " + name;
 		}
 	}
-
+	
 	private static String chooseID(ResultSet rs, String menuDescription) {
 		String choice;
 		Menu menu = new Menu(menuDescription);
@@ -39,11 +39,19 @@ public class SharedDBMenus {
 		return choice.equals("b") ? null : ((CourseOption)(menu.get(choice))).id;
 	}
 
+	/** Do a menu for the user to choose a course.
+	  * @param menuDescription the menu heading
+	  * @return the courseID of the course chosen, or null if "back" is chosen
+	  */
 	public static String chooseCourseID(String menuDescription) {
 		ResultSet rs = DatabaseAdapter.executeSQLQuery("SELECT ID,Name FROM Course");
 		return chooseID(rs, menuDescription);
 	}
-	
+
+	/** Do a menu for the user to choose a session from a course.
+	  * @param menuDescription the menu heading
+	  * @return the sessionID of the session chosen, or null if "back" is chosen
+	  */
 	public static String chooseSessionIDinCourse(String menuDescription, String courseID) {
 		String query = "SELECT ID,Name FROM Session WHERE courseID=\"" + courseID + "\"";
 		//System.out.println(query);
