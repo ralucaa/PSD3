@@ -8,58 +8,61 @@ public abstract class DatabaseAdapter {
 	//Store the connection statically to prevent multiple connections.
 	private static Connection con;
 
+	/**
+	 * Executes the given SQL query and returns the result as a ResultSet.
+	 * @param query - the query to be executed. Only use SELECT statements!!!
+	 * @return a ResultSet object containing the result.
+	 */
 	public static ResultSet executeSQLQuery(String query){
 		try {
-			//Open the connection if not already opened.
-			if (con == null) {
-				con = DriverManager.getConnection("jdbc:mysql://serengeti.uk.to:3306/PSD3", "psd3", "teamk") ;
+			//Execute the query if the connection has been opened.
+			if (openConnection()) {
+				Statement stmt = con.createStatement() ;
+				ResultSet rs = stmt.executeQuery(query);
+
+				//Return the result.
+				return rs;
 			}
-
-			//Execute the query.
-			Statement stmt = con.createStatement() ;
-			ResultSet rs = stmt.executeQuery(query);
-
-			//Return the result.
-			return rs;
+			return null;
 		} catch (Exception ex) {
 			System.out.println("Something went wrong! Error details:\n" + ex.getMessage());
 			return null;
 		}
 	}
 
-	public static void closeConnection(){
+	/**
+	 * Tries to open the connection if it's not already open.
+	 * Will print the error message if it fails.
+	 * @return true if the connection is or has been opened, false if it failed.
+	 */
+	private static boolean openConnection(){
+		//Open the connection if not already opened.
+		try {
+			if (con == null) {
+				con = DriverManager.getConnection("jdbc:mysql://serengeti.uk.to:3306/PSD3", "psd3", "teamk") ;
+			}
+			return true;
+		} catch (Exception ex) {
+			System.out.println("Could not open connection! Error details:\n" + ex.getMessage());
+			return false;
+		}
+	}
+
+	/**
+	 * Tries to close the connection if it is open.
+	 * Will print the error message if it fails.
+	 * @return true if the connection is or has been closed, false if it failed.
+	 */
+	public static boolean closeConnection(){
 		try {
 			if (con != null) {
 				con.close();
 				con = null;
 			}
+			return true;
 		} catch (Exception ex) {
-			System.out.println("Could not close connection!");
+			System.out.println("Could not close connection! Error details: \n" + ex.getMessage());
+			return false;
 		}
 	}
-
-	/*
-	public static void main(String args[]){
-		try {
-			ResultSet rs = executeSQLQuery("SELECT * FROM Student");
-
-			try {
-				while ( rs.next() ) {
-					int numColumns = rs.getMetaData().getColumnCount();
-					for ( int i = 1 ; i <= numColumns ; i++ ) {
-						// Column numbers start at 1.
-						// Also there are many methods on the result set to return
-						//  the column as a particular type. Refer to the Sun documentation
-						//  for the list of valid conversions.
-						System.out.print( "COLUMN " + i + " = " + rs.getObject(i) );
-					}
-					System.out.println();
-				}
-			} catch (Exception ex) {
-				System.out.println("Cry Cry " + ex.getMessage());
-			}
-		} catch (Exception ex) {
-			System.out.println("Could not connect.");
-		}
-	}*/
 }

@@ -60,7 +60,7 @@ public class MainMenu {
 
 	private static void showAdminMenu(BufferedReader reader){
 		//Create the menu.
-		Menu menu = new Menu("Administration menu\nWhat do you want to do?");
+		Menu<String> menu = new Menu<String>("Administration menu\nWhat do you want to do?");
 		menu.add("1", "Monitor attendance");
 		menu.add("2", "Export course attendance to CSV");
 		menu.add("3", "Export student's attendance to CSV");
@@ -82,7 +82,7 @@ public class MainMenu {
 
 	private static void showTutorMenu(BufferedReader reader){
 		//Create the menu.
-		Menu menu = new Menu("Administration menu\nWhat do you want to do?");
+		Menu<String> menu = new Menu<String>("Administration menu\nWhat do you want to do?");
 		menu.add("1", "Monitor attendance");
 		menu.add("q", "Quit");
 
