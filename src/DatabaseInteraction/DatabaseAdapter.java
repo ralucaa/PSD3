@@ -29,6 +29,22 @@ public abstract class DatabaseAdapter {
 			return null;
 		}
 	}
+	
+	public static int executeSQLUpdate(String query) {
+		try {
+			//Execute the update if the connection has been opened.
+			if (openConnection()) {
+				Statement stmt = con.createStatement() ;
+				int result = stmt.executeUpdate(query);
+				//Return the result.
+				return result;
+			}
+			return -1;
+		} catch (Exception ex) {
+			System.out.println("Something went wrong! Error details:\n" + ex.getMessage());
+			return -1;
+		}
+	}
 
 	/**
 	 * Tries to open the connection if it's not already open.

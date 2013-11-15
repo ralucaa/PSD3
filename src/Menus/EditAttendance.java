@@ -70,7 +70,7 @@ public class EditAttendance {
 						+ "\" WHERE studentID=\"" + sa.studentID
 						+ "\" AND sessionID=" + sessionID;
 					System.out.println(query);
-					DatabaseAdapter.executeSQLQuery(query);
+					DatabaseAdapter.executeSQLUpdate(query);
 				
 				}
 			}
