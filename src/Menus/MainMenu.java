@@ -58,6 +58,24 @@ public class MainMenu {
 		}
 	}
 
+	private static void showMainMenu(Menu menu) {
+		String input;
+		do {
+			//Show the menu.
+			input = menu.show();
+		
+			//Process the input.
+			if (input.equals("1")) {		
+				EditAttendance ea = new EditAttendance();
+				ea.go();
+			} else if (input.equals("2")){
+				CsvExportMenu.exportCourseAttendance();
+			} else if (input.equals("3")) {
+				CsvExportMenu.exportSingleStudentAttendance();
+			}
+		} while (!input.equals("q"));
+	}
+
 	private static void showAdminMenu(BufferedReader reader){
 		//Create the menu.
 		Menu<String> menu = new Menu<String>("Administration menu\nWhat do you want to do?");
@@ -65,35 +83,15 @@ public class MainMenu {
 		menu.add("2", "Export course attendance to CSV");
 		menu.add("3", "Export student's attendance to CSV");
 		menu.add("q", "Quit");
-
-		//Show the menu.
-		String input = menu.show();
-		
-		//Process the input.
-		if (input.equals("1")) {		
-			EditAttendance ea = new EditAttendance();
-			ea.go();
-		} else if (input.equals("2")){
-			CsvExportMenu.exportCourseAttendance();
-		} else if (input.equals("3")) {
-			CsvExportMenu.exportSingleStudentAttendance();
-		}
+		showMainMenu(menu);
 	}
 
 	private static void showTutorMenu(BufferedReader reader){
 		//Create the menu.
-		Menu<String> menu = new Menu<String>("Administration menu\nWhat do you want to do?");
+		Menu<String> menu = new Menu<String>("Tutor menu\nWhat do you want to do?");
 		menu.add("1", "Monitor attendance");
 		menu.add("q", "Quit");
-
-		//Show the menu.
-		String input = menu.show();
-		
-		//Process the input.
-		if (input.equals("1")) {
-			EditAttendance ea = new EditAttendance();
-			ea.go();
-		}
+		showMainMenu(menu);
 	}
 
 	public static void main(String[] args) {
