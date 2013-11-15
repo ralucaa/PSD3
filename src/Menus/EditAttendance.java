@@ -37,7 +37,7 @@ public class EditAttendance {
 				+ " WHERE Student.ID=Attendance.StudentID"
 				+ " AND Attendance.SessionID = " + sessionID);
 		String choice;
-		Menu menu = new Menu("Select a student to edit:");
+		Menu<Object> menu = new Menu<Object>("Select a student to edit:");
 		int i = 1;
 		try {
 			while (rs.next()) {

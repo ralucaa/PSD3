@@ -39,7 +39,7 @@ public class SharedDBMenus {
 		ResultSet rs = DatabaseAdapter.executeSQLQuery("SELECT ID,Name FROM Course");
 		
 		String choice;
-		Menu menu = new Menu(menuDescription);
+		Menu<Object> menu = new Menu<Object>(menuDescription);
 		int i = 1;
 		try {
 			while (rs.next()) {
@@ -69,7 +69,7 @@ public class SharedDBMenus {
 		ResultSet rs = DatabaseAdapter.executeSQLQuery(query);
 
 		String choice;
-		Menu menu = new Menu(menuDescription);
+		Menu<Object> menu = new Menu<Object>(menuDescription);
 		int i = 1;
 		try {
 			while (rs.next()) {
@@ -97,7 +97,7 @@ public class SharedDBMenus {
 		ResultSet rs = DatabaseAdapter.executeSQLQuery("SELECT ID,FirstName,LastName FROM Student");
 
 		String choice;
-		Menu menu = new Menu(menuDescription);
+		Menu<Object> menu = new Menu<Object>(menuDescription);
 		int i = 1;
 		try {
 			while (rs.next()) {
