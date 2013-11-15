@@ -69,7 +69,7 @@ public class EditAttendance {
 					String query = "UPDATE Attendance SET status=\"" + newStatus
 						+ "\" WHERE studentID=\"" + sa.studentID
 						+ "\" AND sessionID=" + sessionID;
-					System.out.println(query);
+					//System.out.println(query);
 					DatabaseAdapter.executeSQLUpdate(query);
 				
 				}

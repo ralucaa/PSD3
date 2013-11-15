@@ -38,7 +38,7 @@ public class CsvExporting extends DatabaseAdapter{
 
 		}
 }
-	public void exportStudenntDataForCourse(String courseID,String csvFileName){
+	public void exportStudentDataForCourse(String courseID,String csvFileName){
 		//Queries for retrieving the sessions data and students data needed for the later Query
 		String sessionsQuery="SELECT ID, Name FROM Session WHERE courseID = \""+courseID+"\" ";
 		String studentsQuery = "SELECT DISTINCT Student.FirstName, Student.LastName, Student.ID "

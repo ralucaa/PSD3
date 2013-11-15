@@ -14,14 +14,17 @@ public class CsvExportMenu {
 	}
 
 	public static void exportSingleStudentAttendance() {
-		System.out.println("not implemented yet");
+		CsvExporting exporter = new CsvExporting();
+		String studentID = SharedDBMenus.chooseStudentID("Choose a student:");
+		String csvFileName = getCsvFileName();
+		exporter.exportSingleStudentAttendance(studentID, csvFileName);
 	}
 	
 	public static void exportCourseAttendance() {
 		CsvExporting exporter = new CsvExporting();
 		String courseID = SharedDBMenus.chooseCourseID("Choose a course:");
 		String csvFileName = getCsvFileName();
-		exporter.exportStudenntDataForCourse(courseID, csvFileName);
+		exporter.exportStudentDataForCourse(courseID, csvFileName);
 	}
 }
 
