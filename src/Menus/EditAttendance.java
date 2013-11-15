@@ -1,9 +1,11 @@
 package Menus;
 
+import java.util.*;
+import java.io.*;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
-import DatabaseInteraction.DatabaseAdapter;
+import DatabaseInteraction.*;
 import Objects.Menu;
 
 public class EditAttendance {
@@ -12,6 +14,41 @@ public class EditAttendance {
 		public String toString() {
 			return studentID + "\t" + firstName + " " + lastName + "\t" + status;
 		}
+	}
+
+	private static void importBarcodes(String sessionID) {
+		BarcodeImport bi;
+		int errors;
+		Date start, end;
+		String query = "SELECT StartTime,EndTime FROM Session WHERE ID=" + sessionID;
+		//System.out.println(query);
+		ResultSet rs = DatabaseAdapter.executeSQLQuery(query);
+		try {
+			rs.next();
+			start = rs.getDate(1);
+			end = rs.getDate(2);
+		} catch (SQLException e) {
+			System.out.println("SQL exception!");
+			return;
+		}
+		bi = new BarcodeImport(start, end);
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Path to csv file to be read? ");
+		String filename =  sc.next();
+		try {
+			errors = bi.load(filename);
+		} catch (FileNotFoundException e) {
+			System.out.println("File not found!");
+			return;
+		}
+		if (errors != 0) {
+			System.out.println("Number of errors: " + errors);
+		}
+		
+		for (String barcode : bi.getBarcodes()) {
+			System.out.println(barcode);
+			//TODO
+		} 
 	}
 
 	private static String chooseStatus() {
@@ -58,7 +95,7 @@ public class EditAttendance {
 			choice = menu.show();
 			if (!choice.equals("b")) {
 				if (choice.equals("i")) {
-					System.out.println("not implemented yet");
+					importBarcodes(sessionID);
 				} else {
 					// it's a student
 					StudentAttendance sa = (StudentAttendance)menu.get(choice);
