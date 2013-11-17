@@ -19,18 +19,19 @@ public class EditAttendance {
 	private static void importBarcodes(String sessionID) {
 		BarcodeImport bi;
 		int errors;
-		Date start, end;
+		java.util.Date start, end;
 		String query = "SELECT StartTime,EndTime FROM Session WHERE ID=" + sessionID;
 		//System.out.println(query);
 		ResultSet rs = DatabaseAdapter.executeSQLQuery(query);
 		try {
 			rs.next();
-			start = rs.getDate(1);
-			end = rs.getDate(2);
+			start = rs.getTimestamp(1);
+			end = rs.getTimestamp(2);
 		} catch (SQLException e) {
 			System.out.println("SQL exception!");
 			return;
 		}
+		//System.out.println(start + " - " + end);
 		bi = new BarcodeImport(start, end);
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Path to csv file to be read? ");
@@ -46,8 +47,22 @@ public class EditAttendance {
 		}
 		
 		for (String barcode : bi.getBarcodes()) {
-			System.out.println(barcode);
-			//TODO
+			//System.out.println(barcode);
+			query = "SELECT ID FROM Student "
+				+ "WHERE Barcode=\"" + barcode + "\"";
+			rs = DatabaseAdapter.executeSQLQuery(query);
+			try {
+				if (rs.next()) {
+					String studentID = rs.getString(1);
+					//System.out.println(studentID);
+					query = "UPDATE Attendance SET Status=\"present\""
+						+ "WHERE StudentID=\"" + studentID + "\"";
+					DatabaseAdapter.executeSQLUpdate(query);
+				}
+			} catch (SQLException e) {
+				System.out.println("SQL exception!");
+				return;
+			}
 		} 
 	}
 
@@ -68,34 +83,41 @@ public class EditAttendance {
 	}
 
 	private void session(String sessionID) {
-		ResultSet rs = DatabaseAdapter.executeSQLQuery(
-			"SELECT Student.ID, Student.FirstName, Student.LastName, Attendance.Status"
-				+ " FROM Student,Attendance"
-				+ " WHERE Student.ID=Attendance.StudentID"
-				+ " AND Attendance.SessionID = " + sessionID);
 		String choice;
-		Menu<Object> menu = new Menu<Object>("Select a student to edit:");
-		int i = 1;
-		try {
-			while (rs.next()) {
-				StudentAttendance sa = new StudentAttendance();
-				sa.studentID = rs.getString(1);
-				sa.firstName = rs.getString(2);
-				sa.lastName = rs.getString(3);
-				sa.status = rs.getString(4);
-				menu.add(i + "", sa);
-				i ++;
-			}
-		} catch (SQLException e) {
-			System.out.println("SQL exception!");
-		}
-		menu.add("i", "import barcodes");
-		menu.add("b", "back");
 		do {
+			ResultSet rs = DatabaseAdapter.executeSQLQuery(
+				"SELECT Student.ID, Student.FirstName, Student.LastName, Attendance.Status"
+					+ " FROM Student,Attendance"
+					+ " WHERE Student.ID=Attendance.StudentID"
+					+ " AND Attendance.SessionID = " + sessionID);
+			Menu<Object> menu = new Menu<Object>("Select a student to edit:");
+			int i = 1;
+			try {
+				while (rs.next()) {
+					StudentAttendance sa = new StudentAttendance();
+					sa.studentID = rs.getString(1);
+					sa.firstName = rs.getString(2);
+					sa.lastName = rs.getString(3);
+					sa.status = rs.getString(4);
+					menu.add(i + "", sa);
+					i ++;
+				}
+			} catch (SQLException e) {
+				System.out.println("SQL exception!");
+			}
+			menu.add("i", "import barcodes");
+			menu.add("u", "unset everyone (so you can test it again!)");
+			menu.add("b", "back");
+		
 			choice = menu.show();
 			if (!choice.equals("b")) {
 				if (choice.equals("i")) {
 					importBarcodes(sessionID);
+				} else if (choice.equals("u")) {
+					String query = "UPDATE Attendance SET status=\"\" "
+						+ "WHERE sessionID=" + sessionID;
+					//System.out.println(query);
+					DatabaseAdapter.executeSQLUpdate(query);
 				} else {
 					// it's a student
 					StudentAttendance sa = (StudentAttendance)menu.get(choice);
