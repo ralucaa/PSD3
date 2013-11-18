@@ -158,9 +158,10 @@ public class EditAttendance {
 	}
 	
 	/**for testing*/
+	/*
 	public static void main(String[] args) {
 		EditAttendance ea = new EditAttendance();
 		ea.go();
-	}
+	}*/
 }
 

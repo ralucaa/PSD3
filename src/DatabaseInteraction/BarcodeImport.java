@@ -49,6 +49,7 @@ public class BarcodeImport {
 	}
 	
 	/**test*/
+	/*
 	public static void main(String[] args) throws FileNotFoundException {
 		Date d1 = new GregorianCalendar(2013, 1, 1).getTime();
 		Date d2 = new Date();
@@ -57,6 +58,6 @@ public class BarcodeImport {
 		for (String s: bi.getBarcodes()) {
 			System.out.println(s);
 		}
-	}
+	}*/
 }
 
