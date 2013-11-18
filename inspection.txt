@@ -1,0 +1,94 @@
+PSD3 Group Exercise 1.
+Peer Review Session.
+Quality Assurance on Spike Prototyping Exercise.
+Team under Inspection:
+Team of Inspectors:
+Date: Monday 18 November 2013
+----
+The inspectors should interact with the team under inspection
+to address the following 10 questions. The inspectors should
+fill in an answer for each question carefully. If there are any
+problems uncovered during each question, these should
+be documented as issues (trac tickets?) in the issue tracking
+system (trac?) of the team under inspection.
+----
+
+
+> 1. Can you access the source code repository for the prototype?
+> Have you been given a URL? Is it publicly accessible? Can you clone it?
+
+NO! NO! NO!
+
+
+> 2. Can you build the code for the prototype?
+> Are there build instructions? Is there a makefile or ant build.xml or
+> build script? 
+
+There are build instructions in the readme. However the initial run of build.sh failed with a javac error "directory not found: bin".
+
+
+> 3. Does the prototype have any system or library dependences?
+> If so, are these documented explicitly, including version numbers?
+> Are the dependent libraries supplied, or are download links given?
+
+Depends on mockito (assuming supplied, not familiar with it)
+
+
+> 4. Are there clear instructions to show you how to run the prototype?
+> Is any initial configuration required, e.g. mock database files?
+
+Instructions are in the readme and credentials given in the Menu (although this is not clear).
+
+
+> 5. Can you start the prototype and login to the system? Is the
+> user interface workable? 
+
+Can login with given credentials. Command driven system is workable.
+
+
+> 6. Can you carry out the first user story interaction - i.e. login as
+> an administrator, export
+> a CSV file for a single course, all students, then export a CSV file
+> for a single student, all courses?
+
+Confusion regarding what input to be entered (i.e do we press one or type in course name).
+
+SQL exception when trying to export course, all students,  as had no instances in the course. 
+Data was exported when a course has data in it, and can read the CSV in libre. Output format is correct.
+Exporting student, all courses but if no marks are available yet then the space is blank - should either leave out or indicate not monitored yet.
+
+
+> 7. Are these exported CSV files appropriately formatted? Can you
+> read them in a text editor? Can you read them in LibreOffice or
+> Excel?
+
+Can read in excel and are in appropriate formats.
+
+
+> 8. Can you carry out the second user story interaction - i.e. login as
+> a tutor, record attendance for a single session by selecting student
+> names from a list and/or uploading a CSV barcode file (use the file
+> from the moodle forum page, or similar)?
+
+MANUAL RECORDING
+No clear explanation if there are no labs to select attendance for.
+
+IMPORTING.
+File given is not CSV, was in .txt format 
+Doesn't automatically set people who are not present as absent - could be a useful feature.
+
+
+> 9. Where has the team documented its enhanced understanding of
+> these two user stories as a result of the prototyping exercise? Is
+> this new insight appropriately captured?
+
+Partially documented under the tickets on github. Not really appropriate as not all gathered in one place.
+
+
+> 10. In which ways does this team's prototype implementation work
+> differ from yours? Discuss this point with the other team in some
+> detail. Are the differences due to ambiguity (or leeway) in the
+> specification, or due to different interpretations of the requirements
+> by the two teams?
+
+Different language and user interfaces. The inspecting team had two different options in the main menu for user story two while this team combined one at a lower level under a generic "monitor attendance option"
