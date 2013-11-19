@@ -26,6 +26,8 @@ To select a menu item, enter the number or letter shown on the left. For example
 
 The file examples/import_barcodes_alglab1.txt is suitable for importing into the "First Algorithmics Lab".
 
+An empty string for a student's attendance means no attendance has been marked.
+
 
 Details
 ----
