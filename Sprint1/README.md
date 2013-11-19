@@ -1,7 +1,5 @@
-PSD3
+PSD3 Sprint 1
 ====
-
-Undergraduate Teaching Session Management System
 
 Build and Run
 ====
