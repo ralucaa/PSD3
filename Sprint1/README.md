@@ -1,5 +1,6 @@
 PSD3 Sprint 1
 ====
+Functional spike prototype of CSV export and attendance monitoring.
 
 Build and Run
 ----
@@ -34,5 +35,5 @@ Details
 - Programming language: Java
 - Task assignment: github issue tracking system -> label: Sprint1Task
 - We were going to use CSV files to mock the database in our prototypes, but on 14/11/2013 (4th day of spike prototype) decided it would be less work to change to a real MySQL database.
-
+- No attempt has been made to avoid SQL injection.
 
