@@ -30,7 +30,7 @@
             
             <!-- Repeat frequency -->
             <label for="session_frequency">Repeat every:</label>  
-            <select name="session_frequency">
+            <select name="session_frequency" id="session_frequency">
                 <option value="0">One-off event</option>
                 <option value="1">1 week</option>
                 <option value="2">2 weeks</option>
@@ -38,25 +38,27 @@
                 <option value="4">4 weeks</option>
             </select>
             <br />
-            
-            <label for="repeat_until">Repeat until:</label>  
-            <input type="text" class="date_picker" name="repeat_until" />            
-            <br />
+            <div id="repeat_until_wrapper" class="hidden">
+                <label for="repeat_until">Repeat until:</label>  
+                <input type="text" class="date_picker" name="repeat_until" />            
+                <br />
+            </div>
+
             <!-- Time -->
             <label for="session_start_time">Time:</label>
             <select name="session_start_time">
-                <option>09:00</option>
-                <option>10:00</option>
-                <option>11:00</option>
-                <option>12:00</option>
-                <option>13:00</option>
-                <option>14:00</option>
-                <option>15:00</option>
-                <option>16:00</option>
-                <option>17:00</option>
-                <option>18:00</option>
-                <option>19:00</option>
-                <option>20:00</option>                
+                <option value="09:00">09:00</option>
+                <option value="10:00">10:00</option>
+                <option value="11:00">11:00</option>
+                <option value="12:00">12:00</option>
+                <option value="13:00">13:00</option>
+                <option value="14:00">14:00</option>
+                <option value="15:00">15:00</option>
+                <option value="16:00">16:00</option>
+                <option value="17:00">17:00</option>
+                <option value="18:00">18:00</option>
+                <option value="19:00">19:00</option>
+                <option value="20:00">20:00</option>                
             </select>
             <br />
             <!-- Duration -->
@@ -102,12 +104,12 @@
             <!-- Venue -->
             <label for="venue_building">Venue:</label>
             <select name="venue_building">
-                <option>BO</option>
-                <option>SAWB</option>
+                <option value="BO">BO</option>
+                <option value="SAWB">SAWB</option>
             </select>
             <select name="venue_room">
-                <option>722</option>
-                <option>721</option>
+                <option value="722">722</option>
+                <option value="721">721</option>
             </select>
             <br />
         </form>
