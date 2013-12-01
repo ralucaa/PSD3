@@ -1,0 +1,69 @@
+2013-12-01 17:28:17,711 [Worker-1] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: uk.gla.ac.psd3.Prototype2:Prototype2:0.0.1-SNAPSHOT @ C:\Users\VladIulian\Documents\GitHub\PSD3\Sprint2\Prototype2\pom.xml.
+2013-12-01 17:28:17,711 [Worker-8] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: uk.gla.ac.psd3.Prototype2:Prototype2:0.0.1-SNAPSHOT @ C:\Users\VladIulian\Documents\GitHub\PSD3\Sprint2\Prototype2\pom.xml.
+2013-12-01 17:28:19,772 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - File encoding has not been set, using platform encoding Cp1252, i.e. build is platform dependent!
+2013-12-01 17:28:19,788 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2013-12-01 17:28:19,792 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\VladIulian\Documents\GitHub\PSD3\Sprint2\Prototype2\src\main\resources
+2013-12-01 17:28:19,792 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\VladIulian\Documents\GitHub\PSD3\Sprint2\Prototype2\src\main\resources
+2013-12-01 17:28:19,796 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2013-12-01 17:28:19,799 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\VladIulian\Documents\GitHub\PSD3\Sprint2\Prototype2\src\test\resources
+2013-12-01 17:28:22,301 [Worker-8] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: uk.gla.ac.psd3.Prototype2:Prototype2:0.0.1-SNAPSHOT @ C:\Users\VladIulian\Documents\GitHub\PSD3\Sprint2\Prototype2\pom.xml.
+2013-12-01 17:28:25,390 [Worker-9] WARN  o.e.m.c.i.embedder.EclipseLogger - File encoding has not been set, using platform encoding Cp1252, i.e. build is platform dependent!
+2013-12-01 17:28:25,394 [Worker-9] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2013-12-01 17:28:25,397 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\VladIulian\Documents\GitHub\PSD3\Sprint2\Prototype2\src\main\resources
+2013-12-01 17:28:25,398 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\VladIulian\Documents\GitHub\PSD3\Sprint2\Prototype2\src\main\resources
+2013-12-01 17:28:25,401 [Worker-9] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2013-12-01 17:28:25,405 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\VladIulian\Documents\GitHub\PSD3\Sprint2\Prototype2\src\test\resources
+2013-12-01 17:28:26,479 [Worker-8] WARN  o.e.m.c.i.embedder.EclipseLogger - File encoding has not been set, using platform encoding Cp1252, i.e. build is platform dependent!
+2013-12-01 17:28:26,482 [Worker-8] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2013-12-01 17:28:26,486 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\VladIulian\Documents\GitHub\PSD3\Sprint2\Prototype2\src\main\resources
+2013-12-01 17:28:26,486 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\VladIulian\Documents\GitHub\PSD3\Sprint2\Prototype2\src\main\resources
+2013-12-01 17:28:26,488 [Worker-8] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2013-12-01 17:28:26,493 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\VladIulian\Documents\GitHub\PSD3\Sprint2\Prototype2\src\test\resources
+2013-12-01 17:33:54,333 [Worker-8] WARN  o.e.m.c.i.embedder.EclipseLogger - File encoding has not been set, using platform encoding Cp1252, i.e. build is platform dependent!
+2013-12-01 17:33:54,337 [Worker-8] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2013-12-01 17:33:54,340 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\VladIulian\Documents\GitHub\PSD3\Sprint2\Prototype2\src\main\resources
+2013-12-01 17:33:54,342 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\VladIulian\Documents\GitHub\PSD3\Sprint2\Prototype2\src\main\resources
+2013-12-01 17:33:54,344 [Worker-8] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2013-12-01 17:33:54,349 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\VladIulian\Documents\GitHub\PSD3\Sprint2\Prototype2\src\test\resources
+2013-12-01 17:33:55,441 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - File encoding has not been set, using platform encoding Cp1252, i.e. build is platform dependent!
+2013-12-01 17:33:55,444 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2013-12-01 17:33:55,449 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\VladIulian\Documents\GitHub\PSD3\Sprint2\Prototype2\src\main\resources
+2013-12-01 17:33:55,452 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\VladIulian\Documents\GitHub\PSD3\Sprint2\Prototype2\src\main\resources
+2013-12-01 17:33:55,453 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2013-12-01 17:33:55,458 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\VladIulian\Documents\GitHub\PSD3\Sprint2\Prototype2\src\test\resources
+2013-12-01 17:34:07,085 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - File encoding has not been set, using platform encoding Cp1252, i.e. build is platform dependent!
+2013-12-01 17:34:07,089 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2013-12-01 17:34:07,092 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\VladIulian\Documents\GitHub\PSD3\Sprint2\Prototype2\src\main\resources
+2013-12-01 17:34:07,093 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\VladIulian\Documents\GitHub\PSD3\Sprint2\Prototype2\src\main\resources
+2013-12-01 17:34:07,095 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2013-12-01 17:34:07,098 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\VladIulian\Documents\GitHub\PSD3\Sprint2\Prototype2\src\test\resources
+2013-12-01 17:36:08,811 [Worker-4] WARN  o.e.m.c.i.embedder.EclipseLogger - File encoding has not been set, using platform encoding Cp1252, i.e. build is platform dependent!
+2013-12-01 17:36:08,818 [Worker-4] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2013-12-01 17:36:08,821 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\VladIulian\Documents\GitHub\PSD3\Sprint2\Prototype2\src\main\resources
+2013-12-01 17:36:08,825 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\VladIulian\Documents\GitHub\PSD3\Sprint2\Prototype2\src\main\resources
+2013-12-01 17:36:08,827 [Worker-4] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2013-12-01 17:36:08,833 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\VladIulian\Documents\GitHub\PSD3\Sprint2\Prototype2\src\test\resources
+2013-12-01 17:36:23,950 [Worker-4] WARN  o.e.m.c.i.embedder.EclipseLogger - File encoding has not been set, using platform encoding Cp1252, i.e. build is platform dependent!
+2013-12-01 17:36:23,954 [Worker-4] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2013-12-01 17:36:23,958 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\VladIulian\Documents\GitHub\PSD3\Sprint2\Prototype2\src\main\resources
+2013-12-01 17:36:23,960 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\VladIulian\Documents\GitHub\PSD3\Sprint2\Prototype2\src\main\resources
+2013-12-01 17:36:23,963 [Worker-4] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2013-12-01 17:36:23,969 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\VladIulian\Documents\GitHub\PSD3\Sprint2\Prototype2\src\test\resources
+2013-12-01 17:36:34,436 [Worker-8] WARN  o.e.m.c.i.embedder.EclipseLogger - File encoding has not been set, using platform encoding Cp1252, i.e. build is platform dependent!
+2013-12-01 17:36:34,441 [Worker-8] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2013-12-01 17:36:34,448 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\VladIulian\Documents\GitHub\PSD3\Sprint2\Prototype2\src\main\resources
+2013-12-01 17:36:34,452 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\VladIulian\Documents\GitHub\PSD3\Sprint2\Prototype2\src\main\resources
+2013-12-01 17:36:34,454 [Worker-8] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2013-12-01 17:36:34,459 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\VladIulian\Documents\GitHub\PSD3\Sprint2\Prototype2\src\test\resources
+2013-12-01 17:36:52,428 [Worker-6] WARN  o.e.m.c.i.embedder.EclipseLogger - File encoding has not been set, using platform encoding Cp1252, i.e. build is platform dependent!
+2013-12-01 17:36:52,433 [Worker-6] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2013-12-01 17:36:52,436 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\VladIulian\Documents\GitHub\PSD3\Sprint2\Prototype2\src\main\resources
+2013-12-01 17:36:52,436 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\VladIulian\Documents\GitHub\PSD3\Sprint2\Prototype2\src\main\resources
+2013-12-01 17:36:52,439 [Worker-6] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2013-12-01 17:36:52,443 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\VladIulian\Documents\GitHub\PSD3\Sprint2\Prototype2\src\test\resources
+2013-12-01 17:36:57,141 [Worker-4] WARN  o.e.m.c.i.embedder.EclipseLogger - File encoding has not been set, using platform encoding Cp1252, i.e. build is platform dependent!
+2013-12-01 17:36:57,147 [Worker-4] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2013-12-01 17:36:57,149 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\VladIulian\Documents\GitHub\PSD3\Sprint2\Prototype2\src\main\resources
+2013-12-01 17:36:57,153 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\VladIulian\Documents\GitHub\PSD3\Sprint2\Prototype2\src\main\resources
+2013-12-01 17:36:57,155 [Worker-4] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2013-12-01 17:36:57,160 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\VladIulian\Documents\GitHub\PSD3\Sprint2\Prototype2\src\test\resources
