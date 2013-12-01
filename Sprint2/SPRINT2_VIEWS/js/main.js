@@ -11,8 +11,9 @@ $(function() {
             additionalSettings.addClass( "hidden" );
         } else {
             additionalSettings.removeClass( "hidden" );
-        }
-        
+        }        
     });
     
+    // Set up accordion
+    $( ".accordion" ).accordion();
 });
