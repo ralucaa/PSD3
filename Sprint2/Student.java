@@ -43,6 +43,7 @@ public class Student {
 	/*
 
 	structure of the returned array in the getStudentSessionsDay() method:
+	date 0
 	data[0][0][0] >> date 0
 	##first session for date 0
 	data[0][1][0] >> start time
@@ -53,7 +54,7 @@ public class Student {
 	data[0][2][1] >> end time
 	...
 	
-	date 2
+	date 1
 	data[1][0][0] >> date 1
 	##first session for date 1
 	data[1][1][0] >> start time
