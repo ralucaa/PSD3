@@ -2,6 +2,23 @@ import java.io.FileWriter;
 import java.sql.ResultSet;
 import java.util.Calendar;
 
+/*
+
+structure of the returned array in the getStudentSessionsDay() method:
+data[0][0] >> date
+data[1][0] >> start time
+data[1][1] >> end time
+data[1][2] >> course id
+data[1][3] >> session name
+data[1][4] >> compulsory
+data[1][5] >> staff name
+data[1][6] >> venue id
+
+
+*/
+
+
+
 public class Student {
 	
 	public String[][] getStudentSessionsDay(String studentID){
