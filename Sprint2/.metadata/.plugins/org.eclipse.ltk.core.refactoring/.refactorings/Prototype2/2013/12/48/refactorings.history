@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename method &apos;uk.gla.ac.psd3.Prototype2.XController.setupSession()&apos; to &apos;addSession&apos;&#x0D;&#x0A;- Original project: &apos;Prototype2&apos;&#x0D;&#x0A;- Original element: &apos;uk.gla.ac.psd3.Prototype2.XController.setupSession()&apos;&#x0D;&#x0A;- Renamed element: &apos;uk.gla.ac.psd3.Prototype2.XController.addSession()&apos;&#x0D;&#x0A;- Update references to refactored element" delegate="false" deprecate="false" description="Rename method &apos;setupSession&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.method" input="/src\/main\/java&lt;uk.gla.ac.psd3.Prototype2{XController.java[XController~setupSession" name="addSession" references="true" stamp="1385923114863" version="1.0"/>
+</session>
