@@ -1,0 +1,16 @@
+package uk.gla.ac.psd3.Prototype2;
+
+import java.sql.Time;
+import java.util.Date;
+
+public class Session {
+	private Date start_date, end_date;
+	private int session_frequency;
+	private Time session_start_time, duration;
+	private String repeatFrequency;
+	private String lecturer;
+	private int maxAttendance;
+	private boolean compulsory;
+	private String venue;
+	
+}

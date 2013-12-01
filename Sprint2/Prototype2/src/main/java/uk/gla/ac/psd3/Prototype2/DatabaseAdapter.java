@@ -3,6 +3,7 @@ package uk.gla.ac.psd3.Prototype2;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.ResultSet;
+import java.sql.SQLException;
 import java.sql.Statement;
 
 public abstract class DatabaseAdapter {
@@ -13,38 +14,29 @@ public abstract class DatabaseAdapter {
 	 * Executes the given SQL query and returns the result as a ResultSet.
 	 * @param query - the query to be executed. Only use SELECT statements!!!
 	 * @return a ResultSet object containing the result.
+	 * @throws SQLException 
 	 */
-	public static ResultSet executeSQLQuery(String query){
-		try {
-			//Execute the query if the connection has been opened.
-			if (openConnection()) {
-				Statement stmt = con.createStatement() ;
-				ResultSet rs = stmt.executeQuery(query);
+	public static ResultSet executeSQLQuery(String query) throws SQLException{
+		//Execute the query if the connection has been opened.
+		if (openConnection()) {
+			Statement stmt = con.createStatement() ;
+			ResultSet rs = stmt.executeQuery(query);
 
-				//Return the result.
-				return rs;
-			}
-			return null;
-		} catch (Exception ex) {
-			System.out.println("Something went wrong! Error details:\n" + ex.getMessage());
-			return null;
+			//Return the result.
+			return rs;
 		}
+		return null;
 	}
-	
-	public static int executeSQLUpdate(String query) {
-		try {
-			//Execute the update if the connection has been opened.
-			if (openConnection()) {
-				Statement stmt = con.createStatement() ;
-				int result = stmt.executeUpdate(query);
-				//Return the result.
-				return result;
-			}
-			return -1;
-		} catch (Exception ex) {
-			System.out.println("Something went wrong! Error details:\n" + ex.getMessage());
-			return -1;
+
+	public static int executeSQLUpdate(String query) throws SQLException {
+		//Execute the update if the connection has been opened.
+		if (openConnection()) {
+			Statement stmt = con.createStatement() ;
+			int result = stmt.executeUpdate(query);
+			//Return the result.
+			return result;
 		}
+		return -1;
 	}
 
 	/**
