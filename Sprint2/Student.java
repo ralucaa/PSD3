@@ -38,6 +38,54 @@ public class Student {
 		return null;
 		
 	}
+	
+	
+	/*
+
+	structure of the returned array in the getStudentSessionsDay() method:
+	data[0][0][0] >> date 0
+	##first session for date 0
+	data[0][1][0] >> start time
+	data[0][1][1] >> end time
+	...
+	##second session for date 0
+	data[0][2][0] >> start time
+	data[0][2][1] >> end time
+	...
+	
+	date 2
+	data[1][0][0] >> date 1
+	##first session for date 1
+	data[1][1][0] >> start time
+	data[1][1][1] >> end time
+	...
+
+	*/
+	
+	public String[][][] getStudentSessionsAll(String studentID){
+		String[][][] data;
+		
+		if (studentID.equals("1")){
+			data = new String[][][]{ {{"Wed 4 December 2013"},{"11:00","13:00","COMPSCI4009","First Algorithmics Lab","Compulsory:No","Gethin Norman","BO711"},
+									{"14:00","15:00","COMPSCI4010","C Tutorial","Compulsory:No","Joe Sventek","BO720"}},
+									
+									{{"Mon 9 December 2013"},{"12:00","13:00","COMPSCI4009","Second Algorithmics Lab","Compulsory:yes","Gethin Norman","BO711"},
+									{"14:00","15:00","COMPSCI4010","C Tutorial","Compulsory:No","Joe Sventek","BO720"}} };
+			return data;
+		}
+		else if(studentID.equals("2")){
+			data = new String[][][]{ {{"Wed 4 December 2013"},{"11:00","13:00","COMPSCI4009","First Algorithmics Lab","Compulsory:No","Gethin Norman","BO711"},
+									{"14:00","15:00","COMPSCI4010","C Tutorial","Compulsory:No","Joe Sventek","BO720"}},
+				
+						{{"Mon 9 December 2013"},{"12:00","13:00","COMPSCI4009","Second Algorithmics Lab","Compulsory:yes","Gethin Norman","BO711"},
+									{"14:00","15:00","COMPSCI4010","C Tutorial","Compulsory:No","Joe Sventek","BO720"}} };
+			return data;
+		}
+		return null;
+	}
+	
+	
+	
 
 	
 }
