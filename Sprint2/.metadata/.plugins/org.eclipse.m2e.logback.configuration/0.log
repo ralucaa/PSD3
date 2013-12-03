@@ -995,3 +995,616 @@
 2013-12-01 21:14:46,148 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\VladIulian\Documents\GitHub\PSD3\Sprint2\Prototype2\src\main\resources
 2013-12-01 21:14:46,150 [Worker-58] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 2013-12-01 21:14:46,156 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\VladIulian\Documents\GitHub\PSD3\Sprint2\Prototype2\src\test\resources
+2013-12-02 16:07:22,815 [Worker-3] WARN  o.e.m.c.i.embedder.EclipseLogger - File encoding has not been set, using platform encoding Cp1252, i.e. build is platform dependent!
+2013-12-02 16:07:22,831 [Worker-3] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2013-12-02 16:07:22,834 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\VladIulian\Documents\GitHub\PSD3\Sprint2\Prototype2\src\main\resources
+2013-12-02 16:07:22,835 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\VladIulian\Documents\GitHub\PSD3\Sprint2\Prototype2\src\main\resources
+2013-12-02 16:07:22,838 [Worker-3] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2013-12-02 16:07:22,841 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\VladIulian\Documents\GitHub\PSD3\Sprint2\Prototype2\src\test\resources
+2013-12-02 16:07:27,520 [Worker-9] WARN  o.e.m.c.i.embedder.EclipseLogger - File encoding has not been set, using platform encoding Cp1252, i.e. build is platform dependent!
+2013-12-02 16:07:27,524 [Worker-9] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2013-12-02 16:07:27,528 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\VladIulian\Documents\GitHub\PSD3\Sprint2\Prototype2\src\main\resources
+2013-12-02 16:07:27,528 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\VladIulian\Documents\GitHub\PSD3\Sprint2\Prototype2\src\main\resources
+2013-12-02 16:07:27,531 [Worker-9] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2013-12-02 16:07:27,535 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\VladIulian\Documents\GitHub\PSD3\Sprint2\Prototype2\src\test\resources
+2013-12-02 16:07:39,495 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - File encoding has not been set, using platform encoding Cp1252, i.e. build is platform dependent!
+2013-12-02 16:07:39,501 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2013-12-02 16:07:39,505 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\VladIulian\Documents\GitHub\PSD3\Sprint2\Prototype2\src\main\resources
+2013-12-02 16:07:39,505 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\VladIulian\Documents\GitHub\PSD3\Sprint2\Prototype2\src\main\resources
+2013-12-02 16:07:39,513 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2013-12-02 16:07:39,517 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\VladIulian\Documents\GitHub\PSD3\Sprint2\Prototype2\src\test\resources
+2013-12-02 16:07:53,907 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - File encoding has not been set, using platform encoding Cp1252, i.e. build is platform dependent!
+2013-12-02 16:07:53,910 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2013-12-02 16:07:53,917 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\VladIulian\Documents\GitHub\PSD3\Sprint2\Prototype2\src\main\resources
+2013-12-02 16:07:53,920 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\VladIulian\Documents\GitHub\PSD3\Sprint2\Prototype2\src\main\resources
+2013-12-02 16:07:53,926 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2013-12-02 16:07:53,929 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\VladIulian\Documents\GitHub\PSD3\Sprint2\Prototype2\src\test\resources
+2013-12-02 16:08:24,483 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - File encoding has not been set, using platform encoding Cp1252, i.e. build is platform dependent!
+2013-12-02 16:08:24,487 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2013-12-02 16:08:24,491 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\VladIulian\Documents\GitHub\PSD3\Sprint2\Prototype2\src\main\resources
+2013-12-02 16:08:24,491 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\VladIulian\Documents\GitHub\PSD3\Sprint2\Prototype2\src\main\resources
+2013-12-02 16:08:24,494 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2013-12-02 16:08:24,502 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\VladIulian\Documents\GitHub\PSD3\Sprint2\Prototype2\src\test\resources
+2013-12-02 16:11:20,519 [Worker-9] WARN  o.e.m.c.i.embedder.EclipseLogger - File encoding has not been set, using platform encoding Cp1252, i.e. build is platform dependent!
+2013-12-02 16:11:20,522 [Worker-9] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2013-12-02 16:11:20,531 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\VladIulian\Documents\GitHub\PSD3\Sprint2\Prototype2\src\main\resources
+2013-12-02 16:11:20,531 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\VladIulian\Documents\GitHub\PSD3\Sprint2\Prototype2\src\main\resources
+2013-12-02 16:11:20,538 [Worker-9] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2013-12-02 16:11:20,542 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\VladIulian\Documents\GitHub\PSD3\Sprint2\Prototype2\src\test\resources
+2013-12-02 16:11:24,159 [Worker-3] WARN  o.e.m.c.i.embedder.EclipseLogger - File encoding has not been set, using platform encoding Cp1252, i.e. build is platform dependent!
+2013-12-02 16:11:24,163 [Worker-3] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2013-12-02 16:11:24,166 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\VladIulian\Documents\GitHub\PSD3\Sprint2\Prototype2\src\main\resources
+2013-12-02 16:11:24,167 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\VladIulian\Documents\GitHub\PSD3\Sprint2\Prototype2\src\main\resources
+2013-12-02 16:11:24,171 [Worker-3] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2013-12-02 16:11:24,176 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\VladIulian\Documents\GitHub\PSD3\Sprint2\Prototype2\src\test\resources
+2013-12-02 16:12:02,424 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - File encoding has not been set, using platform encoding Cp1252, i.e. build is platform dependent!
+2013-12-02 16:12:02,428 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2013-12-02 16:12:02,436 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\VladIulian\Documents\GitHub\PSD3\Sprint2\Prototype2\src\main\resources
+2013-12-02 16:12:02,440 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\VladIulian\Documents\GitHub\PSD3\Sprint2\Prototype2\src\main\resources
+2013-12-02 16:12:02,448 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2013-12-02 16:12:02,452 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\VladIulian\Documents\GitHub\PSD3\Sprint2\Prototype2\src\test\resources
+2013-12-02 16:12:13,859 [Worker-3] WARN  o.e.m.c.i.embedder.EclipseLogger - File encoding has not been set, using platform encoding Cp1252, i.e. build is platform dependent!
+2013-12-02 16:12:13,863 [Worker-3] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2013-12-02 16:12:13,868 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\VladIulian\Documents\GitHub\PSD3\Sprint2\Prototype2\src\main\resources
+2013-12-02 16:12:13,868 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\VladIulian\Documents\GitHub\PSD3\Sprint2\Prototype2\src\main\resources
+2013-12-02 16:12:13,870 [Worker-3] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2013-12-02 16:12:13,873 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\VladIulian\Documents\GitHub\PSD3\Sprint2\Prototype2\src\test\resources
+2013-12-02 16:19:05,241 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - File encoding has not been set, using platform encoding Cp1252, i.e. build is platform dependent!
+2013-12-02 16:19:05,247 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2013-12-02 16:19:05,254 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\VladIulian\Documents\GitHub\PSD3\Sprint2\Prototype2\src\main\resources
+2013-12-02 16:19:05,254 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\VladIulian\Documents\GitHub\PSD3\Sprint2\Prototype2\src\main\resources
+2013-12-02 16:19:05,259 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2013-12-02 16:19:05,263 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\VladIulian\Documents\GitHub\PSD3\Sprint2\Prototype2\src\test\resources
+2013-12-02 16:19:22,353 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - File encoding has not been set, using platform encoding Cp1252, i.e. build is platform dependent!
+2013-12-02 16:19:22,356 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2013-12-02 16:19:22,359 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\VladIulian\Documents\GitHub\PSD3\Sprint2\Prototype2\src\main\resources
+2013-12-02 16:19:22,359 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\VladIulian\Documents\GitHub\PSD3\Sprint2\Prototype2\src\main\resources
+2013-12-02 16:19:22,364 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2013-12-02 16:19:22,367 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\VladIulian\Documents\GitHub\PSD3\Sprint2\Prototype2\src\test\resources
+2013-12-02 16:19:42,728 [Worker-11] WARN  o.e.m.c.i.embedder.EclipseLogger - File encoding has not been set, using platform encoding Cp1252, i.e. build is platform dependent!
+2013-12-02 16:19:42,733 [Worker-11] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2013-12-02 16:19:42,740 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\VladIulian\Documents\GitHub\PSD3\Sprint2\Prototype2\src\main\resources
+2013-12-02 16:19:42,743 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\VladIulian\Documents\GitHub\PSD3\Sprint2\Prototype2\src\main\resources
+2013-12-02 16:19:42,749 [Worker-11] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2013-12-02 16:19:42,753 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\VladIulian\Documents\GitHub\PSD3\Sprint2\Prototype2\src\test\resources
+2013-12-02 16:19:59,853 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - File encoding has not been set, using platform encoding Cp1252, i.e. build is platform dependent!
+2013-12-02 16:19:59,856 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2013-12-02 16:19:59,859 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\VladIulian\Documents\GitHub\PSD3\Sprint2\Prototype2\src\main\resources
+2013-12-02 16:19:59,859 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\VladIulian\Documents\GitHub\PSD3\Sprint2\Prototype2\src\main\resources
+2013-12-02 16:19:59,861 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2013-12-02 16:19:59,865 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\VladIulian\Documents\GitHub\PSD3\Sprint2\Prototype2\src\test\resources
+2013-12-02 16:20:06,398 [Worker-11] WARN  o.e.m.c.i.embedder.EclipseLogger - File encoding has not been set, using platform encoding Cp1252, i.e. build is platform dependent!
+2013-12-02 16:20:06,401 [Worker-11] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2013-12-02 16:20:06,407 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\VladIulian\Documents\GitHub\PSD3\Sprint2\Prototype2\src\main\resources
+2013-12-02 16:20:06,408 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\VladIulian\Documents\GitHub\PSD3\Sprint2\Prototype2\src\main\resources
+2013-12-02 16:20:06,412 [Worker-11] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2013-12-02 16:20:06,415 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\VladIulian\Documents\GitHub\PSD3\Sprint2\Prototype2\src\test\resources
+2013-12-02 16:20:20,405 [Worker-11] WARN  o.e.m.c.i.embedder.EclipseLogger - File encoding has not been set, using platform encoding Cp1252, i.e. build is platform dependent!
+2013-12-02 16:20:20,408 [Worker-11] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2013-12-02 16:20:20,413 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\VladIulian\Documents\GitHub\PSD3\Sprint2\Prototype2\src\main\resources
+2013-12-02 16:20:20,413 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\VladIulian\Documents\GitHub\PSD3\Sprint2\Prototype2\src\main\resources
+2013-12-02 16:20:20,417 [Worker-11] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2013-12-02 16:20:20,420 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\VladIulian\Documents\GitHub\PSD3\Sprint2\Prototype2\src\test\resources
+2013-12-02 16:21:38,562 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - File encoding has not been set, using platform encoding Cp1252, i.e. build is platform dependent!
+2013-12-02 16:21:38,567 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2013-12-02 16:21:38,575 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\VladIulian\Documents\GitHub\PSD3\Sprint2\Prototype2\src\main\resources
+2013-12-02 16:21:38,591 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\VladIulian\Documents\GitHub\PSD3\Sprint2\Prototype2\src\main\resources
+2013-12-02 16:21:38,599 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2013-12-02 16:21:38,603 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\VladIulian\Documents\GitHub\PSD3\Sprint2\Prototype2\src\test\resources
+2013-12-02 16:21:40,960 [Worker-11] WARN  o.e.m.c.i.embedder.EclipseLogger - File encoding has not been set, using platform encoding Cp1252, i.e. build is platform dependent!
+2013-12-02 16:21:40,965 [Worker-11] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2013-12-02 16:21:40,968 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\VladIulian\Documents\GitHub\PSD3\Sprint2\Prototype2\src\main\resources
+2013-12-02 16:21:40,969 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\VladIulian\Documents\GitHub\PSD3\Sprint2\Prototype2\src\main\resources
+2013-12-02 16:21:40,972 [Worker-11] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2013-12-02 16:21:40,976 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\VladIulian\Documents\GitHub\PSD3\Sprint2\Prototype2\src\test\resources
+2013-12-02 16:43:14,113 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - File encoding has not been set, using platform encoding Cp1252, i.e. build is platform dependent!
+2013-12-02 16:43:14,119 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2013-12-02 16:43:14,127 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\VladIulian\Documents\GitHub\PSD3\Sprint2\Prototype2\src\main\resources
+2013-12-02 16:43:14,127 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\VladIulian\Documents\GitHub\PSD3\Sprint2\Prototype2\src\main\resources
+2013-12-02 16:43:14,133 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2013-12-02 16:43:14,137 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\VladIulian\Documents\GitHub\PSD3\Sprint2\Prototype2\src\test\resources
+2013-12-02 16:43:59,633 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - File encoding has not been set, using platform encoding Cp1252, i.e. build is platform dependent!
+2013-12-02 16:43:59,637 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2013-12-02 16:43:59,640 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\VladIulian\Documents\GitHub\PSD3\Sprint2\Prototype2\src\main\resources
+2013-12-02 16:43:59,640 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\VladIulian\Documents\GitHub\PSD3\Sprint2\Prototype2\src\main\resources
+2013-12-02 16:43:59,645 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2013-12-02 16:43:59,648 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\VladIulian\Documents\GitHub\PSD3\Sprint2\Prototype2\src\test\resources
+2013-12-02 16:44:00,699 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - File encoding has not been set, using platform encoding Cp1252, i.e. build is platform dependent!
+2013-12-02 16:44:00,702 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2013-12-02 16:44:00,709 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\VladIulian\Documents\GitHub\PSD3\Sprint2\Prototype2\src\main\resources
+2013-12-02 16:44:00,712 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\VladIulian\Documents\GitHub\PSD3\Sprint2\Prototype2\src\main\resources
+2013-12-02 16:44:00,716 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2013-12-02 16:44:00,718 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\VladIulian\Documents\GitHub\PSD3\Sprint2\Prototype2\src\test\resources
+2013-12-02 17:21:26,133 [Worker-8] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2013-12-02 17:21:26,661 [New I/O client worker #1-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.springsource.org/snapshot/org/springframework/boot/spring-boot-starter-parent/0.5.0.BUILD-SNAPSHOT/maven-metadata.xml
+2013-12-02 17:21:26,669 [New I/O client worker #1-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.springsource.org/snapshot/org/springframework/boot/spring-boot-starter-parent/0.5.0.BUILD-SNAPSHOT/maven-metadata.xml
+2013-12-02 17:21:26,839 [Worker-8] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2013-12-02 17:21:27,148 [New I/O client worker #2-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.springsource.org/snapshot/org/springframework/boot/spring-boot-starter-parent/0.5.0.BUILD-SNAPSHOT/spring-boot-starter-parent-0.5.0.BUILD-20131202.141312-347.pom
+2013-12-02 17:21:27,154 [New I/O client worker #2-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.springsource.org/snapshot/org/springframework/boot/spring-boot-starter-parent/0.5.0.BUILD-SNAPSHOT/spring-boot-starter-parent-0.5.0.BUILD-20131202.141312-347.pom
+2013-12-02 17:21:27,317 [Worker-8] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2013-12-02 17:21:27,549 [New I/O client worker #3-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.springsource.org/snapshot/org/springframework/boot/spring-boot-dependencies/0.5.0.BUILD-SNAPSHOT/maven-metadata.xml
+2013-12-02 17:21:27,552 [New I/O client worker #3-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.springsource.org/snapshot/org/springframework/boot/spring-boot-dependencies/0.5.0.BUILD-SNAPSHOT/maven-metadata.xml
+2013-12-02 17:21:27,689 [Worker-8] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2013-12-02 17:21:28,008 [New I/O client worker #4-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.springsource.org/snapshot/org/springframework/boot/spring-boot-dependencies/0.5.0.BUILD-SNAPSHOT/spring-boot-dependencies-0.5.0.BUILD-20131202.141312-333.pom
+2013-12-02 17:21:28,071 [New I/O client worker #4-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.springsource.org/snapshot/org/springframework/boot/spring-boot-dependencies/0.5.0.BUILD-SNAPSHOT/spring-boot-dependencies-0.5.0.BUILD-20131202.141312-333.pom
+2013-12-02 17:21:28,329 [Worker-8] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2013-12-02 17:21:28,574 [New I/O client worker #5-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.springsource.org/snapshot/org/springframework/boot/spring-boot-starter-web/0.5.0.BUILD-SNAPSHOT/maven-metadata.xml
+2013-12-02 17:21:28,576 [New I/O client worker #5-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.springsource.org/snapshot/org/springframework/boot/spring-boot-starter-web/0.5.0.BUILD-SNAPSHOT/maven-metadata.xml
+2013-12-02 17:21:28,716 [Worker-8] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2013-12-02 17:21:28,986 [New I/O client worker #6-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.springsource.org/snapshot/org/springframework/boot/spring-boot-starter-web/0.5.0.BUILD-SNAPSHOT/spring-boot-starter-web-0.5.0.BUILD-20131202.141312-347.pom
+2013-12-02 17:21:28,989 [New I/O client worker #6-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.springsource.org/snapshot/org/springframework/boot/spring-boot-starter-web/0.5.0.BUILD-SNAPSHOT/spring-boot-starter-web-0.5.0.BUILD-20131202.141312-347.pom
+2013-12-02 17:21:29,136 [Worker-8] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2013-12-02 17:21:29,375 [New I/O client worker #7-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.springsource.org/snapshot/org/springframework/boot/spring-boot-starters/0.5.0.BUILD-SNAPSHOT/maven-metadata.xml
+2013-12-02 17:21:29,381 [New I/O client worker #7-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.springsource.org/snapshot/org/springframework/boot/spring-boot-starters/0.5.0.BUILD-SNAPSHOT/maven-metadata.xml
+2013-12-02 17:21:29,539 [Worker-8] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2013-12-02 17:21:29,820 [New I/O client worker #8-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.springsource.org/snapshot/org/springframework/boot/spring-boot-starters/0.5.0.BUILD-SNAPSHOT/spring-boot-starters-0.5.0.BUILD-20131202.141312-347.pom
+2013-12-02 17:21:29,823 [New I/O client worker #8-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.springsource.org/snapshot/org/springframework/boot/spring-boot-starters/0.5.0.BUILD-SNAPSHOT/spring-boot-starters-0.5.0.BUILD-20131202.141312-347.pom
+2013-12-02 17:21:29,991 [Worker-8] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2013-12-02 17:21:30,227 [New I/O client worker #9-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.springsource.org/snapshot/org/springframework/boot/spring-boot-parent/0.5.0.BUILD-SNAPSHOT/maven-metadata.xml
+2013-12-02 17:21:30,230 [New I/O client worker #9-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.springsource.org/snapshot/org/springframework/boot/spring-boot-parent/0.5.0.BUILD-SNAPSHOT/maven-metadata.xml
+2013-12-02 17:21:31,224 [Worker-8] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2013-12-02 17:21:31,511 [New I/O client worker #10-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.springsource.org/snapshot/org/springframework/boot/spring-boot-parent/0.5.0.BUILD-SNAPSHOT/spring-boot-parent-0.5.0.BUILD-20131202.141312-355.pom
+2013-12-02 17:21:31,618 [New I/O client worker #10-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.springsource.org/snapshot/org/springframework/boot/spring-boot-parent/0.5.0.BUILD-SNAPSHOT/spring-boot-parent-0.5.0.BUILD-20131202.141312-355.pom
+2013-12-02 17:21:31,840 [Worker-8] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2013-12-02 17:21:32,142 [New I/O client worker #11-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.springsource.org/snapshot/org/springframework/boot/spring-boot-starter/0.5.0.BUILD-SNAPSHOT/maven-metadata.xml
+2013-12-02 17:21:32,147 [New I/O client worker #11-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.springsource.org/snapshot/org/springframework/boot/spring-boot-starter/0.5.0.BUILD-SNAPSHOT/maven-metadata.xml
+2013-12-02 17:21:32,289 [Worker-8] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2013-12-02 17:21:32,571 [New I/O client worker #12-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.springsource.org/snapshot/org/springframework/boot/spring-boot-starter/0.5.0.BUILD-SNAPSHOT/spring-boot-starter-0.5.0.BUILD-20131202.141312-347.pom
+2013-12-02 17:21:32,573 [New I/O client worker #12-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.springsource.org/snapshot/org/springframework/boot/spring-boot-starter/0.5.0.BUILD-SNAPSHOT/spring-boot-starter-0.5.0.BUILD-20131202.141312-347.pom
+2013-12-02 17:21:32,778 [Worker-8] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2013-12-02 17:21:33,006 [New I/O client worker #13-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.springsource.org/snapshot/org/springframework/boot/spring-boot/0.5.0.BUILD-SNAPSHOT/maven-metadata.xml
+2013-12-02 17:21:33,012 [New I/O client worker #13-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.springsource.org/snapshot/org/springframework/boot/spring-boot/0.5.0.BUILD-SNAPSHOT/maven-metadata.xml
+2013-12-02 17:21:33,155 [Worker-8] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2013-12-02 17:21:33,441 [New I/O client worker #14-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.springsource.org/snapshot/org/springframework/boot/spring-boot/0.5.0.BUILD-SNAPSHOT/spring-boot-0.5.0.BUILD-20131202.141312-355.pom
+2013-12-02 17:21:33,444 [New I/O client worker #14-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.springsource.org/snapshot/org/springframework/boot/spring-boot/0.5.0.BUILD-SNAPSHOT/spring-boot-0.5.0.BUILD-20131202.141312-355.pom
+2013-12-02 17:21:33,645 [Worker-8] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2013-12-02 17:21:33,896 [New I/O client worker #15-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.springsource.org/snapshot/org/springframework/spring-core/4.0.0.BUILD-SNAPSHOT/maven-metadata.xml
+2013-12-02 17:21:33,903 [New I/O client worker #15-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.springsource.org/snapshot/org/springframework/spring-core/4.0.0.BUILD-SNAPSHOT/maven-metadata.xml
+2013-12-02 17:21:34,045 [Worker-8] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2013-12-02 17:21:34,296 [New I/O client worker #16-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.springsource.org/snapshot/org/springframework/spring-core/4.0.0.BUILD-SNAPSHOT/spring-core-4.0.0.BUILD-20131202.135708-433.pom
+2013-12-02 17:21:34,299 [New I/O client worker #16-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.springsource.org/snapshot/org/springframework/spring-core/4.0.0.BUILD-SNAPSHOT/spring-core-4.0.0.BUILD-20131202.135708-433.pom
+2013-12-02 17:21:34,454 [Worker-8] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2013-12-02 17:21:34,693 [New I/O client worker #17-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.springsource.org/snapshot/org/springframework/spring-context/4.0.0.BUILD-SNAPSHOT/maven-metadata.xml
+2013-12-02 17:21:34,699 [New I/O client worker #17-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.springsource.org/snapshot/org/springframework/spring-context/4.0.0.BUILD-SNAPSHOT/maven-metadata.xml
+2013-12-02 17:21:34,824 [Worker-8] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2013-12-02 17:21:35,074 [New I/O client worker #18-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.springsource.org/snapshot/org/springframework/spring-context/4.0.0.BUILD-SNAPSHOT/spring-context-4.0.0.BUILD-20131202.135708-433.pom
+2013-12-02 17:21:35,077 [New I/O client worker #18-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.springsource.org/snapshot/org/springframework/spring-context/4.0.0.BUILD-SNAPSHOT/spring-context-4.0.0.BUILD-20131202.135708-433.pom
+2013-12-02 17:21:35,240 [Worker-8] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2013-12-02 17:21:35,462 [New I/O client worker #19-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.springsource.org/snapshot/org/springframework/spring-aop/4.0.0.BUILD-SNAPSHOT/maven-metadata.xml
+2013-12-02 17:21:35,467 [New I/O client worker #19-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.springsource.org/snapshot/org/springframework/spring-aop/4.0.0.BUILD-SNAPSHOT/maven-metadata.xml
+2013-12-02 17:21:35,611 [Worker-8] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2013-12-02 17:21:35,840 [New I/O client worker #20-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.springsource.org/snapshot/org/springframework/spring-aop/4.0.0.BUILD-SNAPSHOT/spring-aop-4.0.0.BUILD-20131202.135708-433.pom
+2013-12-02 17:21:35,842 [New I/O client worker #20-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.springsource.org/snapshot/org/springframework/spring-aop/4.0.0.BUILD-SNAPSHOT/spring-aop-4.0.0.BUILD-20131202.135708-433.pom
+2013-12-02 17:21:35,986 [Worker-8] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2013-12-02 17:21:36,194 [New I/O client worker #21-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.springsource.org/snapshot/aopalliance/aopalliance/1.0/aopalliance-1.0.pom
+2013-12-02 17:21:36,202 [Worker-8] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2013-12-02 17:21:36,426 [New I/O client worker #22-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.springsource.org/milestone/aopalliance/aopalliance/1.0/aopalliance-1.0.pom
+2013-12-02 17:21:36,434 [Worker-8] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2013-12-02 17:21:36,570 [New I/O client worker #23-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/aopalliance/aopalliance/1.0/aopalliance-1.0.pom
+2013-12-02 17:21:36,575 [New I/O client worker #23-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/aopalliance/aopalliance/1.0/aopalliance-1.0.pom
+2013-12-02 17:21:36,613 [Worker-8] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2013-12-02 17:21:36,857 [New I/O client worker #24-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.springsource.org/snapshot/org/springframework/spring-beans/4.0.0.BUILD-SNAPSHOT/maven-metadata.xml
+2013-12-02 17:21:36,859 [New I/O client worker #24-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.springsource.org/snapshot/org/springframework/spring-beans/4.0.0.BUILD-SNAPSHOT/maven-metadata.xml
+2013-12-02 17:21:37,033 [Worker-8] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2013-12-02 17:21:37,285 [New I/O client worker #25-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.springsource.org/snapshot/org/springframework/spring-beans/4.0.0.BUILD-SNAPSHOT/spring-beans-4.0.0.BUILD-20131202.135708-434.pom
+2013-12-02 17:21:37,290 [New I/O client worker #25-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.springsource.org/snapshot/org/springframework/spring-beans/4.0.0.BUILD-SNAPSHOT/spring-beans-4.0.0.BUILD-20131202.135708-434.pom
+2013-12-02 17:21:37,440 [Worker-8] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2013-12-02 17:21:37,741 [New I/O client worker #26-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.springsource.org/snapshot/org/springframework/spring-expression/4.0.0.BUILD-SNAPSHOT/maven-metadata.xml
+2013-12-02 17:21:37,744 [New I/O client worker #26-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.springsource.org/snapshot/org/springframework/spring-expression/4.0.0.BUILD-SNAPSHOT/maven-metadata.xml
+2013-12-02 17:21:37,881 [Worker-8] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2013-12-02 17:21:38,176 [New I/O client worker #27-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.springsource.org/snapshot/org/springframework/spring-expression/4.0.0.BUILD-SNAPSHOT/spring-expression-4.0.0.BUILD-20131202.135708-435.pom
+2013-12-02 17:21:38,178 [New I/O client worker #27-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.springsource.org/snapshot/org/springframework/spring-expression/4.0.0.BUILD-SNAPSHOT/spring-expression-4.0.0.BUILD-20131202.135708-435.pom
+2013-12-02 17:21:38,336 [Worker-8] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2013-12-02 17:21:38,577 [New I/O client worker #28-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.springsource.org/snapshot/org/springframework/boot/spring-boot-autoconfigure/0.5.0.BUILD-SNAPSHOT/maven-metadata.xml
+2013-12-02 17:21:38,579 [New I/O client worker #28-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.springsource.org/snapshot/org/springframework/boot/spring-boot-autoconfigure/0.5.0.BUILD-SNAPSHOT/maven-metadata.xml
+2013-12-02 17:21:38,725 [Worker-8] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2013-12-02 17:21:39,014 [New I/O client worker #29-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.springsource.org/snapshot/org/springframework/boot/spring-boot-autoconfigure/0.5.0.BUILD-SNAPSHOT/spring-boot-autoconfigure-0.5.0.BUILD-20131202.141312-355.pom
+2013-12-02 17:21:39,019 [New I/O client worker #29-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.springsource.org/snapshot/org/springframework/boot/spring-boot-autoconfigure/0.5.0.BUILD-SNAPSHOT/spring-boot-autoconfigure-0.5.0.BUILD-20131202.141312-355.pom
+2013-12-02 17:21:39,190 [Worker-8] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2013-12-02 17:21:39,436 [New I/O client worker #30-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.springsource.org/snapshot/org/springframework/boot/spring-boot-starter-logging/0.5.0.BUILD-SNAPSHOT/maven-metadata.xml
+2013-12-02 17:21:39,438 [New I/O client worker #30-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.springsource.org/snapshot/org/springframework/boot/spring-boot-starter-logging/0.5.0.BUILD-SNAPSHOT/maven-metadata.xml
+2013-12-02 17:21:39,581 [Worker-8] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2013-12-02 17:21:39,846 [New I/O client worker #31-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.springsource.org/snapshot/org/springframework/boot/spring-boot-starter-logging/0.5.0.BUILD-SNAPSHOT/spring-boot-starter-logging-0.5.0.BUILD-20131202.141312-347.pom
+2013-12-02 17:21:39,848 [New I/O client worker #31-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.springsource.org/snapshot/org/springframework/boot/spring-boot-starter-logging/0.5.0.BUILD-SNAPSHOT/spring-boot-starter-logging-0.5.0.BUILD-20131202.141312-347.pom
+2013-12-02 17:21:39,998 [Worker-8] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2013-12-02 17:21:40,241 [New I/O client worker #32-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.springsource.org/snapshot/org/slf4j/jcl-over-slf4j/1.7.5/jcl-over-slf4j-1.7.5.pom
+2013-12-02 17:21:40,246 [Worker-8] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2013-12-02 17:21:40,457 [New I/O client worker #33-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.springsource.org/milestone/org/slf4j/jcl-over-slf4j/1.7.5/jcl-over-slf4j-1.7.5.pom
+2013-12-02 17:21:40,463 [Worker-8] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2013-12-02 17:21:40,543 [New I/O client worker #34-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/slf4j/jcl-over-slf4j/1.7.5/jcl-over-slf4j-1.7.5.pom
+2013-12-02 17:21:40,546 [New I/O client worker #34-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/slf4j/jcl-over-slf4j/1.7.5/jcl-over-slf4j-1.7.5.pom
+2013-12-02 17:21:40,594 [Worker-8] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2013-12-02 17:21:40,825 [New I/O client worker #35-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.springsource.org/snapshot/org/slf4j/slf4j-parent/1.7.5/slf4j-parent-1.7.5.pom
+2013-12-02 17:21:40,831 [Worker-8] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2013-12-02 17:21:41,046 [New I/O client worker #36-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.springsource.org/milestone/org/slf4j/slf4j-parent/1.7.5/slf4j-parent-1.7.5.pom
+2013-12-02 17:21:41,051 [Worker-8] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2013-12-02 17:21:41,124 [New I/O client worker #37-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/slf4j/slf4j-parent/1.7.5/slf4j-parent-1.7.5.pom
+2013-12-02 17:21:41,129 [New I/O client worker #37-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/slf4j/slf4j-parent/1.7.5/slf4j-parent-1.7.5.pom
+2013-12-02 17:21:41,184 [Worker-8] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2013-12-02 17:21:41,402 [New I/O client worker #38-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.springsource.org/snapshot/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5.pom
+2013-12-02 17:21:41,407 [Worker-8] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2013-12-02 17:21:41,633 [New I/O client worker #39-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.springsource.org/milestone/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5.pom
+2013-12-02 17:21:41,639 [Worker-8] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2013-12-02 17:21:41,690 [New I/O client worker #40-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5.pom
+2013-12-02 17:21:41,693 [New I/O client worker #40-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5.pom
+2013-12-02 17:21:41,738 [Worker-8] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2013-12-02 17:21:41,958 [New I/O client worker #41-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.springsource.org/snapshot/org/slf4j/jul-to-slf4j/1.7.5/jul-to-slf4j-1.7.5.pom
+2013-12-02 17:21:41,963 [Worker-8] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2013-12-02 17:21:42,186 [New I/O client worker #42-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.springsource.org/milestone/org/slf4j/jul-to-slf4j/1.7.5/jul-to-slf4j-1.7.5.pom
+2013-12-02 17:21:42,193 [Worker-8] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2013-12-02 17:21:42,255 [New I/O client worker #43-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/slf4j/jul-to-slf4j/1.7.5/jul-to-slf4j-1.7.5.pom
+2013-12-02 17:21:42,258 [New I/O client worker #43-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/slf4j/jul-to-slf4j/1.7.5/jul-to-slf4j-1.7.5.pom
+2013-12-02 17:21:42,303 [Worker-8] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2013-12-02 17:21:42,516 [New I/O client worker #44-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.springsource.org/snapshot/ch/qos/logback/logback-classic/1.0.13/logback-classic-1.0.13.pom
+2013-12-02 17:21:42,521 [Worker-8] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2013-12-02 17:21:42,740 [New I/O client worker #45-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.springsource.org/milestone/ch/qos/logback/logback-classic/1.0.13/logback-classic-1.0.13.pom
+2013-12-02 17:21:42,746 [Worker-8] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2013-12-02 17:21:42,808 [New I/O client worker #46-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/ch/qos/logback/logback-classic/1.0.13/logback-classic-1.0.13.pom
+2013-12-02 17:21:42,813 [New I/O client worker #46-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/ch/qos/logback/logback-classic/1.0.13/logback-classic-1.0.13.pom
+2013-12-02 17:21:42,858 [Worker-8] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2013-12-02 17:21:43,086 [New I/O client worker #47-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.springsource.org/snapshot/ch/qos/logback/logback-parent/1.0.13/logback-parent-1.0.13.pom
+2013-12-02 17:21:43,095 [Worker-8] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2013-12-02 17:21:43,332 [New I/O client worker #48-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.springsource.org/milestone/ch/qos/logback/logback-parent/1.0.13/logback-parent-1.0.13.pom
+2013-12-02 17:21:43,337 [Worker-8] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2013-12-02 17:21:43,396 [New I/O client worker #49-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/ch/qos/logback/logback-parent/1.0.13/logback-parent-1.0.13.pom
+2013-12-02 17:21:43,429 [New I/O client worker #49-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/ch/qos/logback/logback-parent/1.0.13/logback-parent-1.0.13.pom
+2013-12-02 17:21:43,488 [Worker-8] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2013-12-02 17:21:43,685 [New I/O client worker #50-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.springsource.org/snapshot/ch/qos/logback/logback-core/1.0.13/logback-core-1.0.13.pom
+2013-12-02 17:21:43,692 [Worker-8] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2013-12-02 17:21:43,927 [New I/O client worker #51-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.springsource.org/milestone/ch/qos/logback/logback-core/1.0.13/logback-core-1.0.13.pom
+2013-12-02 17:21:43,932 [Worker-8] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2013-12-02 17:21:44,005 [New I/O client worker #52-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/ch/qos/logback/logback-core/1.0.13/logback-core-1.0.13.pom
+2013-12-02 17:21:44,007 [New I/O client worker #52-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/ch/qos/logback/logback-core/1.0.13/logback-core-1.0.13.pom
+2013-12-02 17:21:44,053 [Worker-8] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2013-12-02 17:21:44,311 [New I/O client worker #53-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.springsource.org/snapshot/org/springframework/boot/spring-boot-starter-tomcat/0.5.0.BUILD-SNAPSHOT/maven-metadata.xml
+2013-12-02 17:21:44,313 [New I/O client worker #53-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.springsource.org/snapshot/org/springframework/boot/spring-boot-starter-tomcat/0.5.0.BUILD-SNAPSHOT/maven-metadata.xml
+2013-12-02 17:21:44,449 [Worker-8] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2013-12-02 17:21:44,706 [New I/O client worker #54-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.springsource.org/snapshot/org/springframework/boot/spring-boot-starter-tomcat/0.5.0.BUILD-SNAPSHOT/spring-boot-starter-tomcat-0.5.0.BUILD-20131202.141312-347.pom
+2013-12-02 17:21:44,708 [New I/O client worker #54-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.springsource.org/snapshot/org/springframework/boot/spring-boot-starter-tomcat/0.5.0.BUILD-SNAPSHOT/spring-boot-starter-tomcat-0.5.0.BUILD-20131202.141312-347.pom
+2013-12-02 17:21:44,872 [Worker-8] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2013-12-02 17:21:48,138 [New I/O client worker #55-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.springsource.org/snapshot/org/apache/tomcat/embed/tomcat-embed-core/7.0.47/tomcat-embed-core-7.0.47.pom
+2013-12-02 17:21:48,147 [Worker-8] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2013-12-02 17:21:48,378 [New I/O client worker #56-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.springsource.org/milestone/org/apache/tomcat/embed/tomcat-embed-core/7.0.47/tomcat-embed-core-7.0.47.pom
+2013-12-02 17:21:48,385 [Worker-8] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2013-12-02 17:21:51,456 [New I/O client worker #57-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/tomcat/embed/tomcat-embed-core/7.0.47/tomcat-embed-core-7.0.47.pom
+2013-12-02 17:21:51,461 [New I/O client worker #57-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/tomcat/embed/tomcat-embed-core/7.0.47/tomcat-embed-core-7.0.47.pom
+2013-12-02 17:21:51,504 [Worker-8] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2013-12-02 17:21:51,750 [New I/O client worker #58-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.springsource.org/snapshot/org/apache/tomcat/embed/tomcat-embed-logging-juli/7.0.47/tomcat-embed-logging-juli-7.0.47.pom
+2013-12-02 17:21:51,755 [Worker-8] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2013-12-02 17:21:51,969 [New I/O client worker #59-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.springsource.org/milestone/org/apache/tomcat/embed/tomcat-embed-logging-juli/7.0.47/tomcat-embed-logging-juli-7.0.47.pom
+2013-12-02 17:21:51,974 [Worker-8] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2013-12-02 17:21:52,045 [New I/O client worker #60-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/tomcat/embed/tomcat-embed-logging-juli/7.0.47/tomcat-embed-logging-juli-7.0.47.pom
+2013-12-02 17:21:52,048 [New I/O client worker #60-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/tomcat/embed/tomcat-embed-logging-juli/7.0.47/tomcat-embed-logging-juli-7.0.47.pom
+2013-12-02 17:21:52,110 [Worker-8] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2013-12-02 17:21:52,338 [New I/O client worker #61-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.springsource.org/snapshot/com/fasterxml/jackson/core/jackson-databind/2.2.2/jackson-databind-2.2.2.pom
+2013-12-02 17:21:52,343 [Worker-8] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2013-12-02 17:21:52,571 [New I/O client worker #62-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.springsource.org/milestone/com/fasterxml/jackson/core/jackson-databind/2.2.2/jackson-databind-2.2.2.pom
+2013-12-02 17:21:52,579 [Worker-8] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2013-12-02 17:21:52,631 [New I/O client worker #63-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.2.2/jackson-databind-2.2.2.pom
+2013-12-02 17:21:52,634 [New I/O client worker #63-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.2.2/jackson-databind-2.2.2.pom
+2013-12-02 17:21:52,670 [Worker-8] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2013-12-02 17:21:55,918 [New I/O client worker #64-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.springsource.org/snapshot/com/fasterxml/oss-parent/10/oss-parent-10.pom
+2013-12-02 17:21:55,923 [Worker-8] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2013-12-02 17:21:56,160 [New I/O client worker #65-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.springsource.org/milestone/com/fasterxml/oss-parent/10/oss-parent-10.pom
+2013-12-02 17:21:56,165 [Worker-8] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2013-12-02 17:21:56,218 [New I/O client worker #66-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/com/fasterxml/oss-parent/10/oss-parent-10.pom
+2013-12-02 17:21:56,263 [New I/O client worker #66-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/com/fasterxml/oss-parent/10/oss-parent-10.pom
+2013-12-02 17:21:56,329 [Worker-8] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2013-12-02 17:21:56,572 [New I/O client worker #67-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.springsource.org/snapshot/com/fasterxml/jackson/core/jackson-annotations/2.2.2/jackson-annotations-2.2.2.pom
+2013-12-02 17:21:56,587 [Worker-8] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2013-12-02 17:21:56,805 [New I/O client worker #68-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.springsource.org/milestone/com/fasterxml/jackson/core/jackson-annotations/2.2.2/jackson-annotations-2.2.2.pom
+2013-12-02 17:21:56,814 [Worker-8] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2013-12-02 17:21:56,872 [New I/O client worker #69-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.2.2/jackson-annotations-2.2.2.pom
+2013-12-02 17:21:56,878 [New I/O client worker #69-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.2.2/jackson-annotations-2.2.2.pom
+2013-12-02 17:21:56,929 [Worker-8] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2013-12-02 17:21:57,149 [New I/O client worker #70-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.springsource.org/snapshot/com/fasterxml/jackson/core/jackson-core/2.2.2/jackson-core-2.2.2.pom
+2013-12-02 17:21:57,155 [Worker-8] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2013-12-02 17:21:57,370 [New I/O client worker #71-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.springsource.org/milestone/com/fasterxml/jackson/core/jackson-core/2.2.2/jackson-core-2.2.2.pom
+2013-12-02 17:21:57,374 [Worker-8] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2013-12-02 17:21:57,428 [New I/O client worker #72-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.2.2/jackson-core-2.2.2.pom
+2013-12-02 17:21:57,431 [New I/O client worker #72-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.2.2/jackson-core-2.2.2.pom
+2013-12-02 17:21:57,476 [Worker-8] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2013-12-02 17:21:57,707 [New I/O client worker #73-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.springsource.org/snapshot/org/springframework/spring-web/4.0.0.BUILD-SNAPSHOT/maven-metadata.xml
+2013-12-02 17:21:57,709 [New I/O client worker #73-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.springsource.org/snapshot/org/springframework/spring-web/4.0.0.BUILD-SNAPSHOT/maven-metadata.xml
+2013-12-02 17:21:57,838 [Worker-8] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2013-12-02 17:21:58,081 [New I/O client worker #74-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.springsource.org/snapshot/org/springframework/spring-web/4.0.0.BUILD-SNAPSHOT/spring-web-4.0.0.BUILD-20131202.135708-433.pom
+2013-12-02 17:21:58,083 [New I/O client worker #74-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.springsource.org/snapshot/org/springframework/spring-web/4.0.0.BUILD-SNAPSHOT/spring-web-4.0.0.BUILD-20131202.135708-433.pom
+2013-12-02 17:21:58,248 [Worker-8] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2013-12-02 17:21:58,504 [New I/O client worker #75-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.springsource.org/snapshot/org/springframework/spring-webmvc/4.0.0.BUILD-SNAPSHOT/maven-metadata.xml
+2013-12-02 17:21:58,508 [New I/O client worker #75-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.springsource.org/snapshot/org/springframework/spring-webmvc/4.0.0.BUILD-SNAPSHOT/maven-metadata.xml
+2013-12-02 17:21:58,647 [Worker-8] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2013-12-02 17:21:58,896 [New I/O client worker #76-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.springsource.org/snapshot/org/springframework/spring-webmvc/4.0.0.BUILD-SNAPSHOT/spring-webmvc-4.0.0.BUILD-20131202.135708-433.pom
+2013-12-02 17:21:58,901 [New I/O client worker #76-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.springsource.org/snapshot/org/springframework/spring-webmvc/4.0.0.BUILD-SNAPSHOT/spring-webmvc-4.0.0.BUILD-20131202.135708-433.pom
+2013-12-02 17:21:59,064 [Worker-8] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2013-12-02 17:21:59,308 [New I/O client worker #77-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.springsource.org/snapshot/org/springframework/boot/spring-boot-starter-test/0.5.0.BUILD-SNAPSHOT/maven-metadata.xml
+2013-12-02 17:21:59,310 [New I/O client worker #77-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.springsource.org/snapshot/org/springframework/boot/spring-boot-starter-test/0.5.0.BUILD-SNAPSHOT/maven-metadata.xml
+2013-12-02 17:21:59,442 [Worker-8] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2013-12-02 17:21:59,681 [New I/O client worker #78-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.springsource.org/snapshot/org/springframework/boot/spring-boot-starter-test/0.5.0.BUILD-SNAPSHOT/spring-boot-starter-test-0.5.0.BUILD-20131202.141312-125.pom
+2013-12-02 17:21:59,683 [New I/O client worker #78-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.springsource.org/snapshot/org/springframework/boot/spring-boot-starter-test/0.5.0.BUILD-SNAPSHOT/spring-boot-starter-test-0.5.0.BUILD-20131202.141312-125.pom
+2013-12-02 17:21:59,838 [Worker-8] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2013-12-02 17:22:00,044 [New I/O client worker #79-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.springsource.org/snapshot/junit/junit/4.11/junit-4.11.pom
+2013-12-02 17:22:00,051 [Worker-8] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2013-12-02 17:22:00,274 [New I/O client worker #80-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.springsource.org/milestone/junit/junit/4.11/junit-4.11.pom
+2013-12-02 17:22:00,280 [Worker-8] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2013-12-02 17:22:00,325 [New I/O client worker #81-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/junit/junit/4.11/junit-4.11.pom
+2013-12-02 17:22:00,331 [New I/O client worker #81-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/junit/junit/4.11/junit-4.11.pom
+2013-12-02 17:22:00,373 [Worker-8] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2013-12-02 17:22:00,586 [New I/O client worker #82-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.springsource.org/snapshot/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.pom
+2013-12-02 17:22:00,593 [Worker-8] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2013-12-02 17:22:00,829 [New I/O client worker #83-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.springsource.org/milestone/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.pom
+2013-12-02 17:22:00,834 [Worker-8] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2013-12-02 17:22:00,899 [New I/O client worker #84-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.pom
+2013-12-02 17:22:00,902 [New I/O client worker #84-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.pom
+2013-12-02 17:22:00,945 [Worker-8] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2013-12-02 17:22:01,161 [New I/O client worker #85-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.springsource.org/snapshot/org/hamcrest/hamcrest-parent/1.3/hamcrest-parent-1.3.pom
+2013-12-02 17:22:01,167 [Worker-8] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2013-12-02 17:22:01,384 [New I/O client worker #86-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.springsource.org/milestone/org/hamcrest/hamcrest-parent/1.3/hamcrest-parent-1.3.pom
+2013-12-02 17:22:01,392 [Worker-8] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2013-12-02 17:22:01,462 [New I/O client worker #87-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/hamcrest/hamcrest-parent/1.3/hamcrest-parent-1.3.pom
+2013-12-02 17:22:01,465 [New I/O client worker #87-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/hamcrest/hamcrest-parent/1.3/hamcrest-parent-1.3.pom
+2013-12-02 17:22:01,547 [Worker-8] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2013-12-02 17:22:01,789 [New I/O client worker #88-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.springsource.org/snapshot/org/mockito/mockito-core/1.9.5/mockito-core-1.9.5.pom
+2013-12-02 17:22:01,797 [Worker-8] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2013-12-02 17:22:02,031 [New I/O client worker #89-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.springsource.org/milestone/org/mockito/mockito-core/1.9.5/mockito-core-1.9.5.pom
+2013-12-02 17:22:02,040 [Worker-8] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2013-12-02 17:22:02,110 [New I/O client worker #90-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/mockito/mockito-core/1.9.5/mockito-core-1.9.5.pom
+2013-12-02 17:22:02,112 [New I/O client worker #90-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/mockito/mockito-core/1.9.5/mockito-core-1.9.5.pom
+2013-12-02 17:22:02,184 [Worker-8] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2013-12-02 17:22:02,413 [New I/O client worker #91-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.springsource.org/snapshot/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.pom
+2013-12-02 17:22:02,424 [Worker-8] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2013-12-02 17:22:02,656 [New I/O client worker #92-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.springsource.org/milestone/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.pom
+2013-12-02 17:22:02,664 [Worker-8] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2013-12-02 17:22:02,719 [New I/O client worker #93-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.pom
+2013-12-02 17:22:02,725 [New I/O client worker #93-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.pom
+2013-12-02 17:22:02,770 [Worker-8] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2013-12-02 17:22:03,008 [New I/O client worker #94-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.springsource.org/snapshot/org/hamcrest/hamcrest-parent/1.1/hamcrest-parent-1.1.pom
+2013-12-02 17:22:03,013 [Worker-8] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2013-12-02 17:22:03,239 [New I/O client worker #95-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.springsource.org/milestone/org/hamcrest/hamcrest-parent/1.1/hamcrest-parent-1.1.pom
+2013-12-02 17:22:03,244 [Worker-8] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2013-12-02 17:22:03,306 [New I/O client worker #96-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/hamcrest/hamcrest-parent/1.1/hamcrest-parent-1.1.pom
+2013-12-02 17:22:03,310 [New I/O client worker #96-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/hamcrest/hamcrest-parent/1.1/hamcrest-parent-1.1.pom
+2013-12-02 17:22:03,353 [Worker-8] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2013-12-02 17:22:03,571 [New I/O client worker #97-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.springsource.org/snapshot/org/objenesis/objenesis/1.0/objenesis-1.0.pom
+2013-12-02 17:22:03,578 [Worker-8] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2013-12-02 17:22:03,795 [New I/O client worker #98-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.springsource.org/milestone/org/objenesis/objenesis/1.0/objenesis-1.0.pom
+2013-12-02 17:22:03,803 [Worker-8] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2013-12-02 17:22:03,876 [New I/O client worker #99-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/objenesis/objenesis/1.0/objenesis-1.0.pom
+2013-12-02 17:22:03,879 [New I/O client worker #99-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/objenesis/objenesis/1.0/objenesis-1.0.pom
+2013-12-02 17:22:03,923 [Worker-8] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2013-12-02 17:22:04,182 [New I/O client worker #100-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.springsource.org/snapshot/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.pom
+2013-12-02 17:22:04,199 [Worker-8] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2013-12-02 17:22:04,416 [New I/O client worker #101-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.springsource.org/milestone/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.pom
+2013-12-02 17:22:04,422 [Worker-8] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2013-12-02 17:22:04,485 [New I/O client worker #102-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.pom
+2013-12-02 17:22:04,487 [New I/O client worker #102-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.pom
+2013-12-02 17:22:04,526 [Worker-8] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2013-12-02 17:22:04,791 [New I/O client worker #103-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.springsource.org/snapshot/org/springframework/spring-test/4.0.0.BUILD-SNAPSHOT/maven-metadata.xml
+2013-12-02 17:22:04,798 [New I/O client worker #103-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.springsource.org/snapshot/org/springframework/spring-test/4.0.0.BUILD-SNAPSHOT/maven-metadata.xml
+2013-12-02 17:22:04,935 [Worker-8] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2013-12-02 17:22:08,197 [New I/O client worker #104-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.springsource.org/snapshot/org/springframework/spring-test/4.0.0.BUILD-SNAPSHOT/spring-test-4.0.0.BUILD-20131202.135708-436.pom
+2013-12-02 17:22:08,199 [New I/O client worker #104-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.springsource.org/snapshot/org/springframework/spring-test/4.0.0.BUILD-SNAPSHOT/spring-test-4.0.0.BUILD-20131202.135708-436.pom
+2013-12-02 17:22:08,403 [Worker-8] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2013-12-02 17:22:08,639 [New I/O client worker #105-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.springsource.org/snapshot/org/apache/tomcat/embed/tomcat-embed-logging-juli/7.0.47/tomcat-embed-logging-juli-7.0.47.jar
+2013-12-02 17:22:08,648 [New I/O client worker #105-6] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.springsource.org/snapshot/org/apache/tomcat/embed/tomcat-embed-core/7.0.47/tomcat-embed-core-7.0.47.jar
+2013-12-02 17:22:08,652 [New I/O client worker #105-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.springsource.org/snapshot/org/springframework/boot/spring-boot-starter/0.5.0.BUILD-SNAPSHOT/spring-boot-starter-0.5.0.BUILD-20131202.141312-347.jar
+2013-12-02 17:22:08,652 [New I/O client worker #105-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.springsource.org/snapshot/org/springframework/boot/spring-boot-starter-web/0.5.0.BUILD-SNAPSHOT/spring-boot-starter-web-0.5.0.BUILD-20131202.141312-347.jar
+2013-12-02 17:22:08,657 [New I/O client worker #105-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.springsource.org/snapshot/org/springframework/boot/spring-boot/0.5.0.BUILD-SNAPSHOT/spring-boot-0.5.0.BUILD-20131202.141312-355.jar
+2013-12-02 17:22:08,661 [New I/O client worker #105-8] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.springsource.org/snapshot/com/fasterxml/jackson/core/jackson-databind/2.2.2/jackson-databind-2.2.2.jar
+2013-12-02 17:22:08,662 [New I/O client worker #105-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.springsource.org/snapshot/org/springframework/boot/spring-boot-starter-web/0.5.0.BUILD-SNAPSHOT/spring-boot-starter-web-0.5.0.BUILD-20131202.141312-347.jar
+2013-12-02 17:22:08,664 [New I/O client worker #105-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.springsource.org/snapshot/org/springframework/boot/spring-boot-starter/0.5.0.BUILD-SNAPSHOT/spring-boot-starter-0.5.0.BUILD-20131202.141312-347.jar
+2013-12-02 17:22:08,665 [New I/O client worker #105-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.springsource.org/snapshot/org/springframework/boot/spring-boot-autoconfigure/0.5.0.BUILD-SNAPSHOT/spring-boot-autoconfigure-0.5.0.BUILD-20131202.141312-355.jar
+2013-12-02 17:22:08,669 [New I/O client worker #105-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.springsource.org/snapshot/com/fasterxml/jackson/core/jackson-core/2.2.2/jackson-core-2.2.2.jar
+2013-12-02 17:22:08,677 [New I/O client worker #105-5] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.springsource.org/snapshot/org/springframework/boot/spring-boot-starter-tomcat/0.5.0.BUILD-SNAPSHOT/spring-boot-starter-tomcat-0.5.0.BUILD-20131202.141312-347.jar
+2013-12-02 17:22:08,683 [New I/O client worker #105-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.springsource.org/snapshot/aopalliance/aopalliance/1.0/aopalliance-1.0.jar
+2013-12-02 17:22:08,688 [New I/O client worker #105-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.springsource.org/snapshot/com/fasterxml/jackson/core/jackson-annotations/2.2.2/jackson-annotations-2.2.2.jar
+2013-12-02 17:22:08,693 [New I/O client worker #105-5] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.springsource.org/snapshot/org/springframework/boot/spring-boot-starter-tomcat/0.5.0.BUILD-SNAPSHOT/spring-boot-starter-tomcat-0.5.0.BUILD-20131202.141312-347.jar
+2013-12-02 17:22:08,704 [New I/O client worker #105-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.springsource.org/snapshot/org/springframework/spring-web/4.0.0.BUILD-SNAPSHOT/spring-web-4.0.0.BUILD-20131202.135708-433.jar
+2013-12-02 17:22:08,712 [New I/O client worker #105-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.springsource.org/snapshot/org/springframework/boot/spring-boot-starter-test/0.5.0.BUILD-SNAPSHOT/spring-boot-starter-test-0.5.0.BUILD-20131202.141312-125.jar
+2013-12-02 17:22:08,713 [New I/O client worker #105-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.springsource.org/snapshot/org/springframework/spring-webmvc/4.0.0.BUILD-SNAPSHOT/spring-webmvc-4.0.0.BUILD-20131202.135708-433.jar
+2013-12-02 17:22:08,715 [New I/O client worker #105-6] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.springsource.org/snapshot/org/springframework/spring-beans/4.0.0.BUILD-SNAPSHOT/spring-beans-4.0.0.BUILD-20131202.135708-434.jar
+2013-12-02 17:22:08,725 [New I/O client worker #105-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.springsource.org/snapshot/org/springframework/boot/spring-boot-starter-test/0.5.0.BUILD-SNAPSHOT/spring-boot-starter-test-0.5.0.BUILD-20131202.141312-125.jar
+2013-12-02 17:22:08,724 [New I/O client worker #105-8] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.springsource.org/snapshot/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.jar
+2013-12-02 17:22:08,724 [New I/O client worker #105-5] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.springsource.org/snapshot/org/springframework/spring-aop/4.0.0.BUILD-SNAPSHOT/spring-aop-4.0.0.BUILD-20131202.135708-433.jar
+2013-12-02 17:22:08,729 [New I/O client worker #105-8] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.springsource.org/snapshot/org/springframework/spring-core/4.0.0.BUILD-SNAPSHOT/spring-core-4.0.0.BUILD-20131202.135708-433.jar
+2013-12-02 17:22:08,734 [New I/O client worker #105-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.springsource.org/snapshot/org/springframework/spring-expression/4.0.0.BUILD-SNAPSHOT/spring-expression-4.0.0.BUILD-20131202.135708-435.jar
+2013-12-02 17:22:08,800 [New I/O client worker #105-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.springsource.org/snapshot/org/springframework/spring-context/4.0.0.BUILD-SNAPSHOT/spring-context-4.0.0.BUILD-20131202.135708-433.jar
+2013-12-02 17:22:08,801 [New I/O client worker #105-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.springsource.org/snapshot/org/springframework/boot/spring-boot-starter-logging/0.5.0.BUILD-SNAPSHOT/spring-boot-starter-logging-0.5.0.BUILD-20131202.141312-347.jar
+2013-12-02 17:22:08,809 [New I/O client worker #105-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.springsource.org/snapshot/org/springframework/boot/spring-boot-starter-logging/0.5.0.BUILD-SNAPSHOT/spring-boot-starter-logging-0.5.0.BUILD-20131202.141312-347.jar
+2013-12-02 17:22:09,395 [New I/O client worker #105-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.springsource.org/snapshot/org/springframework/boot/spring-boot-autoconfigure/0.5.0.BUILD-SNAPSHOT/spring-boot-autoconfigure-0.5.0.BUILD-20131202.141312-355.jar
+2013-12-02 17:22:09,572 [New I/O client worker #105-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.springsource.org/snapshot/org/springframework/boot/spring-boot/0.5.0.BUILD-SNAPSHOT/spring-boot-0.5.0.BUILD-20131202.141312-355.jar
+2013-12-02 17:22:09,727 [New I/O client worker #105-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.springsource.org/snapshot/org/springframework/spring-expression/4.0.0.BUILD-SNAPSHOT/spring-expression-4.0.0.BUILD-20131202.135708-435.jar
+2013-12-02 17:22:10,247 [New I/O client worker #105-5] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.springsource.org/snapshot/org/springframework/spring-aop/4.0.0.BUILD-SNAPSHOT/spring-aop-4.0.0.BUILD-20131202.135708-433.jar
+2013-12-02 17:22:10,569 [New I/O client worker #105-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.springsource.org/snapshot/org/springframework/spring-webmvc/4.0.0.BUILD-SNAPSHOT/spring-webmvc-4.0.0.BUILD-20131202.135708-433.jar
+2013-12-02 17:22:10,688 [New I/O client worker #105-6] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.springsource.org/snapshot/org/springframework/spring-beans/4.0.0.BUILD-SNAPSHOT/spring-beans-4.0.0.BUILD-20131202.135708-434.jar
+2013-12-02 17:22:10,879 [New I/O client worker #105-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.springsource.org/snapshot/org/springframework/spring-web/4.0.0.BUILD-SNAPSHOT/spring-web-4.0.0.BUILD-20131202.135708-433.jar
+2013-12-02 17:22:11,260 [New I/O client worker #105-8] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.springsource.org/snapshot/org/springframework/spring-core/4.0.0.BUILD-SNAPSHOT/spring-core-4.0.0.BUILD-20131202.135708-433.jar
+2013-12-02 17:22:11,703 [New I/O client worker #105-8] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.springsource.org/snapshot/ch/qos/logback/logback-classic/1.0.13/logback-classic-1.0.13.jar
+2013-12-02 17:22:11,705 [New I/O client worker #105-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.springsource.org/snapshot/org/slf4j/jul-to-slf4j/1.7.5/jul-to-slf4j-1.7.5.jar
+2013-12-02 17:22:11,705 [New I/O client worker #105-5] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.springsource.org/snapshot/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar
+2013-12-02 17:22:11,707 [New I/O client worker #105-5] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.springsource.org/snapshot/org/slf4j/jcl-over-slf4j/1.7.5/jcl-over-slf4j-1.7.5.jar
+2013-12-02 17:22:11,712 [New I/O client worker #105-6] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.springsource.org/snapshot/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5.jar
+2013-12-02 17:22:11,722 [New I/O client worker #105-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.springsource.org/snapshot/ch/qos/logback/logback-core/1.0.13/logback-core-1.0.13.jar
+2013-12-02 17:22:11,722 [New I/O client worker #105-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.springsource.org/snapshot/junit/junit/4.11/junit-4.11.jar
+2013-12-02 17:22:11,723 [New I/O client worker #105-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.springsource.org/snapshot/org/objenesis/objenesis/1.0/objenesis-1.0.jar
+2013-12-02 17:22:11,722 [New I/O client worker #105-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.springsource.org/snapshot/org/springframework/boot/spring-boot/0.5.0.BUILD-SNAPSHOT/spring-boot-0.5.0.BUILD-20131202.141312-355-tests.jar
+2013-12-02 17:22:11,723 [New I/O client worker #105-6] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.springsource.org/snapshot/org/mockito/mockito-core/1.9.5/mockito-core-1.9.5.jar
+2013-12-02 17:22:11,741 [New I/O client worker #105-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.springsource.org/snapshot/org/springframework/spring-test/4.0.0.BUILD-SNAPSHOT/spring-test-4.0.0.BUILD-20131202.135708-436.jar
+2013-12-02 17:22:11,828 [New I/O client worker #105-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.springsource.org/snapshot/org/springframework/spring-context/4.0.0.BUILD-SNAPSHOT/spring-context-4.0.0.BUILD-20131202.135708-433.jar
+2013-12-02 17:22:12,478 [New I/O client worker #105-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.springsource.org/snapshot/org/springframework/boot/spring-boot/0.5.0.BUILD-SNAPSHOT/spring-boot-0.5.0.BUILD-20131202.141312-355-tests.jar
+2013-12-02 17:22:13,162 [New I/O client worker #105-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.springsource.org/snapshot/org/springframework/spring-test/4.0.0.BUILD-SNAPSHOT/spring-test-4.0.0.BUILD-20131202.135708-436.jar
+2013-12-02 17:22:18,353 [Worker-8] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2013-12-02 17:22:18,620 [New I/O client worker #106-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.springsource.org/milestone/org/apache/tomcat/embed/tomcat-embed-logging-juli/7.0.47/tomcat-embed-logging-juli-7.0.47.jar
+2013-12-02 17:22:18,625 [New I/O client worker #106-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.springsource.org/milestone/com/fasterxml/jackson/core/jackson-annotations/2.2.2/jackson-annotations-2.2.2.jar
+2013-12-02 17:22:18,668 [New I/O client worker #106-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.springsource.org/milestone/junit/junit/4.11/junit-4.11.jar
+2013-12-02 17:22:18,670 [New I/O client worker #106-6] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.springsource.org/milestone/org/mockito/mockito-core/1.9.5/mockito-core-1.9.5.jar
+2013-12-02 17:22:18,672 [New I/O client worker #106-6] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.springsource.org/milestone/aopalliance/aopalliance/1.0/aopalliance-1.0.jar
+2013-12-02 17:22:18,674 [New I/O client worker #106-8] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.springsource.org/milestone/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.jar
+2013-12-02 17:22:18,676 [New I/O client worker #106-8] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.springsource.org/milestone/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5.jar
+2013-12-02 17:22:18,680 [New I/O client worker #106-5] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.springsource.org/milestone/com/fasterxml/jackson/core/jackson-core/2.2.2/jackson-core-2.2.2.jar
+2013-12-02 17:22:18,682 [New I/O client worker #106-5] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.springsource.org/milestone/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar
+2013-12-02 17:22:18,684 [New I/O client worker #106-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.springsource.org/milestone/org/slf4j/jcl-over-slf4j/1.7.5/jcl-over-slf4j-1.7.5.jar
+2013-12-02 17:22:18,704 [New I/O client worker #106-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.springsource.org/milestone/org/objenesis/objenesis/1.0/objenesis-1.0.jar
+2013-12-02 17:22:18,629 [New I/O client worker #106-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.springsource.org/milestone/ch/qos/logback/logback-core/1.0.13/logback-core-1.0.13.jar
+2013-12-02 17:22:18,688 [New I/O client worker #106-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.springsource.org/milestone/org/apache/tomcat/embed/tomcat-embed-core/7.0.47/tomcat-embed-core-7.0.47.jar
+2013-12-02 17:22:18,634 [New I/O client worker #106-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.springsource.org/milestone/ch/qos/logback/logback-classic/1.0.13/logback-classic-1.0.13.jar
+2013-12-02 17:22:18,706 [New I/O client worker #106-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.springsource.org/milestone/com/fasterxml/jackson/core/jackson-databind/2.2.2/jackson-databind-2.2.2.jar
+2013-12-02 17:22:18,707 [New I/O client worker #106-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.springsource.org/milestone/org/slf4j/jul-to-slf4j/1.7.5/jul-to-slf4j-1.7.5.jar
+2013-12-02 17:22:19,307 [Worker-8] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2013-12-02 17:22:19,406 [New I/O client worker #107-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.2.2/jackson-annotations-2.2.2.jar
+2013-12-02 17:22:19,417 [New I/O client worker #107-6] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/aopalliance/aopalliance/1.0/aopalliance-1.0.jar
+2013-12-02 17:22:19,417 [New I/O client worker #107-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/tomcat/embed/tomcat-embed-logging-juli/7.0.47/tomcat-embed-logging-juli-7.0.47.jar
+2013-12-02 17:22:19,418 [New I/O client worker #107-6] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/aopalliance/aopalliance/1.0/aopalliance-1.0.jar
+2013-12-02 17:22:19,420 [New I/O client worker #107-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.2.2/jackson-databind-2.2.2.jar
+2013-12-02 17:22:19,422 [New I/O client worker #107-5] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.2.2/jackson-core-2.2.2.jar
+2013-12-02 17:22:19,427 [New I/O client worker #107-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/tomcat/embed/tomcat-embed-core/7.0.47/tomcat-embed-core-7.0.47.jar
+2013-12-02 17:22:19,445 [New I/O client worker #107-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/slf4j/jul-to-slf4j/1.7.5/jul-to-slf4j-1.7.5.jar
+2013-12-02 17:22:19,457 [New I/O client worker #107-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/slf4j/jul-to-slf4j/1.7.5/jul-to-slf4j-1.7.5.jar
+2013-12-02 17:22:19,463 [New I/O client worker #107-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/slf4j/jcl-over-slf4j/1.7.5/jcl-over-slf4j-1.7.5.jar
+2013-12-02 17:22:19,473 [New I/O client worker #107-5] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar
+2013-12-02 17:22:19,485 [New I/O client worker #107-8] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5.jar
+2013-12-02 17:22:19,491 [New I/O client worker #107-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/ch/qos/logback/logback-classic/1.0.13/logback-classic-1.0.13.jar
+2013-12-02 17:22:19,536 [New I/O client worker #107-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/ch/qos/logback/logback-core/1.0.13/logback-core-1.0.13.jar
+2013-12-02 17:22:19,541 [New I/O client worker #107-8] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.jar
+2013-12-02 17:22:19,543 [New I/O client worker #107-6] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/mockito/mockito-core/1.9.5/mockito-core-1.9.5.jar
+2013-12-02 17:22:19,752 [New I/O client worker #107-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/slf4j/jcl-over-slf4j/1.7.5/jcl-over-slf4j-1.7.5.jar
+2013-12-02 17:22:19,754 [New I/O client worker #107-8] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5.jar
+2013-12-02 17:22:19,758 [New I/O client worker #107-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/objenesis/objenesis/1.0/objenesis-1.0.jar
+2013-12-02 17:22:19,754 [New I/O client worker #107-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/tomcat/embed/tomcat-embed-logging-juli/7.0.47/tomcat-embed-logging-juli-7.0.47.jar
+2013-12-02 17:22:19,754 [New I/O client worker #107-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.2.2/jackson-annotations-2.2.2.jar
+2013-12-02 17:22:19,764 [New I/O client worker #107-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/junit/junit/4.11/junit-4.11.jar
+2013-12-02 17:22:19,771 [New I/O client worker #107-8] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.jar
+2013-12-02 17:22:19,778 [New I/O client worker #107-5] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar
+2013-12-02 17:22:19,847 [New I/O client worker #107-5] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.2.2/jackson-core-2.2.2.jar
+2013-12-02 17:22:20,035 [New I/O client worker #107-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/objenesis/objenesis/1.0/objenesis-1.0.jar
+2013-12-02 17:22:20,037 [New I/O client worker #107-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/ch/qos/logback/logback-classic/1.0.13/logback-classic-1.0.13.jar
+2013-12-02 17:22:20,306 [New I/O client worker #107-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/junit/junit/4.11/junit-4.11.jar
+2013-12-02 17:22:20,307 [New I/O client worker #107-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/ch/qos/logback/logback-core/1.0.13/logback-core-1.0.13.jar
+2013-12-02 17:22:24,107 [New I/O client worker #107-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.2.2/jackson-databind-2.2.2.jar
+2013-12-02 17:22:25,339 [New I/O client worker #107-6] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/mockito/mockito-core/1.9.5/mockito-core-1.9.5.jar
+2013-12-02 17:22:26,879 [New I/O client worker #107-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/tomcat/embed/tomcat-embed-core/7.0.47/tomcat-embed-core-7.0.47.jar
+2013-12-02 17:22:28,507 [Worker-8] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2013-12-02 17:22:28,802 [New I/O client worker #108-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.springsource.org/snapshot/org/springframework/boot/spring-boot-maven-plugin/0.5.0.BUILD-SNAPSHOT/maven-metadata.xml
+2013-12-02 17:22:28,804 [New I/O client worker #108-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.springsource.org/snapshot/org/springframework/boot/spring-boot-maven-plugin/0.5.0.BUILD-SNAPSHOT/maven-metadata.xml
+2013-12-02 17:22:29,000 [Worker-8] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2013-12-02 17:22:29,276 [New I/O client worker #109-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.springsource.org/snapshot/org/springframework/boot/spring-boot-maven-plugin/0.5.0.BUILD-SNAPSHOT/spring-boot-maven-plugin-0.5.0.BUILD-20131202.141312-355.pom
+2013-12-02 17:22:29,318 [New I/O client worker #109-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.springsource.org/snapshot/org/springframework/boot/spring-boot-maven-plugin/0.5.0.BUILD-SNAPSHOT/spring-boot-maven-plugin-0.5.0.BUILD-20131202.141312-355.pom
+2013-12-02 17:22:29,534 [Worker-8] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2013-12-02 17:22:29,777 [New I/O client worker #110-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.springsource.org/snapshot/org/springframework/boot/spring-boot-tools/0.5.0.BUILD-SNAPSHOT/maven-metadata.xml
+2013-12-02 17:22:29,780 [New I/O client worker #110-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.springsource.org/snapshot/org/springframework/boot/spring-boot-tools/0.5.0.BUILD-SNAPSHOT/maven-metadata.xml
+2013-12-02 17:22:29,923 [Worker-8] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2013-12-02 17:22:30,192 [New I/O client worker #111-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.springsource.org/snapshot/org/springframework/boot/spring-boot-tools/0.5.0.BUILD-SNAPSHOT/spring-boot-tools-0.5.0.BUILD-20131202.141312-333.pom
+2013-12-02 17:22:30,195 [New I/O client worker #111-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.springsource.org/snapshot/org/springframework/boot/spring-boot-tools/0.5.0.BUILD-SNAPSHOT/spring-boot-tools-0.5.0.BUILD-20131202.141312-333.pom
+2013-12-02 17:22:30,364 [Worker-8] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2013-12-02 17:22:30,600 [New I/O client worker #112-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.springsource.org/snapshot/org/springframework/boot/spring-boot-maven-plugin/0.5.0.BUILD-SNAPSHOT/spring-boot-maven-plugin-0.5.0.BUILD-20131202.141312-355.jar
+2013-12-02 17:22:30,746 [New I/O client worker #112-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.springsource.org/snapshot/org/springframework/boot/spring-boot-maven-plugin/0.5.0.BUILD-SNAPSHOT/spring-boot-maven-plugin-0.5.0.BUILD-20131202.141312-355.jar
+2013-12-02 17:22:30,997 [Worker-8] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2013-12-02 17:22:31,215 [New I/O client worker #113-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.springsource.org/snapshot/org/apache/maven/plugins/maven-resources-plugin/2.6/maven-resources-plugin-2.6.pom
+2013-12-02 17:22:31,223 [Worker-8] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2013-12-02 17:22:31,446 [New I/O client worker #114-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.springsource.org/milestone/org/apache/maven/plugins/maven-resources-plugin/2.6/maven-resources-plugin-2.6.pom
+2013-12-02 17:22:31,457 [Worker-8] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2013-12-02 17:22:31,525 [New I/O client worker #115-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-resources-plugin/2.6/maven-resources-plugin-2.6.pom
+2013-12-02 17:22:31,531 [New I/O client worker #115-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-resources-plugin/2.6/maven-resources-plugin-2.6.pom
+2013-12-02 17:22:31,579 [Worker-8] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2013-12-02 17:22:31,815 [New I/O client worker #116-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.springsource.org/snapshot/org/apache/maven/plugins/maven-plugins/23/maven-plugins-23.pom
+2013-12-02 17:22:31,820 [Worker-8] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2013-12-02 17:22:32,063 [New I/O client worker #117-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.springsource.org/milestone/org/apache/maven/plugins/maven-plugins/23/maven-plugins-23.pom
+2013-12-02 17:22:32,073 [Worker-8] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2013-12-02 17:22:32,135 [New I/O client worker #118-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/23/maven-plugins-23.pom
+2013-12-02 17:22:32,140 [New I/O client worker #118-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/23/maven-plugins-23.pom
+2013-12-02 17:22:32,203 [Worker-8] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2013-12-02 17:22:32,424 [New I/O client worker #119-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.springsource.org/snapshot/org/apache/maven/maven-parent/22/maven-parent-22.pom
+2013-12-02 17:22:32,430 [Worker-8] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2013-12-02 17:22:32,692 [New I/O client worker #120-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.springsource.org/milestone/org/apache/maven/maven-parent/22/maven-parent-22.pom
+2013-12-02 17:22:32,718 [Worker-8] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2013-12-02 17:22:32,789 [New I/O client worker #121-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/22/maven-parent-22.pom
+2013-12-02 17:22:32,812 [New I/O client worker #121-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/22/maven-parent-22.pom
+2013-12-02 17:22:32,866 [Worker-8] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2013-12-02 17:22:33,083 [New I/O client worker #122-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.springsource.org/snapshot/org/apache/apache/11/apache-11.pom
+2013-12-02 17:22:33,087 [Worker-8] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2013-12-02 17:22:33,296 [New I/O client worker #123-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.springsource.org/milestone/org/apache/apache/11/apache-11.pom
+2013-12-02 17:22:33,301 [Worker-8] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2013-12-02 17:22:33,359 [New I/O client worker #124-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/apache/11/apache-11.pom
+2013-12-02 17:22:33,392 [New I/O client worker #124-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/apache/11/apache-11.pom
+2013-12-02 17:22:33,443 [Worker-8] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2013-12-02 17:22:33,661 [New I/O client worker #125-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.springsource.org/snapshot/org/apache/maven/plugins/maven-resources-plugin/2.6/maven-resources-plugin-2.6.jar
+2013-12-02 17:22:33,670 [Worker-8] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2013-12-02 17:22:33,893 [New I/O client worker #126-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.springsource.org/milestone/org/apache/maven/plugins/maven-resources-plugin/2.6/maven-resources-plugin-2.6.jar
+2013-12-02 17:22:33,900 [Worker-8] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2013-12-02 17:22:33,956 [New I/O client worker #127-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-resources-plugin/2.6/maven-resources-plugin-2.6.jar
+2013-12-02 17:22:34,028 [New I/O client worker #127-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-resources-plugin/2.6/maven-resources-plugin-2.6.jar
+2013-12-02 17:22:34,194 [Worker-8] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2013-12-02 17:22:34,439 [New I/O client worker #128-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.springsource.org/snapshot/org/apache/maven/plugins/maven-compiler-plugin/3.1/maven-compiler-plugin-3.1.pom
+2013-12-02 17:22:34,446 [Worker-8] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2013-12-02 17:22:34,658 [New I/O client worker #129-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.springsource.org/milestone/org/apache/maven/plugins/maven-compiler-plugin/3.1/maven-compiler-plugin-3.1.pom
+2013-12-02 17:22:34,663 [Worker-8] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2013-12-02 17:22:34,729 [New I/O client worker #130-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-compiler-plugin/3.1/maven-compiler-plugin-3.1.pom
+2013-12-02 17:22:34,734 [New I/O client worker #130-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-compiler-plugin/3.1/maven-compiler-plugin-3.1.pom
+2013-12-02 17:22:34,774 [Worker-8] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2013-12-02 17:22:34,988 [New I/O client worker #131-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.springsource.org/snapshot/org/apache/maven/plugins/maven-plugins/24/maven-plugins-24.pom
+2013-12-02 17:22:34,995 [Worker-8] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2013-12-02 17:22:38,226 [New I/O client worker #132-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.springsource.org/milestone/org/apache/maven/plugins/maven-plugins/24/maven-plugins-24.pom
+2013-12-02 17:22:38,240 [Worker-8] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2013-12-02 17:22:38,301 [New I/O client worker #133-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/24/maven-plugins-24.pom
+2013-12-02 17:22:38,307 [New I/O client worker #133-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/24/maven-plugins-24.pom
+2013-12-02 17:22:38,355 [Worker-8] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2013-12-02 17:22:38,589 [New I/O client worker #134-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.springsource.org/snapshot/org/apache/maven/maven-parent/23/maven-parent-23.pom
+2013-12-02 17:22:38,595 [Worker-8] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2013-12-02 17:22:38,831 [New I/O client worker #135-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.springsource.org/milestone/org/apache/maven/maven-parent/23/maven-parent-23.pom
+2013-12-02 17:22:38,842 [Worker-8] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2013-12-02 17:22:38,895 [New I/O client worker #136-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/23/maven-parent-23.pom
+2013-12-02 17:22:38,943 [New I/O client worker #136-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/23/maven-parent-23.pom
+2013-12-02 17:22:38,985 [Worker-8] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2013-12-02 17:22:39,197 [New I/O client worker #137-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.springsource.org/snapshot/org/apache/apache/13/apache-13.pom
+2013-12-02 17:22:39,208 [Worker-8] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2013-12-02 17:22:39,441 [New I/O client worker #138-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.springsource.org/milestone/org/apache/apache/13/apache-13.pom
+2013-12-02 17:22:39,448 [Worker-8] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2013-12-02 17:22:39,505 [New I/O client worker #139-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/apache/13/apache-13.pom
+2013-12-02 17:22:39,512 [New I/O client worker #139-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/apache/13/apache-13.pom
+2013-12-02 17:22:39,555 [Worker-8] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2013-12-02 17:22:39,778 [New I/O client worker #140-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.springsource.org/snapshot/org/apache/maven/plugins/maven-compiler-plugin/3.1/maven-compiler-plugin-3.1.jar
+2013-12-02 17:22:39,784 [Worker-8] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2013-12-02 17:22:40,016 [New I/O client worker #141-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.springsource.org/milestone/org/apache/maven/plugins/maven-compiler-plugin/3.1/maven-compiler-plugin-3.1.jar
+2013-12-02 17:22:40,021 [Worker-8] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2013-12-02 17:22:40,095 [New I/O client worker #142-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-compiler-plugin/3.1/maven-compiler-plugin-3.1.jar
+2013-12-02 17:22:40,215 [New I/O client worker #142-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-compiler-plugin/3.1/maven-compiler-plugin-3.1.jar
+2013-12-02 17:22:40,418 [Worker-8] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2013-12-02 17:22:43,631 [New I/O client worker #143-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.springsource.org/snapshot/org/apache/maven/plugins/maven-jar-plugin/2.4/maven-jar-plugin-2.4.pom
+2013-12-02 17:22:43,636 [Worker-8] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2013-12-02 17:22:43,864 [New I/O client worker #144-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.springsource.org/milestone/org/apache/maven/plugins/maven-jar-plugin/2.4/maven-jar-plugin-2.4.pom
+2013-12-02 17:22:43,875 [Worker-8] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2013-12-02 17:22:43,945 [New I/O client worker #145-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-jar-plugin/2.4/maven-jar-plugin-2.4.pom
+2013-12-02 17:22:43,951 [New I/O client worker #145-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-jar-plugin/2.4/maven-jar-plugin-2.4.pom
+2013-12-02 17:22:44,019 [Worker-8] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2013-12-02 17:22:44,239 [New I/O client worker #146-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.springsource.org/snapshot/org/apache/maven/plugins/maven-jar-plugin/2.4/maven-jar-plugin-2.4.jar
+2013-12-02 17:22:44,248 [Worker-8] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2013-12-02 17:22:44,515 [New I/O client worker #147-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.springsource.org/milestone/org/apache/maven/plugins/maven-jar-plugin/2.4/maven-jar-plugin-2.4.jar
+2013-12-02 17:22:44,525 [Worker-8] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2013-12-02 17:22:44,579 [New I/O client worker #148-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-jar-plugin/2.4/maven-jar-plugin-2.4.jar
+2013-12-02 17:22:44,676 [New I/O client worker #148-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-jar-plugin/2.4/maven-jar-plugin-2.4.jar
+2013-12-02 17:22:44,983 [Worker-8] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2013-12-02 17:22:45,218 [New I/O client worker #149-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.springsource.org/snapshot/org/apache/maven/shared/maven-filtering/1.1/maven-filtering-1.1.pom
+2013-12-02 17:22:45,226 [Worker-8] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2013-12-02 17:22:45,443 [New I/O client worker #150-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.springsource.org/milestone/org/apache/maven/shared/maven-filtering/1.1/maven-filtering-1.1.pom
+2013-12-02 17:22:45,451 [Worker-8] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2013-12-02 17:22:45,509 [New I/O client worker #151-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-filtering/1.1/maven-filtering-1.1.pom
+2013-12-02 17:22:45,516 [New I/O client worker #151-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-filtering/1.1/maven-filtering-1.1.pom
+2013-12-02 17:22:45,573 [Worker-8] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2013-12-02 17:22:45,846 [New I/O client worker #152-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.springsource.org/snapshot/org/apache/maven/shared/maven-shared-components/17/maven-shared-components-17.pom
+2013-12-02 17:22:45,853 [Worker-8] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2013-12-02 17:22:46,087 [New I/O client worker #153-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.springsource.org/milestone/org/apache/maven/shared/maven-shared-components/17/maven-shared-components-17.pom
+2013-12-02 17:22:46,095 [Worker-8] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2013-12-02 17:22:46,145 [New I/O client worker #154-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-components/17/maven-shared-components-17.pom
+2013-12-02 17:22:46,151 [New I/O client worker #154-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-components/17/maven-shared-components-17.pom
+2013-12-02 17:22:46,258 [Worker-8] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2013-12-02 17:22:46,477 [New I/O client worker #155-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.springsource.org/snapshot/org/apache/maven/shared/maven-filtering/1.1/maven-filtering-1.1.jar
+2013-12-02 17:22:46,482 [Worker-8] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2013-12-02 17:22:46,709 [New I/O client worker #156-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.springsource.org/milestone/org/apache/maven/shared/maven-filtering/1.1/maven-filtering-1.1.jar
+2013-12-02 17:22:46,716 [Worker-8] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2013-12-02 17:22:46,777 [New I/O client worker #157-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-filtering/1.1/maven-filtering-1.1.jar
+2013-12-02 17:22:46,963 [New I/O client worker #157-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-filtering/1.1/maven-filtering-1.1.jar
+2013-12-02 17:22:47,143 [Worker-8] WARN  o.e.m.c.i.embedder.EclipseLogger - File encoding has not been set, using platform encoding Cp1252, i.e. build is platform dependent!
+2013-12-02 17:22:47,156 [Worker-8] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2013-12-02 17:22:47,159 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\VladIulian\Documents\GitHub\PSD3\Sprint2\Prototype2\src\main\resources
+2013-12-02 17:22:47,159 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\VladIulian\Documents\GitHub\PSD3\Sprint2\Prototype2\src\main\resources
+2013-12-02 17:22:47,162 [Worker-8] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2013-12-02 17:22:47,167 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\VladIulian\Documents\GitHub\PSD3\Sprint2\Prototype2\src\test\resources
