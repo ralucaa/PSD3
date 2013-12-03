@@ -80,7 +80,7 @@ public class XController {
 	//Gets the sessions for the specified student_id.
 	@RequestMapping(value = "/viewsessions", method = RequestMethod.GET)
 	@ResponseBody
-	public ModelAndView viewSessions(@RequestParam(value="student_id", required=true) String student_id, ModelMap model){
+	public ModelAndView viewSessions(@RequestParam(value="student_id", required=true) String student_id){
 		//Get the sessions from the database. If student_id is invalid show an error message.
 		ArrayList<Session> sessions = new ArrayList<Session>();
 		ResultSet sessionIDs;
@@ -113,11 +113,14 @@ public class XController {
 					sessions.add(session);
 				}
 			}
+			
+			//Convert the sessions to an array of arrays of strings.
+			String[][] session_array = new String[sessions.size()][];
+			for (int i = 0; i < sessions.size(); i++) {
+				session_array[i] = sessions.get(i).toArray();
+			}
 
-			//Add the Session IDs as parameters to the ModelMap.
-			//model.addAttribute("student_id", student_id);
-
-			return new ModelAndView("view_sessions", "session_array", sessions.toArray()[0]  );
+			return new ModelAndView("view_sessions", "session_array", session_array);
 		} catch (SQLException ex) {
 			return null;
 		}
