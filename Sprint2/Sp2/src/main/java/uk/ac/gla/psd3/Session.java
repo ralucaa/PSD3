@@ -4,6 +4,7 @@ import java.sql.Time;
 import java.util.Date;
 
 public class Session {
+	private final int ELEMENT_COUNT = 11;
 	private String course, session_name;
 	private Date start_date, end_date;
 	private int session_frequency;
@@ -87,5 +88,20 @@ public class Session {
 		this.venue = venue;
 	}
 	
-	
+	public String[] toArray(){
+		String[] result = new String[ELEMENT_COUNT];
+		result[0]  = course;
+		result[1]  = session_name;
+		result[2]  = start_date.toString();
+		result[3]  = end_date.toString();
+		result[4]  = session_frequency + "";
+		result[5]  = session_start_time.toString();
+		result[6]  = (new Time(session_start_time.getTime() + session_duration.getTime())).toString();
+		result[7]  = staff_member;
+		result[8]  = max_attendance + "";
+		result[9]  = String.valueOf(is_compulsory);
+		result[10] = venue;
+		
+		return result;
+	}
 }

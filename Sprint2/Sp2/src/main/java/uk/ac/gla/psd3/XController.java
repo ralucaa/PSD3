@@ -45,7 +45,15 @@ public class XController {
 		return "index";
 	}
 	
+	//Shows the Add new session form.
 	@RequestMapping(value = "/addsession")
+	@ResponseBody
+	public ModelAndView addSession(){
+		return new ModelAndView("add_session");
+	}
+	
+	//Gets the information from the new session form.
+	@RequestMapping(value = "/addsessionresult")
 	@ResponseBody
 	public String addSession(@ModelAttribute("session") Session session, BindingResult result){
 		try {
@@ -67,9 +75,9 @@ public class XController {
 		} catch (SQLException e) {
 			return "Adding failed! Error: " + e.getMessage();
 		}
-		//return "view_sessions";
 	}
 
+	//Gets the sessions for the specified student_id.
 	@RequestMapping(value = "/viewsessions", method = RequestMethod.GET)
 	@ResponseBody
 	public ModelAndView viewSessions(@RequestParam(value="student_id", required=true) String student_id, ModelMap model){
@@ -109,10 +117,9 @@ public class XController {
 			//Add the Session IDs as parameters to the ModelMap.
 			//model.addAttribute("student_id", student_id);
 
-			return new ModelAndView("view_sessions", "session_array", sessions.toArray());
+			return new ModelAndView("view_sessions", "session_array", sessions.toArray()[0]  );
 		} catch (SQLException ex) {
 			return null;
 		}
-		//return new ModelAndView("view_sessions.jsp", "session_array", null);
 	}
 }

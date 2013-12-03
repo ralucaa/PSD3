@@ -1,3 +1,5 @@
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
+<%@ page import="uk.ac.gla.psd3.Session" %>
 <!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
@@ -24,12 +26,20 @@
         <div class="accordion">
             <h3>Today</h3>
             <div>
-            <p>
-            Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer
-            ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit
-            amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut
-            odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.
-            </p>
+            <h1>
+
+				<%
+				/*
+					Session s = (Session) request.getAttribute("session_array");
+					String name = s.getSession_name();
+					*/
+				%>
+				
+				<c:forEach var="item" items="${session_array}" varStatus="loop">  
+				    <c:out value="[${loop.index}]" />: <c:out value="${item}"/><br/>  
+				</c:forEach>  
+				
+            </h1>
             </div>
             <h3>This week</h3>
             <div>

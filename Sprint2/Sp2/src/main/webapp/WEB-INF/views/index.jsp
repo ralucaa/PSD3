@@ -24,13 +24,13 @@
         <h2>Admin level navigation</h2>
         
         <ul>
-            <li><a href="add_session.jsp" title="Add a new session">add_session.html</a></li>
+            <li><a href="addsession" title="Add a new session">Add a new session</a></li>
         </ul>
         
         <h2>Regular user level navigation</h2>
         
         <ul>
-            <li><a href="view_sessions.jsp" title="View sessions">view_sessions.html</a></li>
+            <li><a href="viewsessions?student_id=1007100b" title="View sessions">View sessions for student 1007100b</a></li>
         </ul>
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
