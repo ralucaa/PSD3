@@ -10,7 +10,7 @@ public class CsvExporting extends DatabaseAdapter{
 	//That method is pretty straightforward. Next one is commented
 	public void exportSingleStudentAttendance(String studentID,String csvFileName){
 		String query = "SELECT Course.Name, Course.ID, Session.Name, Attendance.Status "
-				+"FROM Course, Session, Attendance "
+				+"FROM Course, Sprint1Session AS Session, Attendance "
 				+"WHERE Course.ID = Session.CourseID "
 				+"AND Session.ID = Attendance.sessionID "
 				+"AND Attendance.StudentID =\""+studentID+"\"";
@@ -40,9 +40,9 @@ public class CsvExporting extends DatabaseAdapter{
 }
 	public void exportStudentDataForCourse(String courseID,String csvFileName){
 		//Queries for retrieving the sessions data and students data needed for the later Query
-		String sessionsQuery="SELECT ID, Name FROM Session WHERE courseID = \""+courseID+"\" ";
+		String sessionsQuery="SELECT ID, Name FROM Sprint1Session WHERE courseID = \""+courseID+"\" ";
 		String studentsQuery = "SELECT DISTINCT Student.FirstName, Student.LastName, Student.ID "
-								+"FROM Student, Attendance, Session "
+								+"FROM Student, Attendance, Sprint1Session AS Session "
 								+"WHERE Student.ID = Attendance.StudentID "
 								+"AND Attendance.SessionID = Session.ID "
 								+"AND Session.CourseID =\""+courseID+"\"";
@@ -106,8 +106,10 @@ public class CsvExporting extends DatabaseAdapter{
 											+"WHERE Attendance.StudentID =\""+stuid[2]+"\" "
 											+"AND Attendance.SessionID =\""+sesid+"\"";
 						ResultSet statusSet = executeSQLQuery(statusQuery);
-						statusSet.next();
-						writer.append(","+statusSet.getString(1));
+						writer.append(",");
+						if (statusSet.next()) {
+							writer.append(statusSet.getString(1));
+						}
 					}
 					writer.append("\n");//end of row
 					

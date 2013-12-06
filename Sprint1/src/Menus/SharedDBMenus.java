@@ -64,7 +64,7 @@ public class SharedDBMenus {
 	  * @return the sessionID of the session chosen, or null if "back" is chosen
 	  */
 	public static String chooseSessionIDinCourse(String menuDescription, String courseID) {
-		String query = "SELECT ID,Name FROM Session WHERE courseID=\"" + courseID + "\"";
+		String query = "SELECT ID,Name FROM Sprint1Session WHERE courseID=\"" + courseID + "\"";
 		//System.out.println(query);
 		ResultSet rs = DatabaseAdapter.executeSQLQuery(query);
 
