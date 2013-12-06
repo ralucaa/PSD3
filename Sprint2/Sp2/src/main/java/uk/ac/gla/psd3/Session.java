@@ -13,7 +13,7 @@ public class Session {
 	private int max_attendance;
 	private boolean is_compulsory;
 	private String venue;
-	
+
 
 	public String getSession_name() {
 		return session_name;
@@ -87,21 +87,20 @@ public class Session {
 	public void setVenue(String venue) {
 		this.venue = venue;
 	}
-	
+
 	public String[] toArray(){
-		String[] result = new String[ELEMENT_COUNT];
-		result[0]  = course;
-		result[1]  = session_name;
-		result[2]  = start_date.toString();
-		result[3]  = end_date.toString();
-		result[4]  = session_frequency + "";
-		result[5]  = session_start_time.toString();
-		result[6]  = (new Time(session_start_time.getTime() + session_duration.getTime())).toString();
-		result[7]  = staff_member;
-		result[8]  = max_attendance + "";
-		result[9]  = String.valueOf(is_compulsory);
-		result[10] = venue;
-		
+		String[] result = new String[6];
+		result[0]  = "Course: " + course;
+		result[1]  = "Session: " + session_name;
+		result[2]  = "Time: " + session_start_time.toString().substring(0, 5) + " - " + (new Time(session_start_time.getTime() + session_duration.getTime())).toString().substring(0, 5);
+		result[3]  = "Staff: " + staff_member;
+		if (is_compulsory) {
+			result[4]  = "Attendance is compulsory";
+		} else {
+			result[4]  = "Attendance is not compulsory";
+		}
+		result[5] = "Venue: " + venue;
+
 		return result;
 	}
 }

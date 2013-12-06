@@ -10,9 +10,9 @@
 
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css">
-        <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/main.css">
-        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+        <link rel="stylesheet" href="<%=request.getContextPath()%>/resources/css/normalize.css">
+        <link rel="stylesheet" href="<%=request.getContextPath()%>/resources/css/main.css">
+        <script src="<%=request.getContextPath()%>/resources/js/vendor/modernizr-2.6.2.min.js"></script>
     </head>
     <body>
         <!--[if lt IE 7]>
@@ -21,7 +21,7 @@
 
         <h1>Add a new teaching session</h1>
         
-        <form action="#" method="POST">
+        <form action="addsessionresult" method="POST">
 
             <!-- Date picker -->           
             <label for="datepicker">Start date:</label>
@@ -116,10 +116,9 @@
         </form>
         
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
-        <script src="js/vendor/jquery-ui.min.js"></script>
-        <script src="js/plugins.js"></script>
-        <script src="js/main.js"></script>
+        <script src="<%=request.getContextPath()%>/resources/js/vendor/jquery-ui.min.js"></script>
+        <script src="<%=request.getContextPath()%>/resources/js/plugins.js"></script>
+        <script src="<%=request.getContextPath()%>/resources/js/main.js"></script>
 
     </body>
 </html>

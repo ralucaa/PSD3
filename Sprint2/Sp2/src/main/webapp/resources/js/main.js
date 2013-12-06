@@ -15,5 +15,5 @@ $(function() {
     });
     
     // Set up accordion
-    $( ".accordion" ).accordion();
+    $( ".accordion" ).accordion({collapsible:true});
 });

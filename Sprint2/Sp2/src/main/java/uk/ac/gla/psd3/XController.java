@@ -55,7 +55,7 @@ public class XController {
 	//Gets the information from the new session form.
 	@RequestMapping(value = "/addsessionresult")
 	@ResponseBody
-	public String addSession(@ModelAttribute("session") Session session, BindingResult result){
+	public ModelAndView addSession(@ModelAttribute("session") Session session, BindingResult result){
 		try {
 			DatabaseAdapter.executeSQLQuery("INSERT INTO Session (Course, Name, StartTime, EndTime, Frequency, Staff, MaxAttendance, Compulsory, Venue, StartDate, EndDate) "
 					+ "VALUES (" + 
@@ -71,9 +71,11 @@ public class XController {
 					session.getStart_date() + ", " +  
 					session.getEnd_date() + ", " +  
 					")");
-			return "Added successfully!";
+			//return "Added successfully!";
+			return new ModelAndView("addsessionresult", "result", "User was added");
 		} catch (SQLException e) {
-			return "Adding failed! Error: " + e.getMessage();
+			//return "Adding failed! Error: " + e.getMessage();
+			return new ModelAndView("addsessionresult", "result", "User not added");
 		}
 	}
 
@@ -90,7 +92,7 @@ public class XController {
 				//Exit loop if done.
 				if (sessionIDs.getInt("SessionID") == 0) break;
 
-				ResultSet sessionRS = DatabaseAdapter.executeSQLQuery("SELECT ID, Course, Name, StartTime, EndTime, Frequency, Staff, MaxAttendance, Compulsory, Venue, StartDate, EndDate FROM Session WHERE ID = " + sessionIDs.getInt("SessionID"));
+				ResultSet sessionRS = DatabaseAdapter.executeSQLQuery("SELECT ID, Course, Name, StartTime, EndTime, Frequency, Staff, MaxAttendance, Compulsory, Venue, StartDate, EndDate FROM Session WHERE ID = " + sessionIDs.getInt("SessionID") + " ORDER BY StartTime");
 				while(sessionRS.next()){
 					//Exit loop if done.
 					if (sessionRS.getInt("ID") == 0) break;
@@ -121,6 +123,10 @@ public class XController {
 			}
 
 			return new ModelAndView("view_sessions", "session_array", session_array);
+			
+			
+			
+			
 		} catch (SQLException ex) {
 			return null;
 		}
