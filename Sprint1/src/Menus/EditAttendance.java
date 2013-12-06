@@ -20,7 +20,7 @@ public class EditAttendance {
 		BarcodeImport bi;
 		int errors;
 		java.util.Date start, end;
-		String query = "SELECT StartTime,EndTime FROM Session WHERE ID=" + sessionID;
+		String query = "SELECT StartTime,EndTime FROM Sprint1Session WHERE ID=" + sessionID;
 		//System.out.println(query);
 		ResultSet rs = DatabaseAdapter.executeSQLQuery(query);
 		try {
