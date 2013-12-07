@@ -36,7 +36,7 @@
             </div>
             <h3>This week</h3>
             <div>
-				<c:forEach var="item" items="${session_array}">  
+				<c:forEach var="item" items="${session_array[1]}">  
 					<p>
 					<c:forEach var="item2" items="${item}">  
 					    <c:out value="${item2}"/><br/> 				    
@@ -46,7 +46,7 @@
             </div>
             <h3>All time</h3>
             <div>
-				<c:forEach var="item" items="${session_array}">  
+				<c:forEach var="item" items="${session_array[2]}">  
 					<p>
 					<c:forEach var="item2" items="${item}">  
 					    <c:out value="${item2}"/><br/> 				    

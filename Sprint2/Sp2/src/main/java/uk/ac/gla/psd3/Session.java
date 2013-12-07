@@ -1,12 +1,15 @@
 package uk.ac.gla.psd3;
 
 import java.sql.Time;
+import java.text.SimpleDateFormat;
+import java.util.ArrayList;
+import java.util.Calendar;
 import java.util.Date;
 
 public class Session {
 	private final int ELEMENT_COUNT = 11;
 	private String course, session_name;
-	private Date start_date, end_date;
+	private Calendar start_date, end_date;
 	private int session_frequency;
 	private Time session_start_time, session_duration;
 	private String staff_member;
@@ -27,16 +30,16 @@ public class Session {
 	public void setCourse(String course) {
 		this.course = course;
 	}
-	public Date getStart_date() {
+	public Calendar getStart_date() {
 		return start_date;
 	}
-	public void setStart_date(Date start_date) {
+	public void setStart_date(Calendar start_date) {
 		this.start_date = start_date;
 	}
-	public Date getEnd_date() {
+	public Calendar getEnd_date() {
 		return end_date;
 	}
-	public void setEnd_date(Date end_date) {
+	public void setEnd_date(Calendar end_date) {
 		this.end_date = end_date;
 	}
 	public int getSession_frequency() {
@@ -87,6 +90,14 @@ public class Session {
 	public void setVenue(String venue) {
 		this.venue = venue;
 	}
+	
+	public ArrayList<Calendar> getDates(){
+		ArrayList<Calendar> dates = new ArrayList<Calendar>();
+		for (Calendar d = start_date; !d.after(end_date); d.add(Calendar.DATE, session_frequency)){
+			dates.add((Calendar) d.clone());
+		}
+		return dates;
+	}
 
 	public String[] toArray(){
 		String[] result = new String[6];
@@ -100,6 +111,24 @@ public class Session {
 			result[4]  = "Attendance is not compulsory";
 		}
 		result[5] = "Venue: " + venue;
+
+		return result;
+	}
+	
+	public String[] toArray(Calendar date){
+		String[] result = new String[7];
+		result[0]  = "Course: " + course;
+		result[1]  = "Session: " + session_name;
+		SimpleDateFormat sdf = new SimpleDateFormat("dd MMM yyyy");
+		result[2]  = "Date: " + sdf.format(date.getTime());
+		result[3]  = "Time: " + session_start_time.toString().substring(0, 5) + " - " + (new Time(session_start_time.getTime() + session_duration.getTime())).toString().substring(0, 5);
+		result[4]  = "Staff: " + staff_member;
+		if (is_compulsory) {
+			result[5]  = "Attendance is compulsory";
+		} else {
+			result[5]  = "Attendance is not compulsory";
+		}
+		result[6] = "Venue: " + venue;
 
 		return result;
 	}
