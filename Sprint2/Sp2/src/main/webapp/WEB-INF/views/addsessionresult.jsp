@@ -7,7 +7,7 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>Add a new session | Undergraduate Teaching System</title>
-		<meta http-equiv="refresh" content="5;URL='/'" />    		
+		<meta http-equiv="refresh" content="5;URL='/gla/'" />    		
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css">
         <link rel="stylesheet" href="<%=request.getContextPath()%>/resources/css/normalize.css">

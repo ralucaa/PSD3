@@ -23,9 +23,23 @@
         
         <form action="addsessionresult" method="POST">
 
+            <!-- Course -->
+            <label for="course">Course:</label>
+            <select name="course">
+                <option>Professional Software Development 3</option>
+                <option>Algorithmics 3</option>
+                <option>Advanced Programming 3</option>
+                <option>Programming Languages 3</option>
+                <option>Interactive Systems 3</option>            
+            </select>    
+            <br />
+			<!-- Sesion name -->
+            <label for="session_name">Sesion name:</label>
+            <input type="text" name="session_name" />
+            <br />
             <!-- Date picker -->           
             <label for="datepicker">Start date:</label>
-            <input type="text" class="date_picker" name="session_date" />
+            <input type="text" class="date_picker" name="start_date" />
             <br />
             
             <!-- Repeat frequency -->
@@ -39,14 +53,14 @@
             </select>
             <br />
             <div id="repeat_until_wrapper" class="hidden">
-                <label for="repeat_until">Repeat until:</label>  
-                <input type="text" class="date_picker" name="repeat_until" />            
+                <label for="end_date">Repeat until:</label>  
+                <input type="text" class="date_picker" name="end_date" />
                 <br />
             </div>
 
             <!-- Time -->
-            <label for="session_start_time">Time:</label>
-            <select name="session_start_time">
+            <label for="start_time">Start time:</label>
+            <select name="start_time">
                 <option value="09:00">09:00</option>
                 <option value="10:00">10:00</option>
                 <option value="11:00">11:00</option>
@@ -89,8 +103,12 @@
             <!-- Lecturer -->
             <label for="staff_member">Staff member:</label>
             <select name="staff_member">
+                <option>Stephen Brewster</option>
+                <option>Matthew Chalmers</option>  
+                <option>Gethin Norman</option>
                 <option>Jeremy Singer</option>
-                <option>Timothy Storer</option>            
+                <option>Joseph Sventek</option>
+                <option>David Watt</option>
             </select>    
             <br />
             <!-- Max attendance -->
@@ -98,18 +116,15 @@
             <input type="number" name="max_attendance" />
             <br />
             <!-- Compulsory -->
-            <label for="is_compulsory">Is compulsory?</label>
-            <input type="checkbox" name="is_compulsory" />
+            <label for="compulsory">Is compulsory?</label>
+            <input type="checkbox" name="compulsory" />
             <br />
             <!-- Venue -->
-            <label for="venue_building">Venue:</label>
-            <select name="venue_building">
-                <option value="BO">BO</option>
-                <option value="SAWB">SAWB</option>
-            </select>
-            <select name="venue_room">
-                <option value="722">722</option>
-                <option value="721">721</option>
+            <label for="venue">Venue:</label>
+            <select name="venue">
+                <option value="Boyd Orr 513">Boyd Orr 513</option>
+                <option value="Boyd Orr 720">Boyd Orr 720</option>
+                <option value="Hunterian Art Gallery">Hunterian Art Gallery</option>
             </select>
             <br /><br />
             <button type="submit" name="submit_data">Add session</button>            

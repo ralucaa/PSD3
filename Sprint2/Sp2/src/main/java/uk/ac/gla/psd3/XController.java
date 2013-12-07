@@ -2,16 +2,10 @@ package uk.ac.gla.psd3;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
-import java.text.DateFormat;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Calendar;
-import java.util.Date;
-import java.util.Locale;
-
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Controller;
-import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -25,57 +19,43 @@ import org.springframework.web.servlet.ModelAndView;
  */
 @Controller
 public class XController {
-
-	private static final Logger logger = LoggerFactory.getLogger(XController.class);
-
-	/**
-	 * Simply selects the home view to render by returning its name.
-	 */
-	@RequestMapping(value = "/", method = RequestMethod.GET)
-	public String home(Locale locale, Model model) {
-		logger.info("Welcome home testestest! The client locale is {}.", locale);
-
-		Date date = new Date();
-		DateFormat dateFormat = DateFormat.getDateTimeInstance(DateFormat.LONG, DateFormat.LONG, locale);
-
-		String formattedDate = dateFormat.format(date);
-
-		model.addAttribute("serverTime", formattedDate );
-
-		return "index";
+	//Shows the main menu.
+	@RequestMapping(value = "/")
+	@ResponseBody
+	public ModelAndView showMain(){
+		return new ModelAndView("index");
 	}
-
-	//Shows the Add new session form.
+	
+	//Shows the "Add a new session" form.
 	@RequestMapping(value = "/addsession")
 	@ResponseBody
 	public ModelAndView addSession(){
 		return new ModelAndView("add_session");
 	}
 
-	//Gets the information from the new session form.
+	//Gets the information from the new session form and stores it.
+	//Shows the "Add a session result" page.
 	@RequestMapping(value = "/addsessionresult")
 	@ResponseBody
 	public ModelAndView addSession(@ModelAttribute("session") Session session, BindingResult result){
 		try {
-			DatabaseAdapter.executeSQLQuery("INSERT INTO Session (Course, Name, StartTime, EndTime, Frequency, Staff, MaxAttendance, Compulsory, Venue, StartDate, EndDate) "
-					+ "VALUES (" + 
-					session.getCourse() + ", " + 
-					session.getSession_name() + ", " + 
-					session.getSession_start_time() + ", " + 
-					session.getSession_end_time() + ", " + 
-					session.getSession_frequency() + ", " + 
-					session.getStaff_member() + ", " +  
+			DatabaseAdapter.executeSQLUpdate("INSERT INTO Session (Course, Name, StartTime, EndTime, Frequency, Staff, MaxAttendance, Compulsory, Venue, StartDate, EndDate) "
+					+ "VALUES (\"" + 
+					session.getCourse() + "\", \"" + 
+					session.getSession_name() + "\", \"" + 
+					session.getStart_timeTime() + "\", \"" + 
+					session.getEnd_timeTime() + "\", " + 
+					session.getSession_frequency() + ", \"" + 
+					session.getStaff_member() + "\", " +  
 					session.getMax_attendance() + ", " +  
-					session.isIs_compulsory() + ", " +  
-					session.getVenue() + ", " +  
-					session.getStart_date() + ", " +  
-					session.getEnd_date() + ", " +  
+					session.isCompulsory() + ", \"" +  
+					session.getVenue() + "\", \"" +  
+					session.getStart_dateDate() + "\", \"" +  
+					session.getEnd_dateDate() + "\"" +  
 					")");
-			//return "Added successfully!";
-			return new ModelAndView("addsessionresult", "result", "User was added");
+			return new ModelAndView("addsessionresult", "result", "The session has been added successfully!");
 		} catch (SQLException e) {
-			//return "Adding failed! Error: " + e.getMessage();
-			return new ModelAndView("addsessionresult", "result", "User not added");
+			return new ModelAndView("addsessionresult", "result", "The session could not be added!\r\n\r\nError: \n" + e.getMessage());
 		}
 	}
 
@@ -85,6 +65,8 @@ public class XController {
 	public ModelAndView viewSessions(@RequestParam(value="student_id", required=true) String student_id){
 		//Get the sessions from the database. If student_id is invalid show an error message.
 		ArrayList<Session> sessions = new ArrayList<Session>();
+		SimpleDateFormat timeFormatter = new SimpleDateFormat("HH:mm");
+		SimpleDateFormat dateFormatter = new SimpleDateFormat("MM/dd/yyyy");
 		ResultSet sessionIDs;
 		try {
 			sessionIDs = DatabaseAdapter.executeSQLQuery("SELECT SessionID FROM Registration WHERE StudentID = \'" + student_id + "\'");
@@ -101,19 +83,19 @@ public class XController {
 					Session session = new Session();
 					session.setCourse(sessionRS.getString("Course"));
 					session.setSession_name(sessionRS.getString("Name"));
-					session.setSession_start_time(sessionRS.getTime("StartTime"));
+					session.setStart_time(timeFormatter.format(sessionRS.getTime("StartTime")));
 					session.setSession_duration(sessionRS.getTime("StartTime"), sessionRS.getTime("EndTime"));
-					session.setSession_frequency(sessionRS.getInt("Frequency"));
+					session.setSession_frequencyDays(sessionRS.getInt("Frequency"));
 					session.setStaff_member(sessionRS.getString("Staff"));
 					session.setMax_attendance(sessionRS.getInt("MaxAttendance"));
-					session.setIs_compulsory(sessionRS.getBoolean("Compulsory"));
+					session.setCompulsory(sessionRS.getBoolean("Compulsory"));
 					session.setVenue(sessionRS.getString("Venue"));
 					Calendar startDateCalendar = Calendar.getInstance(); 
 					startDateCalendar.setTime(sessionRS.getDate("StartDate"));
-					session.setStart_date(startDateCalendar);
+					session.setStart_date(dateFormatter.format(startDateCalendar.getTime()));
 					Calendar endDateCalendar = Calendar.getInstance(); 
 					endDateCalendar.setTime(sessionRS.getDate("EndDate"));
-					session.setEnd_date(endDateCalendar);
+					session.setEnd_date(dateFormatter.format(endDateCalendar.getTime()));
 
 					//Add it to the ArrayList.
 					sessions.add(session);

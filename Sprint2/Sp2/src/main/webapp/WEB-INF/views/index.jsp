@@ -31,6 +31,8 @@
         
         <ul>
             <li><a href="viewsessions?student_id=1007100b" title="View sessions">View sessions for student 1007100b</a></li>
+            <li><a href="viewsessions?student_id=1106695s" title="View sessions">View sessions for student 1106695s</a></li>
+            <li><a href="viewsessions?student_id=1234567x" title="View sessions">View sessions for student 1234567x</a></li>
         </ul>
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
