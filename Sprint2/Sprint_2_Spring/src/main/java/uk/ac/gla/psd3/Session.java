@@ -19,8 +19,8 @@ public class Session {
 	//Gets all the dates when this session will take place.
 	public ArrayList<Calendar> getDates(){
 		ArrayList<Calendar> dates = new ArrayList<Calendar>();
-		Calendar startDate = stringToCal(start_date);
-		Calendar endDate = stringToCal(end_date);
+		Calendar startDate = Helpers.stringToCal(start_date);
+		Calendar endDate = Helpers.stringToCal(end_date);
 
 		if (session_frequency > 0) {
 			for (Calendar d = startDate; !d.after(endDate); d.add(Calendar.DATE, session_frequency)){
@@ -61,10 +61,10 @@ public class Session {
 
 	//Returns the current session as an array, specifying the date as the date received.
 	public String[] toArray(Calendar date){
-		SimpleDateFormat sdfDate = new SimpleDateFormat("dd MMM yyyy");
 		String[] result = new String[7];
 		result[0]  = "Course: " + course;
 		result[1]  = "Session: " + session_name;
+		SimpleDateFormat sdfDate = new SimpleDateFormat("dd MMM yyyy");
 		result[2]  = "Date: " + sdfDate.format(date.getTime());
 		result[3]  = "Time: " + start_time.toString().substring(0, 5) + " - " + end_time.toString().substring(0, 5);
 		result[4]  = "Staff: " + staff_member;
@@ -83,36 +83,11 @@ public class Session {
 		//Update end time.
 		try {
 			Calendar cal = Calendar.getInstance();
-			cal.setTime(stringToTime(start_time));
+			cal.setTime(Helpers.stringToTime(start_time));
 			cal.add(Calendar.MINUTE, session_duration);
 			Time t = new Time(cal.getTimeInMillis());
-			SimpleDateFormat sdf = new SimpleDateFormat("HH:mm");
-			end_time = sdf.format(t); 
+			end_time = Helpers.SDF_TIME.format(t); 
 		} catch (Exception ex) { }
-	}
-
-	// Converts the specified String to a Time object.
-	private Calendar stringToCal(String dateString) {
-		try {
-			SimpleDateFormat sdf = new SimpleDateFormat("MM/dd/yyyy");
-			Calendar date = Calendar.getInstance();
-			date.setTime(sdf.parse(dateString));
-			return date;
-		} catch (Exception ex) {
-			return null;
-		}
-	}
-
-	// Converts the specified String to a Time object.
-	private Time stringToTime(String timeString) {
-		try {
-			SimpleDateFormat sdf = new SimpleDateFormat("HH:mm");
-			Calendar date = Calendar.getInstance();
-			date.setTime(sdf.parse(timeString));
-			return new Time(date.getTimeInMillis());
-		} catch (Exception ex) {
-			return null;
-		}
 	}
 	
 	//////////////////////////////
@@ -134,15 +109,15 @@ public class Session {
 		return start_date;
 	}
 	public Date getStart_dateDate() {
-		return new Date(stringToCal(start_date).getTimeInMillis());
+		return new Date(Helpers.stringToCal(start_date).getTimeInMillis());
 	}
 	public void setStart_date(String start_date) {
 		this.start_date = start_date;
 	}
 	public Date getEnd_dateDate() {
 		if (session_frequency == 0) 
-			return new Date(stringToCal(start_date).getTimeInMillis()); 
-		return new Date(stringToCal(end_date).getTimeInMillis());
+			return new Date(Helpers.stringToCal(start_date).getTimeInMillis()); 
+		return new Date(Helpers.stringToCal(end_date).getTimeInMillis());
 	}
 	public String getEnd_date() {
 		return end_date;
@@ -162,7 +137,7 @@ public class Session {
 		this.session_frequency = session_frequency;
 	}
 	public Time getStart_timeTime() {
-		return stringToTime(start_time);
+		return Helpers.stringToTime(start_time);
 	}
 	public String getStart_time() {
 		return start_time;
@@ -172,7 +147,7 @@ public class Session {
 		updateEndTime();
 	}
 	public Time getEnd_timeTime() {
-		return stringToTime(end_time);
+		return Helpers.stringToTime(end_time);
 	}
 	public String getEnd_time() {
 		return end_time;

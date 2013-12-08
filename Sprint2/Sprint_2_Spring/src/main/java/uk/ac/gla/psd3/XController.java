@@ -2,7 +2,6 @@ package uk.ac.gla.psd3;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
-import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Calendar;
 import org.springframework.stereotype.Controller;
@@ -25,7 +24,7 @@ public class XController {
 	public ModelAndView showMain(){
 		return new ModelAndView("index");
 	}
-	
+
 	//Shows the "Add a new session" form.
 	@RequestMapping(value = "/addsession")
 	@ResponseBody
@@ -65,8 +64,6 @@ public class XController {
 	public ModelAndView viewSessions(@RequestParam(value="student_id", required=true) String student_id){
 		//Get the sessions from the database. If student_id is invalid show an error message.
 		ArrayList<Session> sessions = new ArrayList<Session>();
-		SimpleDateFormat timeFormatter = new SimpleDateFormat("HH:mm");
-		SimpleDateFormat dateFormatter = new SimpleDateFormat("MM/dd/yyyy");
 		ResultSet sessionIDs;
 		try {
 			sessionIDs = DatabaseAdapter.executeSQLQuery("SELECT SessionID FROM Registration WHERE StudentID = \'" + student_id + "\'");
@@ -83,7 +80,7 @@ public class XController {
 					Session session = new Session();
 					session.setCourse(sessionRS.getString("Course"));
 					session.setSession_name(sessionRS.getString("Name"));
-					session.setStart_time(timeFormatter.format(sessionRS.getTime("StartTime")));
+					session.setStart_time(Helpers.SDF_TIME.format(sessionRS.getTime("StartTime")));
 					session.setSession_duration(sessionRS.getTime("StartTime"), sessionRS.getTime("EndTime"));
 					session.setSession_frequencyDays(sessionRS.getInt("Frequency"));
 					session.setStaff_member(sessionRS.getString("Staff"));
@@ -92,10 +89,10 @@ public class XController {
 					session.setVenue(sessionRS.getString("Venue"));
 					Calendar startDateCalendar = Calendar.getInstance(); 
 					startDateCalendar.setTime(sessionRS.getDate("StartDate"));
-					session.setStart_date(dateFormatter.format(startDateCalendar.getTime()));
+					session.setStart_date(Helpers.SDF_DATE.format(startDateCalendar.getTime()));
 					Calendar endDateCalendar = Calendar.getInstance(); 
 					endDateCalendar.setTime(sessionRS.getDate("EndDate"));
-					session.setEnd_date(dateFormatter.format(endDateCalendar.getTime()));
+					session.setEnd_date(Helpers.SDF_DATE.format(endDateCalendar.getTime()));
 
 					//Add it to the ArrayList.
 					sessions.add(session);
@@ -118,9 +115,9 @@ public class XController {
 		//Instantiate the calendars.
 		Calendar now = Calendar.getInstance();
 		Calendar thisWeekStart = Calendar.getInstance();
-		thisWeekStart.add(Calendar.DATE, - (now.get(Calendar.DAY_OF_WEEK) - 1) % 7);
+		thisWeekStart.add(Calendar.DATE, - Helpers.dayOfWeekToIndex(now.get(Calendar.DAY_OF_WEEK)));
 		Calendar thisWeekEnd = Calendar.getInstance();
-		thisWeekStart.add(Calendar.DATE, (6 - now.get(Calendar.DAY_OF_WEEK)));
+		thisWeekEnd.add(Calendar.DATE, 6 - Helpers.dayOfWeekToIndex(now.get(Calendar.DAY_OF_WEEK)));
 
 		//Distribute the sessions.
 		for(Session session : sessions){
@@ -128,7 +125,7 @@ public class XController {
 				//Add to the all time list.
 				allTime.add(session.toArray(date));
 				//See if the date is this week.
-				if (!date.before(thisWeekStart) && !date.after(thisWeekEnd)) {
+				if (Helpers.isBetweenDates(date, thisWeekStart, thisWeekEnd)) {
 					thisWeek.add(session.toArray(date));
 
 					//See if the date is today.
@@ -138,13 +135,13 @@ public class XController {
 				}
 			}
 		}
-		
+
 		//Parse to a 3d String array.
 		String[][][] result = new String[3][][];
 		result[0] = today.toArray(new String[today.size()][]);
 		result[1] = thisWeek.toArray(new String[thisWeek.size()][]);
 		result[2] = allTime.toArray(new String[allTime.size()][]);
-		
+
 		return result;
 	}
 }
