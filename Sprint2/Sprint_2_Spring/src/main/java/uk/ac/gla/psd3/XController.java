@@ -129,7 +129,7 @@ public class XController {
 					thisWeek.add(session.toArray(date));
 
 					//See if the date is today.
-					if (date.equals(now)){
+					if (Helpers.isSameDay(date, now)){
 						today.add(session.toArray());
 					}
 				}

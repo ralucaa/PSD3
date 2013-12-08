@@ -59,4 +59,16 @@ public class Helpers {
 		//Validate.
 		return true;
 	}
+	
+	//Determines if two Calendar dates are the same.
+	//This is to fix a bug caused by the Calendar class.
+	public static boolean isSameDay(Calendar date1, Calendar date2){
+		//Check year.
+		if (date1.get(Calendar.YEAR) != date2.get(Calendar.YEAR)) {
+			return false;
+		}
+		
+		//Validate.
+		return date1.get(Calendar.DAY_OF_YEAR) == date2.get(Calendar.DAY_OF_YEAR);
+	}
 }
